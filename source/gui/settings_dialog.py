@@ -339,12 +339,6 @@ class SettingsDialog(wx.Dialog):
 			del self.preferences[obj.Name]
 		elif not obj.Value == config_get(obj.Name):
 			self.preferences[obj.Name] = obj.Value
-			
-		# Purge History if Continue Watching is disabled
-		if obj.Name == "continue" and not obj.Value:
-			from database import History
-			History().clear_history()
-			wx.MessageBox(_("History cleared because 'Continue watching' was disabled."), _("Info"), parent=self)
 	def onChange(self, event):
 		new = wx.DirSelector(_("Select Download Folder"), os.path.join(os.getenv("userprofile"), "downloads"), parent=self)
 		if not new == "":

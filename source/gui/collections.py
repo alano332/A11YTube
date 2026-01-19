@@ -573,14 +573,15 @@ class CollectionView(wx.Frame):
 		self.directDownloadId = wx.NewIdRef()
 		self.contextMenu.Append(self.directDownloadId, _("Direct Download") + "\tCtrl+D")
 		
+
 		self.contextMenu.AppendSeparator()
-		self.contextMenu.Append(self.removeId, _("Remove from Collection"))
 
 		self.videoList.Bind(wx.EVT_CONTEXT_MENU, self.onContext)
+
 		
 		self.Bind(wx.EVT_MENU, lambda e: self.playVideo(), id=self.playId)
 		self.Bind(wx.EVT_MENU, lambda e: self.playAudio(), id=self.playAudioId)
-		self.Bind(wx.EVT_MENU, self.onRemove, id=self.removeId)
+
 		self.Bind(wx.EVT_MENU, self.onDirectDownload, id=self.directDownloadId)
 		
 		self.contextMenu.AppendSeparator()

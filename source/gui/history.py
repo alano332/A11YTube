@@ -143,10 +143,13 @@ class HistoryWindow(wx.Frame):
 		self.downloadId = self.contextMenu.AppendSubMenu(self.downloadMenu, _("Download")).GetId()
 		directDownloadItem = self.contextMenu.Append(-1, _("Direct Download...\tctrl+d"))
 		self.directDownloadId = directDownloadItem.GetId()
-		self.deleteId = self.contextMenu.Append(-1, _("Remove from History") + "\tDel").GetId()
+
+		
+		self.contextMenu.AppendSeparator()
 		openChannelItem = self.contextMenu.Append(-1, _("Go to Channel"))
 		downloadChannelItem = self.contextMenu.Append(-1, _("Download Channel"))
-		downloadChannelItem = self.contextMenu.Append(-1, _("Download Channel"))
+		self.contextMenu.AppendSeparator()
+		
 		copyItem = self.contextMenu.Append(-1, _("Copy Video Link\tCtrl+K"))
 		self.copyItemId = copyItem.GetId()
 		webbrowserItem = self.contextMenu.Append(-1, _("Open in Web Browser"))
@@ -156,7 +159,7 @@ class HistoryWindow(wx.Frame):
 		self.historyList.Bind(wx.EVT_MENU, lambda e: self.playAudio(), id=self.audioPlayItemId)
 		self.historyList.Bind(wx.EVT_MENU, self.onCopy, id=self.copyItemId)
 		self.historyList.Bind(wx.EVT_MENU, lambda e: self.directDownload(), id=self.directDownloadId)
-		self.historyList.Bind(wx.EVT_MENU, self.onDelete, id=self.deleteId)
+
 		self.Bind(wx.EVT_MENU, self.onVideoDownload, videoItem)
 		self.Bind(wx.EVT_MENU, self.onM4aDownload, m4aItem)
 		self.Bind(wx.EVT_MENU, self.onMp3Download, mp3Item)
