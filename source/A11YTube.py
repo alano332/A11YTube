@@ -6,7 +6,7 @@ try:
 	from nvda_client.client import speak
 	speak("A11YTube is starting...")
 except:
-	pass
+	def speak(msg): print(f"Speech: {msg}")
 
 
 os.chdir(os.path.abspath(os.path.dirname(__file__)))

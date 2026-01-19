@@ -14,7 +14,6 @@ def get_vlc_options():
 
 # Lazy VLC Instance Initialization
 _instance = None
-_instance_lock = Thread()  # This was a dummy in the previous file view? No, I need a real lock.
 from threading import Lock
 _vlc_lock = Lock()
 

@@ -435,6 +435,8 @@ class MediaGui(wx.Frame):
 						# Apply Start Time
 						if s_start > 0:
 							def safe_seek():
+								if not getattr(self, "player", None) or not getattr(self.player, "media", None):
+									return
 								# Only seek if we haven't passed the silence yet!
 								# And current time is significantly less (e.g. not just 0 vs 0.1)
 								ct = self.player.media.get_time() / 1000.0
@@ -727,7 +729,7 @@ class MediaGui(wx.Frame):
 			def strict_restart_seek():
 				# Poll until playing, then seek
 				for attempt in range(20): # Wait up to 2s
-					if self.player.media.get_state() == State.Playing:
+					if self.player and self.player.media.get_state() == State.Playing:
 						time.sleep(0.05)
 						wx.CallAfter(self._perform_guarded_seek, target_pos_percent)
 						break

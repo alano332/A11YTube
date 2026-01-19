@@ -391,10 +391,10 @@ class SettingsDialog(wx.Dialog):
 		dlg = wx.FileDialog(self, _("Select Backup File"), wildcard="ZIP files (*.zip)|*.zip", style=wx.FD_OPEN | wx.FD_FILE_MUST_EXIST)
 		if dlg.ShowModal() == wx.ID_OK:
 			path = dlg.GetPath()
-			msg = _("Restoring data will overwrite your current configuration and restart the application.\nAre you sure you want to proceed?")
+			msg = _("Restoring data will overwrite your current configuration and restart the program.\nAre you sure you want to proceed?")
 			if wx.MessageBox(msg, _("Confirm Restore"), wx.YES_NO | wx.ICON_WARNING, parent=self) == wx.YES:
 				if restore_data(path):
-					wx.MessageBox(_("Restore successful! Application will now restart."), _("Success"), parent=self)
+					wx.MessageBox(_("Restore successful! Program will now restart."), _("Success"), parent=self)
 					# Restart Application
 					os.execl(sys.executable, sys.executable, *sys.argv)
 				else:
