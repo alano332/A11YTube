@@ -176,6 +176,57 @@ class SettingsDialog(wx.Dialog):
 		p = wx.Panel(self)
 		sizer = wx.BoxSizer(wx.VERTICAL)
 		
+		# Audio Device Selector (First Item)
+		lbl_device = wx.StaticText(p, -1, _("Audio Output Device: "))
+		self.deviceBox = wx.Choice(p, -1, name="audio_device")
+		
+		# Fetch Devices
+		# We need to access Player functionality. 
+		# Since Player class logic wraps VLC, it's safer to use it or the global instance.
+		from media_player.player import get_vlc_instance, Player
+		
+		# Try to get devices. 
+		# We need a media player instance to enum devices (VLC limitation often requires a player instance, not just libvlc instance)
+		# But player.py's get_audio_output_devices uses self.media which is a MediaPlayer.
+		# Let's try to create a dummy player lightly or use the global vlc instance if possible.
+		# Note: audio_output_device_enum is a method of MediaPlayer in vlc.py, 
+		# but strictly it is 'libvlc_audio_output_device_enum' which takes a Player instance.
+		
+		self.device_map = []
+		try:
+			# Instantiate a lightweight dummy player just for querying
+			# We pass dummy logic
+			p_dummy = Player(filename="", hwnd=0)
+			devices = p_dummy.get_audio_output_devices()
+			
+			choices = []
+			current_device_id = config_get("audio_device")
+			selection = 0
+			
+			for i, dev in enumerate(devices):
+				choices.append(dev['name'])
+				self.device_map.append(dev['id'])
+				if dev['id'] == current_device_id:
+					selection = i
+			
+			self.deviceBox.Set(choices)
+			self.deviceBox.Selection = selection
+			
+			# Clean up dummy is auto handled by GC mostly, or we could stop it if it started playing (it shouldn't with empty file)
+			p_dummy.media.stop()
+			p_dummy = None
+			
+		except Exception as e:
+			print(f"Error fetching audio devices: {e}")
+			self.deviceBox.Set(["Default"])
+			self.deviceBox.Selection = 0
+			self.device_map = ["Default"]
+			self.deviceBox.Disable()
+
+		sizer.Add(lbl_device, 0, wx.TOP, 5)
+		sizer.Add(self.deviceBox, 0, wx.EXPAND | wx.BOTTOM, 15)
+		
+		# Standard Settings
 		self.continueWatching = wx.CheckBox(p, -1, _("Continue watching"), name="continue")
 		self.repeateTracks = wx.CheckBox(p, -1, _("Repeat video"), name="repeatetracks")
 		self.autoPlayNext = wx.CheckBox(p, -1, _("Auto play next video"), name="autonext")
@@ -363,6 +414,13 @@ class SettingsDialog(wx.Dialog):
 			config_update_many(self.preferences)
 		if not self.mp3Quality.Selection == int(config_get("conversion")):
 			config_set("conversion", self.mp3Quality.Selection)
+		
+		# Save Audio Device
+		selected_device_id = self.device_map[self.deviceBox.Selection]
+		if not selected_device_id == config_get("audio_device"):
+			config_set("audio_device", selected_device_id)
+			restart = True # Changing audio device requires restart or re-init of player, restart is safest for global effect
+			
 		config_set("defaultformat", self.formats.Selection) if not self.formats.Selection == int(config_get('defaultformat')) else None
 		
 		lang = {value:key for key, value in languages.items()}

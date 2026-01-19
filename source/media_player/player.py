@@ -52,6 +52,12 @@ class Player:
 				
 			self.volume = int(config_get("volume"))
 			self.media.audio_set_volume(self.volume)
+			
+			# Apply Audio Device
+			saved_device = config_get("audio_device")
+			if saved_device and saved_device != "Default":
+				self.set_audio_output_device(saved_device)
+				
 			self.ignore_end = False
 		else:
 			print("Error: VLC Instance failed to initialize")
@@ -98,14 +104,67 @@ class Player:
 	def add_slave(self, type, uri, select=False):
 		return self.media.add_slave(type, uri, select)
 
+	def get_audio_output_devices(self):
+		"""
+		Returns a list of dicts: [{'id': device_id, 'name': description}, ...]
+		Including a 'Default' option.
+		"""
+		outputs = [{'id': 'Default', 'name': _("Follow System (Default)")}]
+		
+		# Get device list from VLC
+		mods = self.media.audio_output_device_enum()
+		if mods:
+			mod = mods
+			while mod:
+				# Decode bytes to string if necessary
+				try:
+					device_id = mod.contents.device.decode('utf-8')
+					
+					# Filter out redundant IDs if exact match
+					if device_id.lower() in ['default', 'any']:
+						mod = mod.contents.next
+						continue
+						
+					description = mod.contents.description.decode('utf-8')
+					
+					# Filter out generic VLC descriptions completely
+					if description.lower() in ['default', 'mặc định']:
+						mod = mod.contents.next
+						continue
+						
+					outputs.append({'id': device_id, 'name': description})
+				except Exception:
+					pass
+				mod = mod.contents.next
+			vlc.libvlc_audio_output_device_list_release(mods)
+			
+		return outputs
+
+	def set_audio_output_device(self, device_id):
+		if device_id and device_id != "Default":
+			self.media.audio_output_device_set(None, device_id)
+		else:
+			# VLC doesn't have a direct "Reset to Default" for device, 
+			# but passing None often works or we just don't set a specific device.
+			# For robustness, we won't call set if it's default during init,
+			# but if changing on the fly, we might need to handle it.
+			pass
+
 	def reset(self):
 		self.do_reset = False
 		self.media.set_media(self.media.get_media())
+		
+		# Apply Audio Device
+		saved_device = config_get("audio_device")
+		if saved_device and saved_device != "Default":
+			self.set_audio_output_device(saved_device)
+			
 		if config_get("repeatetracks") and not config_get('autonext'):
 			self.media.play()
 		elif config_get('autonext') and not config_get('repeatetracks'):
-			import wx
-			wx.CallAfter(self.window.next, auto=True)
+			if self.window:
+				import wx
+				wx.CallAfter(self.window.next, auto=True)
 
 
 	def set_media(self, m, headers=None, audio_slave=None, start_time=None, stop_time=None, audio_lang=None):

@@ -24,6 +24,7 @@ defaults = {
 	"speak_background": False,
 	"skip_silence": False,
 	"player_notifications": True,
+	"audio_device": "Default",
 }
 
 from threading import RLock
