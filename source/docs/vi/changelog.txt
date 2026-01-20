@@ -1,3 +1,14 @@
+Phiên bản 0.3.2
+Cải tiến Giao diện & Trải nghiệm:
+- Thiết kế lại Cài đặt: Hộp thoại Cài đặt đã được thiết kế lại hoàn toàn. Các tùy chọn được chia thành các thẻ (dạng nút radio) giúp việc tìm kiếm và cấu hình dễ dàng hơn.
+  + Điều hướng: Sử dụng `Ctrl+Tab` / `Ctrl+Shift+Tab` để chuyển giữa các thẻ cài đặt. Sử dụng `Tab` / `Shift+Tab` để di chuyển qua các tùy chọn bên trong. Nhấn `Enter` để kích hoạt nút hoặc `Khoảng trắng` để chọn/bỏ chọn hộp kiểm.
+- Đồng bộ giao diện: Tinh chỉnh lại các thành phần giao diện để đảm bảo sự đồng bộ trên toàn ứng dụng.
+Tính năng mới:
+- Thiết bị đầu ra âm thanh: Thêm tùy chọn mới trong Cài đặt Trình phát, cho phép bạn chọn thiết bị phát âm thanh cụ thể (ví dụ: Loa, Tai nghe, Thiết bị Bluetooth...).
+Thay đổi Logic:
+- Lịch sử xem: Việc bỏ chọn tùy chọn "Tiếp tục xem" (Continue watching) trong Cài đặt giờ đây sẽ không còn xóa toàn bộ lịch sử xem của bạn nữa.
+Sửa lỗi:
+- Sửa một số lỗi nhỏ để cải thiện độ ổn định.
 Phiên bản 0.3.1
 Cài đặt mới:
 - Kiểm soát thông báo Trình phát: Thêm hộp kiểm "Đọc thông báo trạng thái trình phát" trong Cài đặt -> Cài đặt Trình phát.

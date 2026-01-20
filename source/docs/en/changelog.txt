@@ -1,3 +1,14 @@
+Version 0.3.2
+UI & UX Overhaul:
+- Settings Dialog Redesign: The Settings dialog has been completely redesigned for better accessibility and navigation. Categories are now organized using a radio-button style tab system.
+  + Navigation: Use `Ctrl+Tab` / `Ctrl+Shift+Tab` to switch between categories. Use `Tab` / `Shift+Tab` to navigate options within a category. Use `Enter` to activate buttons and `Space` to toggle checkboxes.
+- UI Consistency: Adjusted various interface elements to ensure visual and functional consistency across the application.
+New Features:
+- Audio Output Device: Added a new option in Player Settings allowing you to select a specific audio output device (e.g., Speakers, Headphones, Bluetooth device) for the media player.
+Logic Changes:
+- Watch History: Disabling the "Continue watching" option in Settings no longer automatically clears your existing watch history. It simply stops the player from resuming playback position.
+Bug Fixes:
+- Fixed various minor bugs to improve stability.
 Version 0.3.1
 New Settings:
 - Player Verbosity Control: Added a "Speak player status notifications" checkbox in Settings -> Player Settings.
