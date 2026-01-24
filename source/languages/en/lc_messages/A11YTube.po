@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A11YTube 0.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 23:48+0700\n"
+"POT-Creation-Date: 2026-01-25 03:28+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Add to Favorites"
 msgstr ""
 
-#: media_player\media_gui.py:637
+#: media_player\media_gui.py:639
 msgid "Added to favorites"
 msgstr ""
 
@@ -107,7 +107,7 @@ msgstr ""
 msgid "An error occurred while connecting to the update service. Please check your internet connection and try again."
 msgstr ""
 
-#: media_player\media_gui.py:1999
+#: media_player\media_gui.py:2001
 msgid "An error occurred while fetching video description"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Audio Track"
 msgstr ""
 
-#: media_player\media_gui.py:1810
+#: media_player\media_gui.py:1812
 msgid "Audio Tracks"
 msgstr ""
 
@@ -203,11 +203,11 @@ msgstr ""
 msgid "Auto detect links on startup"
 msgstr ""
 
-#: media_player\media_gui.py:626
+#: media_player\media_gui.py:628
 msgid "Auto play next off"
 msgstr ""
 
-#: media_player\media_gui.py:626
+#: media_player\media_gui.py:628
 msgid "Auto play next on"
 msgstr ""
 
@@ -246,11 +246,11 @@ msgstr ""
 msgid "Beginning of Video"
 msgstr ""
 
-#: media_player\media_gui.py:1773
+#: media_player\media_gui.py:1775
 msgid "Beginning of shuffle list"
 msgstr ""
 
-#: media_player\media_gui.py:762
+#: media_player\media_gui.py:764
 msgid "Beginning of video"
 msgstr ""
 
@@ -462,7 +462,7 @@ msgstr ""
 msgid "Data"
 msgstr ""
 
-#: media_player\media_gui.py:1807
+#: media_player\media_gui.py:1809
 msgid "Default"
 msgstr ""
 
@@ -510,7 +510,7 @@ msgstr ""
 #: gui\favorites.py:195
 #: gui\history.py:192
 #: gui\playlist_dialog.py:147
-#: media_player\media_gui.py:1777
+#: media_player\media_gui.py:1779
 #: youtube_browser\browser.py:386
 msgid "Done"
 msgstr ""
@@ -649,14 +649,14 @@ msgstr ""
 msgid "Downloading {} videos"
 msgstr ""
 
-#: media_player\media_gui.py:1005
+#: media_player\media_gui.py:1007
 #: youtube_browser\search_handler.py:50
 #: youtube_browser\search_handler.py:237
 msgid "Duration: {}"
 msgstr ""
 
-#: media_player\media_gui.py:748
-#: media_player\media_gui.py:997
+#: media_player\media_gui.py:750
+#: media_player\media_gui.py:999
 msgid "Elapsed: {}"
 msgstr ""
 
@@ -664,7 +664,7 @@ msgstr ""
 msgid "Email: trung@ddt.one"
 msgstr ""
 
-#: media_player\media_gui.py:1645
+#: media_player\media_gui.py:1647
 msgid "End of suggestions."
 msgstr ""
 
@@ -703,9 +703,9 @@ msgstr ""
 #: gui\settings_dialog.py:370
 #: gui\update_dialog.py:76
 #: gui\update_dialog.py:90
-#: media_player\media_gui.py:1360
-#: media_player\media_gui.py:491
-#: media_player\media_gui.py:1607
+#: media_player\media_gui.py:1362
+#: media_player\media_gui.py:493
+#: media_player\media_gui.py:1609
 #: youtube_browser\browser.py:482
 #: youtube_browser\browser.py:574
 #: youtube_browser\browser.py:594
@@ -730,7 +730,7 @@ msgstr ""
 msgid "Error importing collection: {}"
 msgstr ""
 
-#: media_player\media_gui.py:1548
+#: media_player\media_gui.py:1550
 #: youtube_browser\browser.py:717
 msgid "Error loading playlist"
 msgstr ""
@@ -768,12 +768,12 @@ msgstr ""
 msgid "Failed to import cookies: {}"
 msgstr ""
 
-#: media_player\media_gui.py:491
+#: media_player\media_gui.py:493
 msgid "Failed to initialize media player. Please check your settings or installation."
 msgstr ""
 
-#: media_player\media_gui.py:667
-#: media_player\media_gui.py:948
+#: media_player\media_gui.py:669
+#: media_player\media_gui.py:950
 msgid "Fast"
 msgstr ""
 
@@ -797,15 +797,15 @@ msgstr ""
 msgid "Feature Disabled"
 msgstr ""
 
-#: media_player\media_gui.py:1793
+#: media_player\media_gui.py:1795
 msgid "Fetching audio tracks, please wait..."
 msgstr ""
 
-#: media_player\media_gui.py:1590
+#: media_player\media_gui.py:1592
 msgid "Fetching suggested videos, please wait..."
 msgstr ""
 
-#: media_player\media_gui.py:1995
+#: media_player\media_gui.py:1997
 msgid "Fetching video description"
 msgstr ""
 
@@ -829,11 +829,11 @@ msgstr ""
 msgid "Full Screen"
 msgstr ""
 
-#: media_player\media_gui.py:1066
+#: media_player\media_gui.py:1068
 msgid "Full screen off"
 msgstr ""
 
-#: media_player\media_gui.py:1058
+#: media_player\media_gui.py:1060
 msgid "Full screen on"
 msgstr ""
 
@@ -849,7 +849,7 @@ msgstr ""
 msgid "Go to Channel"
 msgstr ""
 
-#: media_player\media_gui.py:1737
+#: media_player\media_gui.py:1739
 msgid "Going back to"
 msgstr ""
 
@@ -899,7 +899,7 @@ msgstr ""
 
 #: gui\collections.py:420
 #: gui\settings_dialog.py:372
-#: media_player\media_gui.py:1802
+#: media_player\media_gui.py:1804
 msgid "Info"
 msgstr ""
 
@@ -922,7 +922,7 @@ msgstr ""
 #: gui\favorites.py:195
 #: gui\history.py:192
 #: gui\playlist_dialog.py:147
-#: media_player\media_gui.py:1777
+#: media_player\media_gui.py:1779
 #: youtube_browser\browser.py:386
 msgid "Link copied successfully"
 msgstr ""
@@ -975,9 +975,9 @@ msgstr ""
 msgid "Loading playlist for shuffle..."
 msgstr ""
 
-#: media_player\media_gui.py:1233
-#: media_player\media_gui.py:1237
-#: media_player\media_gui.py:1132
+#: media_player\media_gui.py:1235
+#: media_player\media_gui.py:1239
+#: media_player\media_gui.py:1134
 msgid "Loading..."
 msgstr ""
 
@@ -1074,11 +1074,11 @@ msgid "No description available."
 msgstr ""
 
 #: gui\playlist_dialog.py:203
-#: media_player\media_gui.py:1694
+#: media_player\media_gui.py:1696
 msgid "No more videos"
 msgstr ""
 
-#: media_player\media_gui.py:1802
+#: media_player\media_gui.py:1804
 msgid "No other audio tracks available."
 msgstr ""
 
@@ -1086,28 +1086,28 @@ msgstr ""
 msgid "No other collections to merge into."
 msgstr ""
 
-#: media_player\media_gui.py:1764
+#: media_player\media_gui.py:1766
 msgid "No previous video"
 msgstr ""
 
-#: media_player\media_gui.py:1740
+#: media_player\media_gui.py:1742
 msgid "No previous video."
 msgstr ""
 
-#: media_player\media_gui.py:654
+#: media_player\media_gui.py:656
 msgid "No suggested videos available yet."
 msgstr ""
 
-#: media_player\media_gui.py:1595
+#: media_player\media_gui.py:1597
 msgid "No suggested videos available."
 msgstr ""
 
-#: media_player\media_gui.py:644
+#: media_player\media_gui.py:646
 msgid "No video data"
 msgstr ""
 
-#: media_player\media_gui.py:667
-#: media_player\media_gui.py:952
+#: media_player\media_gui.py:669
+#: media_player\media_gui.py:954
 msgid "Normal"
 msgstr ""
 
@@ -1146,7 +1146,7 @@ msgstr ""
 msgid "Open..."
 msgstr ""
 
-#: media_player\media_gui.py:1780
+#: media_player\media_gui.py:1782
 msgid "Opening"
 msgstr ""
 
@@ -1160,14 +1160,14 @@ msgstr ""
 msgid "Options List"
 msgstr ""
 
-#: media_player\media_gui.py:685
-#: media_player\media_gui.py:549
-#: media_player\media_gui.py:689
-#: media_player\media_gui.py:550
+#: media_player\media_gui.py:687
+#: media_player\media_gui.py:551
+#: media_player\media_gui.py:691
+#: media_player\media_gui.py:552
 msgid "Pause"
 msgstr ""
 
-#: media_player\media_gui.py:692
+#: media_player\media_gui.py:694
 msgid "Paused"
 msgstr ""
 
@@ -1184,9 +1184,9 @@ msgstr ""
 #: gui\link_dlg.py:48
 #: gui\playlist_dialog.py:24
 #: gui\playlist_dialog.py:84
-#: media_player\media_gui.py:552
-#: media_player\media_gui.py:553
-#: media_player\media_gui.py:693
+#: media_player\media_gui.py:554
+#: media_player\media_gui.py:555
+#: media_player\media_gui.py:695
 #: youtube_browser\browser.py:467
 msgid "Play"
 msgstr ""
@@ -1225,12 +1225,12 @@ msgstr ""
 msgid "Play/Pause"
 msgstr ""
 
-#: media_player\media_gui.py:1325
+#: media_player\media_gui.py:1327
 msgid "Playback blocked by YouTube anti-bot. Please check your cookies."
 msgstr ""
 
-#: media_player\media_gui.py:684
-#: media_player\media_gui.py:688
+#: media_player\media_gui.py:686
+#: media_player\media_gui.py:690
 msgid "Played"
 msgstr ""
 
@@ -1256,7 +1256,7 @@ msgstr ""
 msgid "Playing"
 msgstr ""
 
-#: media_player\media_gui.py:1642
+#: media_player\media_gui.py:1644
 msgid "Playing suggested video"
 msgstr ""
 
@@ -1277,7 +1277,7 @@ msgstr ""
 msgid "Please enter a valid link."
 msgstr ""
 
-#: media_player\media_gui.py:1106
+#: media_player\media_gui.py:1108
 msgid "Please wait, video is loading..."
 msgstr ""
 
@@ -1327,7 +1327,7 @@ msgstr ""
 msgid "Removed"
 msgstr ""
 
-#: media_player\media_gui.py:640
+#: media_player\media_gui.py:642
 msgid "Removed from favorites"
 msgstr ""
 
@@ -1351,11 +1351,11 @@ msgstr ""
 msgid "Repeat"
 msgstr ""
 
-#: media_player\media_gui.py:618
+#: media_player\media_gui.py:620
 msgid "Repeat off"
 msgstr ""
 
-#: media_player\media_gui.py:618
+#: media_player\media_gui.py:620
 msgid "Repeat on"
 msgstr ""
 
@@ -1363,7 +1363,7 @@ msgstr ""
 msgid "Repeat video"
 msgstr ""
 
-#: media_player\media_gui.py:1703
+#: media_player\media_gui.py:1705
 msgid "Reshuffling..."
 msgstr ""
 
@@ -1383,7 +1383,7 @@ msgstr ""
 msgid "Restoring data will overwrite your current configuration and restart the program.\nAre you sure you want to proceed?"
 msgstr ""
 
-#: media_player\media_gui.py:724
+#: media_player\media_gui.py:726
 msgid "Resuming to seek..."
 msgstr ""
 
@@ -1425,8 +1425,8 @@ msgid "Searching"
 msgstr ""
 
 #: media_player\media_gui.py:283
-#: media_player\media_gui.py:961
-#: media_player\media_gui.py:966
+#: media_player\media_gui.py:963
+#: media_player\media_gui.py:968
 msgid "Seek"
 msgstr ""
 
@@ -1434,7 +1434,7 @@ msgstr ""
 msgid "Seek & Volume"
 msgstr ""
 
-#: media_player\media_gui.py:1810
+#: media_player\media_gui.py:1812
 msgid "Select Audio Track"
 msgstr ""
 
@@ -1451,11 +1451,11 @@ msgstr ""
 msgid "Select Download Folder"
 msgstr ""
 
-#: media_player\media_gui.py:671
+#: media_player\media_gui.py:673
 msgid "Select Playback Speed"
 msgstr ""
 
-#: media_player\media_gui.py:658
+#: media_player\media_gui.py:660
 msgid "Select a video to play"
 msgstr ""
 
@@ -1503,12 +1503,12 @@ msgstr ""
 msgid "Skip silence (Recommended only for music)"
 msgstr ""
 
-#: media_player\media_gui.py:1339
+#: media_player\media_gui.py:1341
 msgid "Skipping..."
 msgstr ""
 
-#: media_player\media_gui.py:667
-#: media_player\media_gui.py:956
+#: media_player\media_gui.py:669
+#: media_player\media_gui.py:958
 msgid "Slow"
 msgstr ""
 
@@ -1521,7 +1521,7 @@ msgid "Speak player status notifications"
 msgstr ""
 
 #: media_player\media_gui.py:227
-#: media_player\media_gui.py:671
+#: media_player\media_gui.py:673
 msgid "Speed"
 msgstr ""
 
@@ -1544,7 +1544,7 @@ msgid "Success"
 msgstr ""
 
 #: media_player\media_gui.py:272
-#: media_player\media_gui.py:658
+#: media_player\media_gui.py:660
 msgid "Suggested Videos"
 msgstr ""
 
@@ -1552,7 +1552,7 @@ msgstr ""
 msgid "Swap Enter and Ctrl+Enter for Video/Audio"
 msgstr ""
 
-#: media_player\media_gui.py:1841
+#: media_player\media_gui.py:1843
 msgid "Switched to"
 msgstr ""
 
@@ -1577,11 +1577,11 @@ msgstr ""
 msgid "This video is age restricted or requires a valid cookies.txt file to play."
 msgstr ""
 
-#: media_player\media_gui.py:1329
+#: media_player\media_gui.py:1331
 msgid "This video is for members only."
 msgstr ""
 
-#: media_player\media_gui.py:1327
+#: media_player\media_gui.py:1329
 msgid "This video is private."
 msgstr ""
 
@@ -1614,16 +1614,16 @@ msgstr ""
 msgid "Total Size: {} {}"
 msgstr ""
 
-#: media_player\media_gui.py:631
+#: media_player\media_gui.py:633
 msgid "Unable to add to favorites"
 msgstr ""
 
-#: media_player\media_gui.py:1604
+#: media_player\media_gui.py:1606
 msgid "Unable to play next: {}"
 msgstr ""
 
-#: media_player\media_gui.py:2020
-#: media_player\media_gui.py:2026
+#: media_player\media_gui.py:2022
+#: media_player\media_gui.py:2028
 #: youtube_browser\search_handler.py:154
 msgid "Unknown"
 msgstr ""
@@ -1798,8 +1798,8 @@ msgstr ""
 msgid "playlist"
 msgstr ""
 
-#: media_player\media_gui.py:961
-#: media_player\media_gui.py:966
+#: media_player\media_gui.py:963
+#: media_player\media_gui.py:968
 msgid "seconds"
 msgstr ""
 

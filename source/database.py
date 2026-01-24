@@ -232,11 +232,14 @@ class Collections:
 
 	@is_valid
 	def add_to_collection(self, collection_id, data):
+		if self.is_in_collection(collection_id, data['url']):
+			return False
 		query = "insert into collection_items (collection_id, title, url, channel_name, channel_url) values (?, ?, ?, ?, ?)"
 		c_name = data.get('channel_name') or ""
 		c_url = data.get('channel_url') or ""
 		con.execute(query, (collection_id, data['title'], data['url'], c_name, c_url))
 		con.commit()
+		return True
 
 	@is_valid
 	def remove_from_collection(self, item_id):
