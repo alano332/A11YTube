@@ -1800,6 +1800,7 @@ class MediaGui(wx.Frame):
 		wx.CallAfter(self.show_audio_track_dialog, tracks)
 
 	def show_audio_track_dialog(self, tracks):
+		if not self.check_window_valid(): return
 		if not tracks:
 			wx.MessageBox(_("No other audio tracks available."), _("Info"), parent=self)
 			return
@@ -1886,6 +1887,8 @@ class MediaGui(wx.Frame):
 		# Retry loop for 10 seconds
 		ready = False
 		for _ in range(20):
+			if not getattr(self, "player", None) or not getattr(self.player, "media", None):
+				return
 			if self.player.media.get_state() in [State.Playing, State.Paused]:
 				ready = True
 				break
@@ -1953,6 +1956,27 @@ class MediaGui(wx.Frame):
 			self.safe_call_after(self.player.set_audio_track, selected_id)
 			# wx.CallAfter(speak, _("Audio restored and synchronized."))
 
+
+	def check_window_valid(self):
+		try:
+			if not self: return False
+			if not isinstance(self, wx.Window): return False
+			if not self.GetHandle(): return False
+			return True
+		except (RuntimeError, wx.PyDeadObjectError):
+			return False
+
+	def safe_call_after(self, func, *args, **kwargs):
+		if not self.check_window_valid(): return
+		
+		def wrapper():
+			if self.check_window_valid():
+				func(*args, **kwargs)
+		
+		try:
+			wx.CallAfter(wrapper)
+		except Exception:
+			pass
 
 	def restore_audio_preference(self, label):
 		# Background fetch to find URL for label

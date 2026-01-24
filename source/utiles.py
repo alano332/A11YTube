@@ -605,54 +605,8 @@ def get_related_videos(url):
 				print(f"Successfully fetched YouTube Mix with {len(mix_results)} items.")
 				results = mix_results
 
-	# Attempt 3: Channel Fallback (Popular) - Priority 3
-	# Used if Official AND Mix failed, but we have Channel URL
-	if not results and current_channel_url:
-		print(f"No direct related videos, attempting Channel Fallback: {current_channel_url}")
-		try:
-			# Fetch recent videos from channel
-			# We use 'playlistend' to limit to 10
-			chan_opts = {
-				'quiet': True,
-				'ignoreerrors': True,
-				'extract_flat': True,
-				'no_warnings': True,
-				'playlistend': 10,
-			}
-			chan_opts.update(get_cookie_opts())
-			
-			with yt_dlp.YoutubeDL(chan_opts) as ydl:
-				# Channel URL is treated as playlist
-				info = ydl.extract_info(current_channel_url, download=False)
-				if info and 'entries' in info:
-					for vid in info['entries']:
-						if not vid: continue
-						# Skip current video
-						if current_id and vid.get('id') == current_id: continue
-						
-						item = {
-							"title": vid.get('title', _('Unknown Title')),
-							"display_title": vid.get('title', _('Unknown Title')),
-							"url": vid.get('url', ''),
-							"channel_name": vid.get('uploader') or vid.get('channel', _('Unknown Channel')),
-							"channel_url": vid.get('uploader_url') or vid.get('channel_url', ''),
-							"duration": vid.get('duration'),
-							"live": 0
-						}
-						
-						# Fix URL if missing
-						if not item['url'] and vid.get('id'):
-							item['url'] = f"https://www.youtube.com/watch?v={vid.get('id')}"
-							
-						if item['url']:
-							results.append(item)
-							
-			if results:
-				print(f"Channel Fallback success: {len(results)} videos.")
-				
-		except Exception as e:
-			print(f"Channel fallback failed: {e}")
-			if check_bot_error(str(e)): pass
+	# Attempt 3: Channel Fallback REMOVED
+	pass
 
 	# Attempt 2: Fallback Search (If extraction yielded no related items)
 	if not results and current_title:
