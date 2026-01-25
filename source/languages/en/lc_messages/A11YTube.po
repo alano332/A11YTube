@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A11YTube 0.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-25 03:28+0700\n"
+"POT-Creation-Date: 2026-01-25 16:02+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 msgid "1. Install 'Get cookies.txt LOCALLY' extension for Chrome/Firefox.\n2. Open YouTube and log in.\n3. Open the extension and click 'Export'.\n4. Save the file.\n5. Click 'Import cookies.txt...' below and select that file."
 msgstr ""
 
-#: gui\auto_detect_dialog.py:26
+#: gui\auto_detect_dialog.py:28
 msgid "A YouTube {} link has been detected in the clipboard. Please select the desired action."
 msgstr ""
 
@@ -107,7 +107,7 @@ msgstr ""
 msgid "An error occurred while connecting to the update service. Please check your internet connection and try again."
 msgstr ""
 
-#: media_player\media_gui.py:2001
+#: media_player\media_gui.py:2025
 msgid "An error occurred while fetching video description"
 msgstr ""
 
@@ -174,7 +174,7 @@ msgstr ""
 msgid "Audio Track"
 msgstr ""
 
-#: media_player\media_gui.py:1812
+#: media_player\media_gui.py:1813
 msgid "Audio Tracks"
 msgstr ""
 
@@ -268,7 +268,7 @@ msgstr ""
 msgid "C&ancel"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:34
+#: gui\auto_detect_dialog.py:46
 msgid "Cancel"
 msgstr ""
 
@@ -462,7 +462,7 @@ msgstr ""
 msgid "Data"
 msgstr ""
 
-#: media_player\media_gui.py:1809
+#: media_player\media_gui.py:1810
 msgid "Default"
 msgstr ""
 
@@ -515,7 +515,7 @@ msgstr ""
 msgid "Done"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:27
+#: gui\auto_detect_dialog.py:29
 #: gui\collections.py:124
 #: gui\collections.py:480
 #: gui\collections.py:570
@@ -805,7 +805,7 @@ msgstr ""
 msgid "Fetching suggested videos, please wait..."
 msgstr ""
 
-#: media_player\media_gui.py:1997
+#: media_player\media_gui.py:2021
 msgid "Fetching video description"
 msgstr ""
 
@@ -899,7 +899,7 @@ msgstr ""
 
 #: gui\collections.py:420
 #: gui\settings_dialog.py:372
-#: media_player\media_gui.py:1804
+#: media_player\media_gui.py:1805
 msgid "Info"
 msgstr ""
 
@@ -993,6 +993,10 @@ msgstr ""
 msgid "Media Type"
 msgstr ""
 
+#: gui\auto_detect_dialog.py:37
+msgid "Menu"
+msgstr ""
+
 #: gui\collections.py:424
 #: youtube_browser\browser.py:598
 msgid "Merge Collection"
@@ -1078,7 +1082,7 @@ msgstr ""
 msgid "No more videos"
 msgstr ""
 
-#: media_player\media_gui.py:1804
+#: media_player\media_gui.py:1805
 msgid "No other audio tracks available."
 msgstr ""
 
@@ -1126,6 +1130,10 @@ msgstr ""
 msgid "Open Configuration Folder"
 msgstr ""
 
+#: gui\auto_detect_dialog.py:59
+msgid "Open Download Dialog..."
+msgstr ""
+
 #: A11YTube.py:137
 msgid "Open downloads folder (Ctrl+O)"
 msgstr ""
@@ -1142,7 +1150,7 @@ msgstr ""
 msgid "Open in Web Browser"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:31
+#: gui\auto_detect_dialog.py:36
 msgid "Open..."
 msgstr ""
 
@@ -1176,7 +1184,7 @@ msgstr ""
 msgid "Percentage: {}%"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:28
+#: gui\auto_detect_dialog.py:30
 #: gui\collections.py:479
 #: gui\favorites.py:27
 #: gui\history.py:27
@@ -1243,7 +1251,7 @@ msgid "Player Controls"
 msgstr ""
 
 #: A11YTube.py:367
-#: gui\auto_detect_dialog.py:50
+#: gui\auto_detect_dialog.py:110
 #: gui\collections.py:633
 #: gui\favorites.py:111
 #: gui\favorites.py:120
@@ -1327,6 +1335,7 @@ msgstr ""
 msgid "Removed"
 msgstr ""
 
+#: gui\auto_detect_dialog.py:72
 #: media_player\media_gui.py:642
 msgid "Removed from favorites"
 msgstr ""
@@ -1434,7 +1443,7 @@ msgstr ""
 msgid "Seek & Volume"
 msgstr ""
 
-#: media_player\media_gui.py:1812
+#: media_player\media_gui.py:1813
 msgid "Select Audio Track"
 msgstr ""
 
@@ -1552,7 +1561,7 @@ msgstr ""
 msgid "Swap Enter and Ctrl+Enter for Video/Audio"
 msgstr ""
 
-#: media_player\media_gui.py:1843
+#: media_player\media_gui.py:1844
 msgid "Switched to"
 msgstr ""
 
@@ -1622,16 +1631,15 @@ msgstr ""
 msgid "Unable to play next: {}"
 msgstr ""
 
-#: media_player\media_gui.py:2022
-#: media_player\media_gui.py:2028
+#: media_player\media_gui.py:2046
+#: media_player\media_gui.py:2052
 #: youtube_browser\search_handler.py:154
 msgid "Unknown"
 msgstr ""
 
 #: utiles.py:579
 #: utiles.py:508
-#: utiles.py:754
-#: utiles.py:637
+#: utiles.py:708
 #: gui\collections.py:654
 #: youtube_browser\browser.py:322
 #: youtube_browser\extras.py:47
@@ -1647,10 +1655,8 @@ msgstr ""
 #: utiles.py:577
 #: utiles.py:505
 #: utiles.py:506
-#: utiles.py:634
-#: utiles.py:635
-#: utiles.py:751
-#: utiles.py:752
+#: utiles.py:705
+#: utiles.py:706
 #: youtube_browser\search_handler.py:26
 msgid "Unknown Title"
 msgstr ""
@@ -1776,7 +1782,9 @@ msgstr ""
 msgid "Your Collections:"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:16
+#: gui\auto_detect_dialog.py:18
+#: gui\auto_detect_dialog.py:33
+#: gui\auto_detect_dialog.py:103
 msgid "channel"
 msgstr ""
 
@@ -1792,9 +1800,9 @@ msgstr ""
 msgid "one second"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:14
-#: gui\auto_detect_dialog.py:30
-#: gui\auto_detect_dialog.py:43
+#: gui\auto_detect_dialog.py:16
+#: gui\auto_detect_dialog.py:32
+#: gui\auto_detect_dialog.py:103
 msgid "playlist"
 msgstr ""
 
@@ -1815,8 +1823,8 @@ msgstr ""
 msgid "two seconds"
 msgstr ""
 
-#: gui\auto_detect_dialog.py:18
-#: gui\auto_detect_dialog.py:32
+#: gui\auto_detect_dialog.py:20
+#: gui\auto_detect_dialog.py:39
 msgid "video"
 msgstr ""
 
