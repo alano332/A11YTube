@@ -1,3 +1,9 @@
+Version 0.3.3
+Bug Fixes:
+- Collection Logic: Fixed an issue where, in certain cases, a video could be added to a Collection even if it already existed there (preventing duplicates).
+- Startup Download: Fixed a bug where the "Download" button would be unresponsive when a link was auto-detected upon application startup.
+Optimizations:
+- Core Systems: Optimized the Media Player, Audio Track system, and Recommended Video system for better performance and stability.
 Version 0.3.2
 UI & UX Overhaul:
 - Settings Dialog Redesign: The Settings dialog has been completely redesigned for better accessibility and navigation. Categories are now organized using a radio-button style tab system.

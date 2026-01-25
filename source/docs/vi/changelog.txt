@@ -1,3 +1,9 @@
+Phiên bản 0.3.3
+Sửa lỗi:
+- Logic Bộ sưu tập: Sửa lỗi trong một vài trường hợp video vẫn được thêm vào Bộ sưu tập dù đã tồn tại trong danh sách (ngăn chặn trùng lặp).
+- Tải xuống khi khởi động: Khắc phục lỗi nút "Tải xuống" không hoạt động khi phần mềm tự động phát hiện liên kết lúc khởi động.
+Tối ưu hóa:
+- Hệ thống cốt lõi: Tối ưu hóa Trình phát, hệ thống Bản âm thanh và hệ thống Video đề xuất giúp phần mềm hoạt động mượt mà và ổn định hơn.
 Phiên bản 0.3.2
 Cải tiến Giao diện & Trải nghiệm:
 - Thiết kế lại Cài đặt: Hộp thoại Cài đặt đã được thiết kế lại hoàn toàn. Các tùy chọn được chia thành các thẻ (dạng nút radio) giúp việc tìm kiếm và cấu hình dễ dàng hơn.
