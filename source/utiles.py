@@ -53,115 +53,78 @@ class Stream:
 def get_cookie_opts():
 	path = os.path.join(settings_path, "cookies.txt")
 	if os.path.exists(path):
-		return {'cookiefile': path}
+		return {'cookies': path}  # FIXED: 'cookies' not 'cookiefile' for Python API
 	
 	if os.path.exists("cookies.txt"):
-		return {'cookiefile': "cookies.txt"}
+		return {'cookies': "cookies.txt"}
 	return {}
 
 
 
 def extract_secondary_audios(info):
 	formats = info.get('formats', [])
-	# Dictionary to store best track per language/label
-	# Key: Language Code (or Label if no code), Value: Track Dict
-	unique_tracks = {}
+	results = []
 	
 	for f in formats:
-		# Check for audio-only
+		# Keep simple check: Audio-only (vcodec=none, acodec!=none)
+		# User requested "NO FILTERS", but we must ensure it's audio.
 		if f.get('vcodec') == 'none' and f.get('acodec') != 'none':
 			url = f.get('url')
 			if not url: continue
 				
-			lang = f.get('language')
-			note = f.get('format_note', '')
-			abr = f.get('abr', 0) or 0 # Audio Bitrate
+			lang = f.get('language', '')
+			note = f.get('format_note', '') or ''
+			abr = f.get('abr', 0)
 			
-			# Construct cleaner label
-			# If lang is present, use it as primary key
-			if lang:
-				key = lang
-				# Try to get full language name if possible, or just code
-				# yt-dlp usually provides code 'vi', 'en'. 
-				# We can beautify in GUI or just use as is. 
-				label = f"{lang}"
+			# Construct Label: "Language - Note - Bitrate"
+			label_parts = []
+			if lang: label_parts.append(lang)
+			if note: label_parts.append(note)
+			if abr: label_parts.append(f"{int(abr)}k")
+			
+			if not label_parts:
+				display = "Audio"
 			else:
-				# No language code. Use Note or Label as key.
-				key = f"unknown_{note}"
-				label = note if note else "Unknown Audio"
+				display = " - ".join(label_parts)
 
-			# Create track object
+			# Append Format ID to be safe and distinct
+			display += f" [{f.get('format_id')}]"
+
 			track = {
 				'url': url,
-				'label': label, # This will be updated if we find better one?
+				'label': display,
 				'language': lang,
-				'abr': abr,
-				'note': note
+				'abr': abr
 			}
-			
-			if key in unique_tracks:
-				# Compare Bitrate
-				if abr > unique_tracks[key]['abr']:
-					unique_tracks[key] = track
-			else:
-				unique_tracks[key] = track
-
-	# Convert back to list and Sort
-	# Sort by Language code?
-	results = list(unique_tracks.values())
-	
-	# Refine Labels separate from Key comparison
-	for t in results:
-		# Improve Label: "Language (Bitrate?)" or just "Language"
-		# User saw: "vi (Vietnamese, low)". 
-		# We want: "Vietnamese" or "vi".
-		# t['note'] might be "Vietnamese, low".
-		# Let's split note by comma?
-		
-		# Simple approach: Use Language Code + Note (but clean).
-		# Or rely on `t['language']` being the code.
-		# Let's formatting: "Lang: vi - [Original Note]"?
-		# User complains about duplicates. We fixed that by Unique Key.
-		# Now just clean label.
-		
-		l = t.get('language')
-		n = t.get('note', '')
-		
-		display = l if l else "Audio"
-		if n:
-			# If n contains l?
-			display += f" ({n})"
-		
-		t['label'] = display
+			results.append(track)
 
 	return results
 
+
 def fetch_audio_tracks(url):
 	import yt_dlp
+	
+	# Simple default options - Let yt-dlp decide client
 	ydl_opts = {
 		'quiet': True,
 		'no_warnings': True,
 		'noplaylist': True
 	}
+
 	# Try without cookies first
 	try:
-		opts = ydl_opts.copy()
-		with yt_dlp.YoutubeDL(opts) as ydl:
+		with yt_dlp.YoutubeDL(ydl_opts) as ydl:
 			info = ydl.extract_info(url, download=False)
 			return extract_secondary_audios(info)
-	except yt_dlp.utils.DownloadError as e:
-		if check_bot_error(str(e)):
-			# Retry with cookies
-			opts = ydl_opts.copy()
-			opts.update(get_cookie_opts())
-			try:
-				with yt_dlp.YoutubeDL(opts) as ydl:
-					info = ydl.extract_info(url, download=False)
-					return extract_secondary_audios(info)
-			except Exception:
-				return []
 	except Exception:
-		return []
+		# Retry with cookies
+		try:
+			ydl_opts.update(get_cookie_opts())
+			with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+				info = ydl.extract_info(url, download=False)
+				return extract_secondary_audios(info)
+		except Exception:
+			return []
 
 
 

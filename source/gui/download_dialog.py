@@ -89,7 +89,10 @@ class DownloadDialog(wx.Frame):
 				break
 		else:
 			folder = False
-		formats = {0:"bestaudio[ext=m4a]", 1:"bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"}
+		formats = {
+			0: "ba",  # Best audio - let yt-dlp decide format
+			1: "bv+ba/b"  # Best video + best audio, or best combined
+		}
 		format = formats[self.downloadingFormat.GetSelection()]
 		if self.downloadingFormat.Selection == 0 and self.convertingFormat.Selection == 1:
 			convert = True

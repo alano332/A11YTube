@@ -117,17 +117,17 @@ class Downloader:
 			'format': self.downloading_format,
 			"continuedl": True,
 			"noplaylist": self.noplaylist,
-			"youtube_include_dash_manifest": False,
 			'progress_hooks': [self.my_hook],
 			'ignoreerrors': True,
 			'nooverwrites': True,
 			'logger': self.logger
 		}
 		
-		from utiles import get_ffmpeg_path
-		if self.use_cookies:
-			from utiles import get_cookie_opts
-			download_options.update(get_cookie_opts())
+		from utiles import get_ffmpeg_path, get_cookie_opts
+		# Always use cookies if available (critical for YouTube Jan 2026 bot detection)
+		cookie_opts = get_cookie_opts()
+		if cookie_opts:
+			download_options.update(cookie_opts)
 			
 		download_options['ffmpeg_location'] = get_ffmpeg_path()
 			

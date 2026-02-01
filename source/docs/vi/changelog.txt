@@ -1,3 +1,8 @@
+Phiên bản 0.3.3.1
+Bảo trì:
+- Cập nhật cốt lõi: Đã cập nhật thư viện `yt-dlp` lên phiên bản 2026.01.31 để đảm bảo tương thích với YouTube.
+Cải thiện:
+- Bản âm thanh: Cải thiện logic liệt kê Bản âm thanh để hiển thị tất cả các luồng có sẵn (bao gồm chi tiết biến thể). (Lưu ý: Một số ngôn ngữ lồng tiếng có thể vẫn bị ẩn do hạn chế của YouTube đối với client ổn định).
 Phiên bản 0.3.3
 Sửa lỗi:
 - Logic Bộ sưu tập: Sửa lỗi trong một vài trường hợp video vẫn được thêm vào Bộ sưu tập dù đã tồn tại trong danh sách (ngăn chặn trùng lặp).
