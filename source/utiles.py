@@ -108,7 +108,8 @@ def fetch_audio_tracks(url):
 	ydl_opts = {
 		'quiet': True,
 		'no_warnings': True,
-		'noplaylist': True
+		'noplaylist': True,
+		'audio_multistreams': True # Enable multi-audio stream detection
 	}
 
 	# Try without cookies first

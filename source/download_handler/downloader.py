@@ -120,7 +120,8 @@ class Downloader:
 			'progress_hooks': [self.my_hook],
 			'ignoreerrors': True,
 			'nooverwrites': True,
-			'logger': self.logger
+			'logger': self.logger,
+			'audio_multistreams': True # Ensure secondary audio streams can be downloaded
 		}
 		
 		from utiles import get_ffmpeg_path, get_cookie_opts
