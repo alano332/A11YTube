@@ -121,21 +121,28 @@ class Downloader:
 			'ignoreerrors': True,
 			'nooverwrites': True,
 			'logger': self.logger,
-			'audio_multistreams': True # Ensure secondary audio streams can be downloaded
+			'audio_multistreams': True, # Ensure secondary audio streams can be downloaded
+			'merge_output_format': 'mp4' # Enforce MP4 container for video downloads
 		}
+
 		
 		from utiles import get_ffmpeg_path, get_cookie_opts
-		# Always use cookies if available (critical for YouTube Jan 2026 bot detection)
-		cookie_opts = get_cookie_opts()
-		if cookie_opts:
-			download_options.update(cookie_opts)
+		# Only use cookies if explicitly requested (to avoid format issues with some accounts)
+		if self.use_cookies:
+			cookie_opts = get_cookie_opts()
+			if cookie_opts:
+				download_options.update(cookie_opts)
 			
 		download_options['ffmpeg_location'] = get_ffmpeg_path()
 			
 		if self.convert:
+			# Determine codec based on settings: 0=m4a, 1=mp3
+			codec_idx = config_get("defaultaudio")
+			codec = 'mp3' if str(codec_idx) == '1' else 'm4a'
+			
 			download_options['postprocessors'] = [{
 				"key": "FFmpegExtractAudio",
-				'preferredcodec': 'mp3',
+				'preferredcodec': codec,
 				'preferredquality': self.get_quality(),
 			}]
 

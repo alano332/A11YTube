@@ -53,10 +53,10 @@ class Stream:
 def get_cookie_opts():
 	path = os.path.join(settings_path, "cookies.txt")
 	if os.path.exists(path):
-		return {'cookies': path}  # FIXED: 'cookies' not 'cookiefile' for Python API
+		return {'cookiefile': path}
 	
 	if os.path.exists("cookies.txt"):
-		return {'cookies': "cookies.txt"}
+		return {'cookiefile': "cookies.txt"}
 	return {}
 
 
@@ -197,6 +197,9 @@ def get_video_stream(url):
 			print(f"Auth needed for video: {e}")
 			opts = ydl_opts.copy()
 			opts.update(get_cookie_opts())
+			if 'format' in opts: 
+				del opts['format'] # Relax format completely to accept DASH/HLS manifests
+			
 			if 'cookiefile' not in opts:
 				raise BotDetectionError(_("This video is age restricted or requires a valid cookies.txt file to play."))
 				
@@ -306,9 +309,9 @@ def youtube_regexp(string):
 
 def direct_download(option, url, dlg, download_type="video", path=config_get("path")):
 	if option == 0:
-		format = "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"
+		format = "bestvideo+bestaudio/best" # Let yt-dlp pick best streams, merge to mp4 via downloader options
 	else:
-		format = "bestaudio[ext=m4a]"
+		format = "bestaudio/best"
 	convert = True if option == 2 else False
 	folder = False if download_type == "video" else True
 	noplaylist = False if folder else True
@@ -569,8 +572,7 @@ def get_related_videos(url):
 				print(f"Successfully fetched YouTube Mix with {len(mix_results)} items.")
 				results = mix_results
 
-	# Attempt 3: Channel Fallback REMOVED
-	pass
+
 
 	# Attempt 2: Fallback Search (If extraction yielded no related items)
 	if not results and current_title:
@@ -582,25 +584,6 @@ def get_related_videos(url):
 		# 2. "Artist Mix" (if artist known)
 		# 3. "Tag Mix" (if tags known)
 		# 4. "Title" (standard fallback)
-		
-		# Extract metadata from info if available?
-		# We need to pass 'info' out or extract earlier.
-		# Let's assume we didn't save 'info' from Attempt 1 unless we refactor.
-		# Refactoring slightly to keep 'info' if possible, but 'info' is local to with block.
-		# Actually, current_title is saved. 
-		# We should probably capture more metadata in Attempt 1.
-		
-		# Wait, we can't easily access 'info' from Attempt 1 here because it's out of scope.
-		# But we can try to re-extract or just rely on what we have.
-		# To do this properly, we should move the search logic inside the try/except block OR 
-		# extract metadata to variables before the block ends.
-		
-		# Minimal change: We rely on current_title. 
-		# But user wants "Smart". 
-		# Let's assume we can get artist/tags if we parse title or had access to info.
-		# Since we can't easily change the structure without re-extracting (expensive),
-		# let's try to parse the Title for "Artist - Song" pattern as a heuristic?
-		# "Alan Walker - Faded" -> Artist="Alan Walker".
 		
 		# Construct Smart Query
 		# Priority: 

@@ -94,7 +94,8 @@ class DownloadDialog(wx.Frame):
 			1: "bv+ba/b"  # Best video + best audio, or best combined
 		}
 		format = formats[self.downloadingFormat.GetSelection()]
-		if self.downloadingFormat.Selection == 0 and self.convertingFormat.Selection == 1:
+		# Force conversion for Audio mode to ensure correct container (m4a/mp3)
+		if self.downloadingFormat.Selection == 0:
 			convert = True
 		else:
 			convert = False
