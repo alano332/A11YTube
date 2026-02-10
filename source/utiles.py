@@ -1,6 +1,6 @@
 import re
 from threading import Thread
-from settings_handler import config_get
+from settings_handler import config_get, config_set
 from download_handler.downloader import downloadAction
 import json
 
@@ -310,9 +310,16 @@ def youtube_regexp(string):
 def direct_download(option, url, dlg, download_type="video", path=config_get("path")):
 	if option == 0:
 		format = "bestvideo+bestaudio/best" # Let yt-dlp pick best streams, merge to mp4 via downloader options
+		convert = False
 	else:
 		format = "bestaudio/best"
-	convert = True if option == 2 else False
+		convert = True # Always convert for audio options
+		# Set preferred audio codec based on option: 1=m4a, 2=mp3
+		# 0 in defaultaudio means m4a, 1 means mp3
+		if option == 2: # MP3
+			config_set("defaultaudio", "1")
+		else: # M4A (option 1)
+			config_set("defaultaudio", "0")
 	folder = False if download_type == "video" else True
 	noplaylist = False if folder else True
 	trd = Thread(target=downloadAction, args=[url, path, dlg, format, dlg.gaugeProgress, dlg.textProgress, convert, folder, noplaylist])

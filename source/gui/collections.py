@@ -223,10 +223,18 @@ class CollectionsManager(wx.Dialog):
 	def _worker_download(self, items, f_type, folder):
 		# Map option to format string
 		if f_type == 0:
-			fmt = "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"
+			fmt = "bestvideo+bestaudio/best"
 		else:
-			fmt = "bestaudio[ext=m4a]"
-		convert = True if f_type == 2 else False
+			fmt = "bestaudio/best"
+		
+		# Always convert for audio (M4A=1, MP3=2)
+		convert = True if f_type != 0 else False
+		
+		# Set preferred codec config
+		if f_type == 2: # MP3
+			config_set("defaultaudio", "1")
+		elif f_type == 1: # M4A
+			config_set("defaultaudio", "0")
 		
 		is_folder = False 
 		noplaylist = True
@@ -748,10 +756,18 @@ class CollectionView(wx.Frame):
 	def _seq_download(self, f_type, folder):
 		# Map option to format string (logic from direct_download)
 		if f_type == 0:
-			fmt = "bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4"
+			fmt = "bestvideo+bestaudio/best"
 		else:
-			fmt = "bestaudio[ext=m4a]"
-		convert = True if f_type == 2 else False
+			fmt = "bestaudio/best"
+		
+		# Always convert for audio
+		convert = True if f_type != 0 else False
+
+		# Set preferred codec config
+		if f_type == 2: # MP3
+			config_set("defaultaudio", "1")
+		elif f_type == 1: # M4A
+			config_set("defaultaudio", "0")
 		
 		# For collection items, we treat them as individual video downloads
 		# (not folder/playlist in yt-dlp sense), but placed IN a folder.

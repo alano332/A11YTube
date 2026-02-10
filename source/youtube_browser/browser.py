@@ -680,11 +680,7 @@ class YoutubeBrowser(wx.Frame):
 				return
 				
 			import random
-			# Shuffle logic is handled by MediaGui if we pass shuffle=True
-			# But MediaGui expects an index. We pick random start?
-			# Or MediaGui handles it. 
-			# Checking MediaGui init: it takes `shuffle=False`.
-			
+
 			def start_player():
 				# We need a valid stream for the FIRST video to init MediaGui?
 				# MediaGui typically takes (title, stream, url...).

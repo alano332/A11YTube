@@ -446,7 +446,7 @@ class MediaGui(wx.Frame):
 									self.player.media.set_time(int(s_start * 1000))
 							wx.CallAfter(safe_seek)
 							
-							wx.CallAfter(safe_seek)
+
 							
 						# Apply Stop Time
 						if s_stop:

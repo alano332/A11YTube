@@ -1,3 +1,10 @@
+Phiên bản 0.3.3.2
+Bảo trì:
+- Cập nhật cốt lõi: Đã cập nhật thư viện `yt-dlp` lên phiên bản 2026.02.04.
+- Tương thích: Đã điều chỉnh mã nguồn để đảm bảo phần mềm hoạt động ổn định với phiên bản thư viện mới.
+Vấn đề đã biết:
+- Bản âm thanh: Tính năng thay đổi bản âm thanh đa ngôn ngữ hoạt động chưa đúng như mong đợi.
+- Giới hạn độ tuổi: Hiện tại không thể phát các video có giới hạn độ tuổi.
 Phiên bản 0.3.3.1
 Bảo trì:
 - Cập nhật cốt lõi: Đã cập nhật thư viện `yt-dlp` lên phiên bản 2026.01.31 để đảm bảo tương thích với YouTube.
