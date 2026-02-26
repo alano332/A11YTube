@@ -2,7 +2,7 @@ bs4
 requests
 pyperclip
 python-vlc
-yt-dlp
+yt-dlp>=2026.02.21
 wxpython
 SpeechRecognition
 PyAudio
