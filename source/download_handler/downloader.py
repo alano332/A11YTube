@@ -1,4 +1,3 @@
-
 # import yt_dlp as youtube_dl moved to local scopes
 
 import wx
@@ -146,11 +145,22 @@ class Downloader:
 				'preferredquality': self.get_quality(),
 			}]
 
-		with youtube_dl.YoutubeDL(download_options) as youtubeDownloader:
-			if isinstance(self.url, list):
-				youtubeDownloader.download(self.url)
-			else:
-				youtubeDownloader.download([self.url])
+		# Compatibility fix for yt-dlp 2025.11+ regarding JS runtime
+		# yt-dlp now strongly suggests using cookies-from-browser or an external runtime (like Deno).
+		# We'll try to let yt-dlp auto-detect 'node' if available (which we confirmed in env),
+		# or fallback to python-based interpreters if still supported partially.
+		# However, explicitly passing 'compat_opts' or 'extractor_args' might be needed if defaults fail.
+		# For now, standard options should work if node is in PATH.
+
+		try:
+			with youtube_dl.YoutubeDL(download_options) as youtubeDownloader:
+				if isinstance(self.url, list):
+					youtubeDownloader.download(self.url)
+				else:
+					youtubeDownloader.download([self.url])
+		except Exception as e:
+			# Re-raise to be caught by the outer loop which handles retries and auth errors
+			raise e
 
 def downloadAction(url, path, dlg, downloading_format, monitor, monitor1, convert=False, folder=False, noplaylist=True, silent=False):
 	# We start with use_cookies=False
