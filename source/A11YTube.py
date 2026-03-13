@@ -26,6 +26,17 @@ import time
 
 def preload_modules(splash=None):
 	try:
+		if splash: wx.CallAfter(splash.update_progress, 5, _("Initializing yt-dlp..."))
+		import ytdlp_handler
+
+		if not ytdlp_handler.is_ytdlp_downloaded():
+			if splash: wx.CallAfter(splash.update_progress, 10, _("Downloading yt-dlp core..."))
+			def progress_cb(pct):
+				if splash: wx.CallAfter(splash.update_progress, 10 + int(pct*0.2), _("Downloading yt-dlp core: {}%").format(pct))
+			ytdlp_handler.download_ytdlp(progress_cb)
+
+		ytdlp_handler.update_ytdlp_background()
+
 		if splash: wx.CallAfter(splash.update_progress, 15, _("Loading media player..."))
 		import media_player.media_gui
 		
@@ -138,7 +149,8 @@ class HomeScreen(wx.Frame):
 		]
 		self.toolsOptions = [
 			_("Settings (Ctrl+Shift+S)"),
-			_("Check for updates (Ctrl+Shift+U)")
+			_("Check for updates (Ctrl+Shift+U)"),
+			_("Update yt-dlp core")
 		]
 		self.helpOptions = [
 			_("User Guide (F1)"),
@@ -273,6 +285,8 @@ class HomeScreen(wx.Frame):
 			SettingsDialog(self)
 		elif index == 1:
 			self.onCheckForUpdates(None)
+		elif index == 2:
+			self.onUpdateYtDlp(None)
 
 	def executeHelpAction(self, index):
 		if index == 0: self.onGuide(None)
@@ -426,6 +440,14 @@ class HomeScreen(wx.Frame):
 			return
 		from gui.text_viewer import Viewer
 		Viewer(self, _("Changelog"), content).ShowModal()
+
+	def onUpdateYtDlp(self, event):
+		from gui.activity_dialog import LoadingDialog
+		import ytdlp_handler
+		def up():
+			ytdlp_handler.manual_update_ytdlp(self)
+		LoadingDialog(self, _("Checking for yt-dlp updates. Please wait..."), up)
+		self.navBox.SetFocus()
 
 	def onCheckForUpdates(self, event):
 		from gui.activity_dialog import LoadingDialog
