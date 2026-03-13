@@ -5,33 +5,43 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A11YTube 0.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 18:34+0000\n"
-"PO-Revision-Date: 2026-03-13 18:34+0000\n"
+"POT-Creation-Date: 2026-03-14 02:33+0700\n"
+"PO-Revision-Date: 2026-03-14 02:37+0700\n"
 "Last-Translator: Full Name <email@example.com>\n"
 "Language-Team: \n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Python Script\n"
+"X-Generator: Poedit 3.6\n"
 
-#: gui/settings_dialog.py:148
+#: gui\settings_dialog.py:148
 msgid "&Change Path"
 msgstr "&Đổi đường dẫn"
 
-#: utiles.py:204
+#: utiles.py:203
 msgid "1 month ago"
 msgstr "1 tháng trước"
 
-#: utiles.py:208
+#: utiles.py:207
 msgid "1 year ago"
 msgstr "1 năm trước"
 
-#: gui/settings_dialog.py:360
-msgid "1. Install 'Get cookies.txt LOCALLY' extension for Chrome/Firefox.\n2. Open YouTube and log in.\n3. Open the extension and click 'Export'.\n4. Save the file.\n5. Click 'Import cookies.txt...' below and select that file."
-msgstr "1. Cài đặt tiện ích 'Get cookies.txt LOCALLY' cho Chrome/Firefox.\n2. Mở YouTube và đăng nhập.\n3. Mở tiện ích và nhấn 'Export'.\n4. Lưu tệp tin.\n5. Nhấn 'Nhập cookies.txt...' bên dưới và chọn tệp đó."
+#: gui\settings_dialog.py:360
+msgid ""
+"1. Install 'Get cookies.txt LOCALLY' extension for Chrome/Firefox.\n"
+"2. Open YouTube and log in.\n"
+"3. Open the extension and click 'Export'.\n"
+"4. Save the file.\n"
+"5. Click 'Import cookies.txt...' below and select that file."
+msgstr ""
+"1. Cài đặt tiện ích 'Get cookies.txt LOCALLY' cho Chrome/Firefox.\n"
+"2. Mở YouTube và đăng nhập.\n"
+"3. Mở tiện ích và nhấn 'Export'.\n"
+"4. Lưu tệp tin.\n"
+"5. Nhấn 'Nhập cookies.txt...' bên dưới và chọn tệp đó."
 
-#: gui/auto_detect_dialog.py:28
+#: gui\auto_detect_dialog.py:28
 msgid "A YouTube {} link has been detected in the clipboard. Please select the desired action."
 msgstr "Đã phát hiện một liên kết {} YouTube trong bộ nhớ tạm. Vui lòng chọn hành động mong muốn."
 
@@ -47,8 +57,7 @@ msgstr "A11YTube Đang khởi động"
 msgid "A11YTube User Guide"
 msgstr "Hướng dẫn sử dụng A11YTube"
 
-#: A11YTube.py:87
-#: A11YTube.py:78
+#: A11YTube.py:87 A11YTube.py:78
 msgid "A11YTube is starting..."
 msgstr "A11YTube đang khởi động..."
 
@@ -60,62 +69,54 @@ msgstr "Giới thiệu"
 msgid "About..."
 msgstr "Giới thiệu..."
 
-#: gui/collections.py:864
-#: gui/collections.py:941
-#: gui/collections.py:914
+#: gui\collections.py:864 gui\collections.py:941 gui\collections.py:914
 msgid "Add"
 msgstr "Thêm"
 
-#: youtube_browser/browser.py:267
-#: youtube_browser/browser.py:652
-#: media_player/media_gui.py:268
-#: gui/playlist_dialog.py:296
-#: gui/collections.py:853
+#: gui\collections.py:853 gui\playlist_dialog.py:296
+#: media_player\media_gui.py:268 youtube_browser\browser.py:267
+#: youtube_browser\browser.py:652
 msgid "Add to Collection"
 msgstr "Thêm vào Bộ sưu tập"
 
-#: youtube_browser/browser.py:208
-#: gui/playlist_dialog.py:101
+#: gui\playlist_dialog.py:101 youtube_browser\browser.py:208
 msgid "Add to Collection...\tCtrl+L"
 msgstr "Thêm vào Bộ sưu tập...\tCtrl+L"
 
-#: youtube_browser/browser.py:43
-#: media_player/media_gui.py:234
+#: media_player\media_gui.py:234 youtube_browser\browser.py:43
 msgid "Add to Favorites"
 msgstr "Thêm vào Yêu thích"
 
-#: media_player/media_gui.py:639
+#: media_player\media_gui.py:639
 msgid "Added to favorites"
 msgstr "Đã thêm vào yêu thích"
 
-#: gui/collections.py:943
+#: gui\collections.py:943
 msgid "Added to {}"
 msgstr "Đã thêm vào {}"
 
-#: youtube_browser/browser.py:736
+#: youtube_browser\browser.py:736
 msgid "Added {} videos to collection"
 msgstr "Đã thêm {} video vào bộ sưu tập"
 
-#: gui/settings_dialog.py:426
+#: gui\settings_dialog.py:426
 msgid "Alert"
 msgstr "Cảnh báo"
 
-#: utiles.py:242
-#: utiles.py:257
+#: utiles.py:242 utiles.py:257
 msgid "An error occurred while connecting to the update service. Please check your internet connection and try again."
 msgstr "Đã xảy ra lỗi khi kết nối với máy chủ cập nhật. Vui lòng kiểm tra kết nối mạng và thử lại."
 
-#: media_player/media_gui.py:2053
+#: media_player\media_gui.py:2053
 msgid "An error occurred while fetching video description"
 msgstr "Đã xảy ra lỗi khi tải mô tả video"
 
-#: gui/update_dialog.py:90
+#: gui\update_dialog.py:90
 msgid "An error occurred while opening the installer. Please try again or contact the developer."
 msgstr "Đã xảy ra lỗi khi mở trình cài đặt. Vui lòng thử lại hoặc liên hệ nhà phát triển."
 
-#: gui/settings_dialog.py:377
-#: gui/settings_dialog.py:370
-#: gui/activity_dialog.py:41
+#: gui\activity_dialog.py:41 gui\settings_dialog.py:377
+#: gui\settings_dialog.py:370
 msgid "An error occurred: {}"
 msgstr "Đã xảy ra lỗi: {}"
 
@@ -123,159 +124,143 @@ msgstr "Đã xảy ra lỗi: {}"
 msgid "Application is already running"
 msgstr "Ứng dụng đang chạy rồi"
 
-#: gui/favorites.py:83
-#: gui/collections.py:688
+#: gui\collections.py:688 gui\favorites.py:83
 msgid "Are you sure you want to clear your favorites?"
 msgstr "Bạn có chắc chắn muốn xóa sạch danh sách yêu thích không?"
 
-#: gui/history.py:81
+#: gui\history.py:81
 msgid "Are you sure you want to clear your watch history?"
 msgstr "Bạn có chắc chắn muốn xóa sạch lịch sử xem không?"
 
-#: gui/collections.py:300
+#: gui\collections.py:300
 msgid "Are you sure you want to delete '{}'?"
 msgstr "Bạn có chắc chắn muốn xóa '{}' không?"
 
-#: gui/settings_dialog.py:365
+#: gui\settings_dialog.py:365
 msgid "Are you sure you want to delete your current cookies.txt?"
 msgstr "Bạn có chắc chắn muốn xóa tệp cookies.txt hiện tại không?"
 
-#: youtube_browser/browser.py:202
-#: youtube_browser/browser.py:252
-#: youtube_browser/browser.py:350
-#: gui/favorites.py:144
-#: gui/favorites.py:235
-#: gui/playlist_dialog.py:93
-#: gui/playlist_dialog.py:250
-#: gui/playlist_dialog.py:258
-#: gui/collections.py:576
-#: gui/history.py:142
-#: gui/history.py:228
-#: gui/link_dlg.py:14
-#: gui/download_dialog.py:23
+#: gui\collections.py:576 gui\download_dialog.py:23 gui\favorites.py:144
+#: gui\favorites.py:235 gui\history.py:142 gui\history.py:228
+#: gui\link_dlg.py:14 gui\playlist_dialog.py:93 gui\playlist_dialog.py:250
+#: gui\playlist_dialog.py:258 youtube_browser\browser.py:202
+#: youtube_browser\browser.py:252 youtube_browser\browser.py:350
 msgid "Audio"
 msgstr "Âm thanh"
 
-#: gui/settings_dialog.py:159
+#: gui\settings_dialog.py:159
 msgid "Audio (m4a)"
 msgstr "Âm thanh (m4a)"
 
-#: gui/settings_dialog.py:159
+#: gui\settings_dialog.py:159
 msgid "Audio (mp3)"
 msgstr "Âm thanh (mp3)"
 
-#: gui/settings_dialog.py:180
+#: gui\settings_dialog.py:180
 msgid "Audio Output Device: "
 msgstr "Thiết bị đầu ra âm thanh: "
 
-#: media_player/media_gui.py:228
+#: media_player\media_gui.py:228
 msgid "Audio Track"
 msgstr "Bản âm thanh"
 
-#: media_player/media_gui.py:1841
+#: media_player\media_gui.py:1841
 msgid "Audio Tracks"
 msgstr "Các bản âm thanh"
 
-#: download_handler/downloader.py:135
-#: gui/activity_dialog.py:39
+#: download_handler\downloader.py:135 gui\activity_dialog.py:39
 msgid "Authentication Error"
 msgstr "Lỗi xác thực"
 
-#: utiles.py:75
+#: utiles.py:74
 msgid "Authentication Error: "
-msgstr ""
+msgstr "Lỗi xác thực: "
 
-#: utiles.py:129
-#: utiles.py:146
-#: download_handler/downloader.py:134
+#: utiles.py:128 utiles.py:145 download_handler\downloader.py:134
 msgid "Authentication failed. Your cookies.txt might be expired or invalid. Please delete and re-import a fresh one."
 msgstr "Xác thực thất bại. Tệp cookies.txt của bạn có thể đã hết hạn hoặc không hợp lệ. Vui lòng xóa và nhập lại tệp mới."
 
-#: media_player/media_gui.py:232
+#: media_player\media_gui.py:232
 msgid "Auto Next"
 msgstr "Tự động phát tiếp"
 
-#: gui/settings_dialog.py:120
+#: gui\settings_dialog.py:120
 msgid "Auto check for updates on startup"
 msgstr "Tự động kiểm tra cập nhật khi khởi động"
 
-#: gui/settings_dialog.py:119
+#: gui\settings_dialog.py:119
 msgid "Auto detect links on startup"
 msgstr "Tự động phát hiện liên kết khi khởi động"
 
-#: media_player/media_gui.py:628
+#: media_player\media_gui.py:628
 msgid "Auto play next off"
 msgstr "Đã tắt tự động phát tiếp"
 
-#: media_player/media_gui.py:628
+#: media_player\media_gui.py:628
 msgid "Auto play next on"
 msgstr "Đã bật tự động phát tiếp"
 
-#: gui/settings_dialog.py:232
+#: gui\settings_dialog.py:232
 msgid "Auto play next video"
 msgstr "Tự động phát video tiếp theo"
 
-#: gui/playlist_dialog.py:28
-#: gui/collections.py:492
+#: gui\collections.py:492 gui\playlist_dialog.py:28
 msgid "Back"
 msgstr "Quay lại"
 
-#: youtube_browser/browser.py:45
-#: gui/favorites.py:32
-#: gui/history.py:32
+#: gui\favorites.py:32 gui\history.py:32 youtube_browser\browser.py:45
 msgid "Back to Main Window"
 msgstr "Quay lại Cửa sổ Chính"
 
-#: gui/settings_dialog.py:284
+#: gui\settings_dialog.py:284
 msgid "Backup Configuration..."
 msgstr "Sao lưu cấu hình..."
 
-#: gui/settings_dialog.py:386
+#: gui\settings_dialog.py:386
 msgid "Backup created successfully!"
 msgstr "Tạo bản sao lưu thành công!"
 
-#: gui/settings_dialog.py:388
+#: gui\settings_dialog.py:388
 msgid "Backup failed."
 msgstr "Sao lưu thất bại."
 
-#: gui/settings_dialog.py:281
+#: gui\settings_dialog.py:281
 msgid "Backup or Restore your configuration."
 msgstr "Sao lưu hoặc Khôi phục cấu hình của bạn."
 
-#: media_player/media_gui.py:220
+#: media_player\media_gui.py:220
 msgid "Beginning of Video"
 msgstr "Đầu video"
 
-#: media_player/media_gui.py:1803
+#: media_player\media_gui.py:1803
 msgid "Beginning of shuffle list"
 msgstr "Đầu danh sách phát ngẫu nhiên"
 
-#: media_player/media_gui.py:764
+#: media_player\media_gui.py:764
 msgid "Beginning of video"
 msgstr "Đầu video"
 
-#: youtube_browser/search_handler.py:41
-#: youtube_browser/search_handler.py:135
-#: youtube_browser/search_handler.py:141
+#: youtube_browser\search_handler.py:41 youtube_browser\search_handler.py:135
+#: youtube_browser\search_handler.py:141
 msgid "By"
 msgstr "Bởi"
 
 msgid "Bytes"
 msgstr "Bytes"
 
-#: gui/settings_dialog.py:57
+#: gui\settings_dialog.py:57
 msgid "C&ancel"
 msgstr "&Hủy bỏ"
 
-#: gui/auto_detect_dialog.py:46
+#: gui\auto_detect_dialog.py:46
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
-#: gui/update_dialog.py:76
+#: gui\update_dialog.py:76
 msgid "Cannot update at this time"
 msgstr "Không thể cập nhật vào lúc này"
 
-#: gui/settings_dialog.py:32
+#: gui\settings_dialog.py:32
 msgid "Category"
 msgstr "Danh mục"
 
@@ -297,73 +282,66 @@ msgstr "Đang kiểm tra cập nhật. Vui lòng đợi"
 
 #: A11YTube.py:449
 msgid "Checking for yt-dlp updates. Please wait..."
-msgstr ""
+msgstr "Đang kiểm tra cập nhật yt-dlp. Vui lòng chờ..."
 
-#: gui/collections.py:491
+#: gui\collections.py:491
 msgid "Clear Collection"
 msgstr "Xóa sạch Bộ sưu tập"
 
-#: gui/favorites.py:31
+#: gui\favorites.py:31
 msgid "Clear Favorites"
 msgstr "Xóa sạch Yêu thích"
 
-#: gui/history.py:31
+#: gui\history.py:31
 msgid "Clear History"
 msgstr "Xóa sạch Lịch sử"
 
-#: gui/settings_dialog.py:264
+#: gui\settings_dialog.py:264
 msgid "Clear cookies.txt"
 msgstr "Xóa cookies.txt"
 
-#: youtube_browser/browser.py:559
+#: youtube_browser\browser.py:559
 msgid "Clone Playlist"
 msgstr "Sao chép Danh sách phát"
 
-#: youtube_browser/browser.py:265
+#: youtube_browser\browser.py:265
 msgid "Clone as New Collection..."
 msgstr "Sao chép thành Bộ sưu tập mới..."
 
-#: youtube_browser/browser.py:577
+#: youtube_browser\browser.py:577
 msgid "Cloning playlist..."
 msgstr "Đang sao chép danh sách phát..."
 
-#: gui/text_viewer.py:15
-#: gui/search_dialog.py:34
-#: gui/description.py:20
-#: gui/collections.py:42
-#: gui/collections.py:866
-#: gui/link_dlg.py:17
+#: gui\collections.py:42 gui\collections.py:866 gui\description.py:20
+#: gui\link_dlg.py:17 gui\search_dialog.py:34 gui\text_viewer.py:15
 msgid "Close"
 msgstr "Đóng"
 
-#: gui/collections.py:365
+#: gui\collections.py:365
 msgid "Collection '{}' already exists. Enter a new name:"
 msgstr "Bộ sưu tập '{}' đã tồn tại. Nhập tên mới:"
 
-#: gui/collections.py:694
+#: gui\collections.py:694
 msgid "Collection cleared"
 msgstr "Đã xóa sạch bộ sưu tập"
 
-#: gui/collections.py:283
+#: gui\collections.py:283
 msgid "Collection created"
 msgstr "Đã tạo bộ sưu tập"
 
-#: gui/collections.py:302
+#: gui\collections.py:302
 msgid "Collection deleted"
 msgstr "Đã xóa bộ sưu tập"
 
-#: gui/collections.py:413
+#: gui\collections.py:413
 msgid "Collection exported"
 msgstr "Đã xuất bộ sưu tập"
 
-#: gui/collections.py:159
-#: gui/collections.py:201
+#: gui\collections.py:159 gui\collections.py:201
 msgid "Collection is empty"
 msgstr "Bộ sưu tập trống"
 
-#: youtube_browser/browser.py:574
-#: gui/collections.py:292
-#: gui/collections.py:333
+#: gui\collections.py:292 gui\collections.py:333 youtube_browser\browser.py:574
 msgid "Collection name already exists or is invalid"
 msgstr "Tên bộ sưu tập đã tồn tại hoặc không hợp lệ"
 
@@ -371,119 +349,106 @@ msgstr "Tên bộ sưu tập đã tồn tại hoặc không hợp lệ"
 msgid "Collections (Ctrl+L)"
 msgstr "Bộ sưu tập (Ctrl+L)"
 
-#: gui/collections.py:22
+#: gui\collections.py:22
 msgid "Collections Manager"
 msgstr "Trình quản lý Bộ sưu tập"
 
-#: download_handler/downloader.py:139
+#: download_handler\downloader.py:139
 msgid "Completed with Errors"
 msgstr "Hoàn thành nhưng có lỗi"
 
-#: gui/settings_dialog.py:426
+#: gui\settings_dialog.py:426
 msgid "Configuration changed. You must restart the program for the changes to take effect. Do you want to restart now?"
 msgstr "Cấu hình đã thay đổi. Bạn phải khởi động lại chương trình để áp dụng thay đổi. Bạn có muốn khởi động lại ngay không?"
 
-#: gui/settings_dialog.py:365
-#: gui/favorites.py:83
-#: gui/collections.py:204
-#: gui/collections.py:688
-#: gui/collections.py:739
-#: gui/collections.py:300
-#: gui/history.py:81
+#: gui\collections.py:204 gui\collections.py:688 gui\collections.py:739
+#: gui\collections.py:300 gui\favorites.py:83 gui\history.py:81
+#: gui\settings_dialog.py:365
 msgid "Confirm"
 msgstr "Xác nhận"
 
-#: gui/settings_dialog.py:395
+#: gui\settings_dialog.py:395
 msgid "Confirm Restore"
 msgstr "Xác nhận Khôi phục"
 
-#: youtube_browser/browser.py:42
-#: gui/favorites.py:29
-#: gui/playlist_dialog.py:27
-#: gui/collections.py:38
-#: gui/collections.py:489
-#: gui/history.py:29
+#: gui\collections.py:38 gui\collections.py:489 gui\favorites.py:29
+#: gui\history.py:29 gui\playlist_dialog.py:27 youtube_browser\browser.py:42
 msgid "Context Menu"
 msgstr "Menu ngữ cảnh"
 
-#: gui/settings_dialog.py:230
+#: gui\settings_dialog.py:230
 msgid "Continue watching"
 msgstr "Tiếp tục xem"
 
-#: gui/settings_dialog.py:29
+#: gui\settings_dialog.py:29
 msgid "Cookies"
 msgstr "Cookies"
 
-#: gui/settings_dialog.py:368
+#: gui\settings_dialog.py:368
 msgid "Cookies deleted successfully."
 msgstr "Đã xóa cookies thành công."
 
-#: gui/settings_dialog.py:355
+#: gui\settings_dialog.py:355
 msgid "Cookies imported successfully. Restart functionality to apply."
 msgstr "Đã nhập cookies thành công. Hãy khởi động lại tính năng để áp dụng."
 
-#: gui/description.py:17
+#: gui\description.py:17
 msgid "Copy"
 msgstr "Sao chép"
 
-#: media_player/media_gui.py:302
+#: media_player\media_gui.py:302
 msgid "Copy Link (Ctrl+K)"
 msgstr "Sao chép Liên kết (Ctrl+K)"
 
-#: youtube_browser/browser.py:211
-#: youtube_browser/browser.py:276
+#: youtube_browser\browser.py:211 youtube_browser\browser.py:276
 msgid "Copy Link\tCtrl+K"
 msgstr "Sao chép Liên kết\tCtrl+K"
 
-#: gui/favorites.py:157
-#: gui/playlist_dialog.py:97
-#: gui/history.py:153
+#: gui\favorites.py:157 gui\history.py:153 gui\playlist_dialog.py:97
 msgid "Copy Video Link\tCtrl+K"
 msgstr "Sao chép Liên kết Video\tCtrl+K"
 
-#: youtube_browser/browser.py:392
+#: youtube_browser\browser.py:392
 msgid "Could not load more results"
 msgstr "Không thể tải thêm kết quả"
 
-#: gui/playlist_dialog.py:205
+#: gui\playlist_dialog.py:205
 msgid "Could not load more videos"
 msgstr "Không thể tải thêm video"
 
-#: youtube_browser/browser.py:708
+#: youtube_browser\browser.py:708
 msgid "Could not play video"
 msgstr "Không thể phát video"
 
-#: gui/collections.py:41
+#: gui\collections.py:41
 msgid "Create New"
 msgstr "Tạo mới"
 
-#: gui/collections.py:929
+#: gui\collections.py:929
 msgid "Created"
 msgstr "Đã tạo"
 
-#: gui/settings_dialog.py:30
+#: gui\settings_dialog.py:30
 msgid "Data"
 msgstr "Dữ liệu"
 
-#: media_player/media_gui.py:1838
+#: media_player\media_gui.py:1838
 msgid "Default"
 msgstr "Mặc định"
 
-#: gui/collections.py:39
-#: gui/collections.py:133
+#: gui\collections.py:39 gui\collections.py:133
 msgid "Delete"
 msgstr "Xóa"
 
-#: media_player/media_gui.py:301
+#: media_player\media_gui.py:301
 msgid "Description (Ctrl+Shift+D)"
 msgstr "Mô tả (Ctrl+Shift+D)"
 
-#: youtube_browser/extras.py:14
+#: youtube_browser\extras.py:14
 msgid "Description not available."
 msgstr "Không có mô tả."
 
-#: A11YTube.py:464
-#: gui/description.py:15
+#: A11YTube.py:464 gui\description.py:15
 msgid "Description: "
 msgstr "Mô tả: "
 
@@ -491,115 +456,92 @@ msgstr "Mô tả: "
 msgid "Developed By"
 msgstr "Phát triển bởi"
 
-#: gui/collections.py:582
+#: gui\collections.py:582
 msgid "Direct Download"
 msgstr "Tải xuống trực tiếp"
 
-#: media_player/media_gui.py:300
+#: media_player\media_gui.py:300
 msgid "Direct Download (Ctrl+D)"
 msgstr "Tải xuống trực tiếp (Ctrl+D)"
 
-#: youtube_browser/browser.py:204
-#: gui/favorites.py:146
-#: gui/playlist_dialog.py:95
-#: gui/history.py:144
+#: gui\favorites.py:146 gui\history.py:144 gui\playlist_dialog.py:95
+#: youtube_browser\browser.py:204
 msgid "Direct Download...\tctrl+d"
 msgstr "Tải xuống trực tiếp...\tCtrl+D"
 
-#: gui/settings_dialog.py:158
+#: gui\settings_dialog.py:158
 msgid "Direct download format: "
 msgstr "Định dạng tải trực tiếp: "
 
-#: youtube_browser/browser.py:386
-#: media_player/media_gui.py:1807
-#: gui/favorites.py:195
-#: gui/playlist_dialog.py:147
-#: gui/history.py:192
+#: gui\favorites.py:195 gui\history.py:192 gui\playlist_dialog.py:147
+#: media_player\media_gui.py:1807 youtube_browser\browser.py:386
 msgid "Done"
 msgstr "Xong"
 
-#: youtube_browser/browser.py:41
-#: youtube_browser/browser.py:304
-#: youtube_browser/browser.py:203
-#: gui/settings_dialog.py:27
-#: gui/favorites.py:28
-#: gui/favorites.py:145
-#: gui/auto_detect_dialog.py:29
-#: gui/playlist_dialog.py:25
-#: gui/playlist_dialog.py:94
-#: gui/collections.py:124
-#: gui/collections.py:488
-#: gui/collections.py:578
-#: gui/history.py:28
-#: gui/history.py:143
-#: gui/download_dialog.py:27
-#: gui/download_dialog.py:13
+#: gui\auto_detect_dialog.py:29 gui\collections.py:124 gui\collections.py:488
+#: gui\collections.py:578 gui\download_dialog.py:27 gui\download_dialog.py:13
+#: gui\favorites.py:28 gui\favorites.py:145 gui\history.py:28
+#: gui\history.py:143 gui\playlist_dialog.py:25 gui\playlist_dialog.py:94
+#: gui\settings_dialog.py:27 youtube_browser\browser.py:41
+#: youtube_browser\browser.py:304 youtube_browser\browser.py:203
 msgid "Download"
 msgstr "Tải xuống"
 
-#: youtube_browser/browser.py:217
-#: gui/favorites.py:151
-#: gui/playlist_dialog.py:126
-#: gui/collections.py:597
-#: gui/history.py:150
+#: gui\collections.py:597 gui\favorites.py:151 gui\history.py:150
+#: gui\playlist_dialog.py:126 youtube_browser\browser.py:217
 msgid "Download Channel"
 msgstr "Tải xuống Kênh"
 
-#: gui/collections.py:122
-#: gui/collections.py:701
+#: gui\collections.py:122 gui\collections.py:701
 msgid "Download Entire Collection (Audio - m4a)"
 msgstr "Tải toàn bộ Bộ sưu tập (Âm thanh - m4a)"
 
-#: gui/collections.py:123
-#: gui/collections.py:702
+#: gui\collections.py:123 gui\collections.py:702
 msgid "Download Entire Collection (Audio - mp3)"
 msgstr "Tải toàn bộ Bộ sưu tập (Âm thanh - mp3)"
 
-#: gui/collections.py:121
-#: gui/collections.py:700
+#: gui\collections.py:121 gui\collections.py:700
 msgid "Download Entire Collection (Video)"
 msgstr "Tải toàn bộ Bộ sưu tập (Video)"
 
-#: gui/playlist_dialog.py:259
+#: gui\playlist_dialog.py:259
 msgid "Download Entire Playlist"
 msgstr "Tải toàn bộ Danh sách phát"
 
-#: gui/settings_dialog.py:145
-#: gui/download_dialog.py:29
-#: gui/download_dialog.py:70
+#: gui\download_dialog.py:29 gui\download_dialog.py:70
+#: gui\settings_dialog.py:145
 msgid "Download Folder: "
 msgstr "Thư mục tải xuống: "
 
-#: gui/download_dialog.py:21
+#: gui\download_dialog.py:21
 msgid "Download Link: "
 msgstr "Liên kết tải xuống: "
 
-#: youtube_browser/browser.py:253
-#: youtube_browser/browser.py:304
+#: youtube_browser\browser.py:253 youtube_browser\browser.py:304
 msgid "Download Playlist"
 msgstr "Tải xuống Danh sách phát"
 
-#: youtube_browser/browser.py:344
+#: youtube_browser\browser.py:344
 msgid "Download Playlist (Audio)"
 msgstr "Tải xuống Danh sách phát (Âm thanh)"
 
-#: youtube_browser/browser.py:340
+#: youtube_browser\browser.py:340
 msgid "Download Playlist (Video)"
 msgstr "Tải xuống Danh sách phát (Video)"
 
-#: gui/collections.py:709
+#: gui\collections.py:709
 msgid "Download Selection"
 msgstr "Tải xuống mục đã chọn"
 
-#: media_player/media_gui.py:297
+#: media_player\media_gui.py:297
 msgid "Download Video"
 msgstr "Tải xuống Video"
 
-#: download_handler/downloader.py:144
+#: download_handler\downloader.py:144
 msgid "Download completed successfully"
 msgstr "Tải xuống hoàn tất"
 
-#: download_handler/downloader.py:139
+#: download_handler\downloader.py:139
 msgid "Download completed, but {} videos failed to download."
 msgstr "Đã tải xong, nhưng {} video bị lỗi không tải được."
 
@@ -607,75 +549,68 @@ msgstr "Đã tải xong, nhưng {} video bị lỗi không tải được."
 msgid "Download from link (Ctrl+D)"
 msgstr "Tải xuống từ liên kết (Ctrl+D)"
 
-#: gui/update_dialog.py:98
-#: gui/download_progress.py:15
+#: gui\download_progress.py:15 gui\update_dialog.py:98
 msgid "Download in progress. Do you want to cancel?"
 msgstr "Đang tải xuống. Bạn có muốn hủy không?"
 
-#: media_player/media_gui.py:298
+#: media_player\media_gui.py:298
 msgid "Download m4a"
 msgstr "Tải xuống m4a"
 
-#: media_player/media_gui.py:299
+#: media_player\media_gui.py:299
 msgid "Download mp3"
 msgstr "Tải xuống mp3"
 
-#: gui/collections.py:220
-#: gui/collections.py:749
+#: gui\collections.py:220 gui\collections.py:749
 msgid "Download started"
 msgstr "Đã bắt đầu tải"
 
-#: gui/collections.py:204
-#: gui/collections.py:739
+#: gui\collections.py:204 gui\collections.py:739
 msgid "Download {} videos?"
 msgstr "Tải xuống {} video?"
 
-#: download_handler/downloader.py:92
+#: download_handler\downloader.py:92
 msgid "Downloaded: {}"
-msgstr ""
+msgstr "Đã tải xuống: {}"
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Downloaded: {} {}"
 msgstr "Đã tải: {} {}"
 
-#: gui/download_progress.py:7
+#: gui\download_progress.py:7
 msgid "Downloading - {}"
 msgstr "Đang tải - {}"
 
-#: gui/update_dialog.py:17
+#: gui\update_dialog.py:17
 msgid "Downloading Updates"
 msgstr "Đang tải bản cập nhật"
 
-#: gui/update_dialog.py:81
+#: gui\update_dialog.py:81
 msgid "Downloading update {}%"
 msgstr "Đang tải bản cập nhật {}%"
 
-#: A11YTube.py:33
-#: ytdlp_handler.py:68
+#: A11YTube.py:33 ytdlp_handler.py:68
 msgid "Downloading yt-dlp core..."
-msgstr ""
+msgstr "Đang tải xuống lõi yt-dlp..."
 
 #: A11YTube.py:35
 msgid "Downloading yt-dlp core: {}%"
-msgstr ""
+msgstr "Đang tải xuống lõi yt-dlp: {}%"
 
-#: gui/collections.py:249
-#: gui/collections.py:786
+#: gui\collections.py:249 gui\collections.py:786
 msgid "Downloading {} videos"
 msgstr "Đang tải {} video"
 
-#: youtube_browser/search_handler.py:41
-#: youtube_browser/search_handler.py:167
-#: media_player/media_gui.py:1007
+#: media_player\media_gui.py:1007 youtube_browser\search_handler.py:41
+#: youtube_browser\search_handler.py:167
 msgid "Duration: {}"
 msgstr "Thời lượng: {}"
 
-#: download_handler/downloader.py:93
+#: download_handler\downloader.py:93
 msgid "ETA: {}"
-msgstr ""
+msgstr "ETA: {}"
 
-#: media_player/media_gui.py:750
-#: media_player/media_gui.py:999
+#: media_player\media_gui.py:750 media_player\media_gui.py:999
 msgid "Elapsed: {}"
 msgstr "Đã qua: {}"
 
@@ -683,126 +618,103 @@ msgstr "Đã qua: {}"
 msgid "Email: trung@ddt.one"
 msgstr "Email: trung@ddt.one"
 
-#: media_player/media_gui.py:1666
-#: media_player/media_gui.py:1668
-#: media_player/media_gui.py:1664
+#: media_player\media_gui.py:1666 media_player\media_gui.py:1668
+#: media_player\media_gui.py:1664
 msgid "End of suggestions."
 msgstr "Hết gợi ý."
 
-#: youtube_browser/browser.py:559
-#: gui/collections.py:278
-#: gui/collections.py:920
+#: gui\collections.py:278 gui\collections.py:920 youtube_browser\browser.py:559
 msgid "Enter collection name:"
 msgstr "Nhập tên bộ sưu tập:"
 
-#: gui/collections.py:318
+#: gui\collections.py:318
 msgid "Enter new name for '{}':"
 msgstr "Nhập tên mới cho '{}':"
 
-#: gui/link_dlg.py:8
+#: gui\link_dlg.py:8
 msgid "Enter video link to play"
 msgstr "Dán liên kết video để phát"
 
-#: A11YTube.py:439
-#: utiles.py:242
-#: utiles.py:257
-#: ytdlp_handler.py:62
-#: ytdlp_handler.py:60
-#: youtube_browser/browser.py:482
-#: youtube_browser/browser.py:574
-#: youtube_browser/browser.py:594
-#: youtube_browser/browser.py:648
-#: media_player/media_gui.py:1362
-#: media_player/media_gui.py:493
-#: media_player/media_gui.py:1609
-#: gui/settings_dialog.py:377
-#: gui/settings_dialog.py:388
-#: gui/settings_dialog.py:357
-#: gui/settings_dialog.py:401
-#: gui/settings_dialog.py:370
-#: gui/update_dialog.py:76
-#: gui/update_dialog.py:90
-#: gui/playlist_dialog.py:292
-#: gui/collections.py:292
-#: gui/collections.py:333
-#: gui/collections.py:375
-#: gui/collections.py:390
-#: gui/collections.py:415
-#: gui/collections.py:931
-#: gui/activity_dialog.py:41
-#: gui/download_dialog.py:82
+#: A11YTube.py:439 utiles.py:242 utiles.py:257 ytdlp_handler.py:62
+#: ytdlp_handler.py:60 gui\activity_dialog.py:41 gui\collections.py:292
+#: gui\collections.py:333 gui\collections.py:375 gui\collections.py:390
+#: gui\collections.py:415 gui\collections.py:931 gui\download_dialog.py:82
+#: gui\playlist_dialog.py:292 gui\settings_dialog.py:377
+#: gui\settings_dialog.py:388 gui\settings_dialog.py:357
+#: gui\settings_dialog.py:401 gui\settings_dialog.py:370
+#: gui\update_dialog.py:76 gui\update_dialog.py:90
+#: media_player\media_gui.py:1362 media_player\media_gui.py:493
+#: media_player\media_gui.py:1609 youtube_browser\browser.py:482
+#: youtube_browser\browser.py:574 youtube_browser\browser.py:594
+#: youtube_browser\browser.py:648
 msgid "Error"
 msgstr "Lỗi"
 
-#: youtube_browser/browser.py:739
+#: youtube_browser\browser.py:739
 msgid "Error cloning playlist"
 msgstr "Lỗi khi sao chép danh sách phát"
 
-#: gui/collections.py:415
+#: gui\collections.py:415
 msgid "Error exporting collection: {}"
 msgstr "Lỗi khi xuất bộ sưu tập: {}"
 
-#: youtube_browser/extras.py:34
-#: youtube_browser/extras.py:32
+#: youtube_browser\extras.py:34 youtube_browser\extras.py:32
 msgid "Error fetching description: {}"
 msgstr "Lỗi khi lấy mô tả: {}"
 
-#: gui/collections.py:390
+#: gui\collections.py:390
 msgid "Error importing collection: {}"
 msgstr "Lỗi khi nhập bộ sưu tập: {}"
 
-#: youtube_browser/browser.py:713
-#: media_player/media_gui.py:1550
+#: media_player\media_gui.py:1550 youtube_browser\browser.py:713
 msgid "Error loading playlist"
 msgstr "Lỗi tải danh sách phát"
 
-#: gui/collections.py:465
+#: gui\collections.py:465
 msgid "Error merging collections"
 msgstr "Lỗi gộp bộ sưu tập"
 
-#: gui/update_dialog.py:98
-#: gui/download_progress.py:15
+#: gui\download_progress.py:15 gui\update_dialog.py:98
 msgid "Exit"
 msgstr "Thoát"
 
-#: media_player/media_gui.py:328
+#: media_player\media_gui.py:328
 msgid "Exit Full Screen"
 msgstr "Thoát Toàn màn hình"
 
-#: gui/description.py:18
+#: gui\description.py:18
 msgid "Export to text file (txt)..."
 msgstr "Xuất ra tệp văn bản (txt)..."
 
-#: gui/description.py:19
+#: gui\description.py:19
 msgid "Export to web page (html)..."
 msgstr "Xuất ra trang web (html)..."
 
-#: gui/collections.py:130
+#: gui\collections.py:130
 msgid "Export..."
 msgstr "Xuất..."
 
-#: gui/collections.py:375
+#: gui\collections.py:375
 msgid "Failed to create collection. Name invalid or exists."
 msgstr "Tạo bộ sưu tập thất bại. Tên không hợp lệ hoặc đã tồn tại."
 
-#: gui/settings_dialog.py:357
+#: gui\settings_dialog.py:357
 msgid "Failed to import cookies: {}"
 msgstr "Nhập cookies thất bại: {}"
 
-#: media_player/media_gui.py:493
+#: media_player\media_gui.py:493
 msgid "Failed to initialize media player. Please check your settings or installation."
 msgstr "Khởi tạo trình phát thất bại. Vui lòng kiểm tra cài đặt hoặc bản cài đặt."
 
 #: ytdlp_handler.py:60
 msgid "Failed to update yt-dlp: {}"
-msgstr ""
+msgstr "Không cập nhật được yt-dlp: {}"
 
-#: media_player/media_gui.py:669
-#: media_player/media_gui.py:950
+#: media_player\media_gui.py:669 media_player\media_gui.py:950
 msgid "Fast"
 msgstr "Nhanh"
 
-#: gui/playlist_dialog.py:26
+#: gui\playlist_dialog.py:26
 msgid "Favorite"
 msgstr "Yêu thích"
 
@@ -810,11 +722,11 @@ msgstr "Yêu thích"
 msgid "Favorite Videos (Ctrl+F)"
 msgstr "Video Yêu thích (Ctrl+F)"
 
-#: gui/favorites.py:89
+#: gui\favorites.py:89
 msgid "Favorites cleared"
 msgstr "Đã xóa sạch mục yêu thích"
 
-#: gui/favorites.py:25
+#: gui\favorites.py:25
 msgid "Favorites: "
 msgstr "Yêu thích: "
 
@@ -822,62 +734,59 @@ msgstr "Yêu thích: "
 msgid "Feature Disabled"
 msgstr "Tính năng đã bị tắt"
 
-#: media_player/media_gui.py:1823
+#: media_player\media_gui.py:1823
 msgid "Fetching audio tracks, please wait..."
 msgstr "Đang tải các bản âm thanh, vui lòng đợi..."
 
-#: media_player/media_gui.py:1648
+#: media_player\media_gui.py:1648
 msgid "Fetching more suggested videos..."
-msgstr ""
+msgstr "Đang tìm nạp thêm video đề xuất..."
 
-#: media_player/media_gui.py:1592
+#: media_player\media_gui.py:1592
 msgid "Fetching suggested videos, please wait..."
 msgstr "Đang tìm video đề xuất, vui lòng đợi..."
 
-#: media_player/media_gui.py:2049
+#: media_player\media_gui.py:2049
 msgid "Fetching video description"
 msgstr "Đang tải mô tả video"
 
-#: gui/search_dialog.py:24
+#: gui\search_dialog.py:24
 msgid "Filter: "
 msgstr "Bộ lọc: "
 
-#: media_player/player.py:111
+#: media_player\player.py:111
 msgid "Follow System (Default)"
 msgstr "Theo hệ thống (Mặc định)"
 
-#: gui/download_dialog.py:24
+#: gui\download_dialog.py:24
 msgid "Format"
 msgstr "Định dạng"
 
-#: media_player/media_gui.py:223
+#: media_player\media_gui.py:223
 msgid "Forward >"
 msgstr "Tua đi >"
 
-#: media_player/media_gui.py:233
+#: media_player\media_gui.py:233
 msgid "Full Screen"
 msgstr "Toàn màn hình"
 
-#: media_player/media_gui.py:1068
+#: media_player\media_gui.py:1068
 msgid "Full screen off"
 msgstr "Tắt toàn màn hình"
 
-#: media_player/media_gui.py:1060
+#: media_player\media_gui.py:1060
 msgid "Full screen on"
 msgstr "Bật toàn màn hình"
 
 msgid "GB"
 msgstr "GB"
 
-#: youtube_browser/browser.py:216
-#: gui/favorites.py:150
-#: gui/playlist_dialog.py:125
-#: gui/collections.py:596
-#: gui/history.py:149
+#: gui\collections.py:596 gui\favorites.py:150 gui\history.py:149
+#: gui\playlist_dialog.py:125 youtube_browser\browser.py:216
 msgid "Go to Channel"
 msgstr "Đi tới Kênh"
 
-#: media_player/media_gui.py:1767
+#: media_player\media_gui.py:1767
 msgid "Going back to"
 msgstr "Quay lại"
 
@@ -889,7 +798,7 @@ msgstr "Trợ giúp"
 msgid "Help Options"
 msgstr "Tùy chọn Trợ giúp"
 
-#: gui/history.py:87
+#: gui\history.py:87
 msgid "History cleared"
 msgstr "Đã xóa sạch lịch sử"
 
@@ -901,45 +810,44 @@ msgstr "Trang chủ"
 msgid "Home Options"
 msgstr "Tùy chọn Trang chủ"
 
-#: gui/settings_dialog.py:258
+#: gui\settings_dialog.py:258
 msgid "How to get cookies.txt?"
 msgstr "Cách lấy cookies.txt?"
 
-#: gui/collections.py:365
+#: gui\collections.py:365
 msgid "Import Collision"
 msgstr "Xung đột khi nhập"
 
-#: gui/settings_dialog.py:255
+#: gui\settings_dialog.py:255
 msgid "Import cookies.txt to fix login or 403 errors."
 msgstr "Nhập cookies.txt để sửa lỗi đăng nhập hoặc lỗi 403."
 
-#: gui/settings_dialog.py:259
+#: gui\settings_dialog.py:259
 msgid "Import cookies.txt..."
 msgstr "Nhập cookies.txt..."
 
-#: gui/collections.py:40
+#: gui\collections.py:40
 msgid "Import..."
 msgstr "Nhập..."
 
-#: gui/collections.py:383
+#: gui\collections.py:383
 msgid "Imported {} videos into '{}'"
 msgstr "Đã nhập {} video vào '{}'"
 
-#: media_player/media_gui.py:1833
-#: gui/settings_dialog.py:372
-#: gui/collections.py:428
+#: gui\collections.py:428 gui\settings_dialog.py:372
+#: media_player\media_gui.py:1833
 msgid "Info"
 msgstr "Thông tin"
 
 #: A11YTube.py:29
 msgid "Initializing yt-dlp..."
-msgstr ""
+msgstr "Đang khởi tạo yt-dlp..."
 
-#: gui/update_dialog.py:86
+#: gui\update_dialog.py:86
 msgid "Installing update"
 msgstr "Đang cài đặt cập nhật"
 
-#: gui/settings_dialog.py:361
+#: gui\settings_dialog.py:361
 msgid "Instructions"
 msgstr "Hướng dẫn"
 
@@ -949,23 +857,20 @@ msgstr "Liên kết không hợp lệ. Vui lòng thử liên kết khác, hoặc
 msgid "KB"
 msgstr "KB"
 
-#: youtube_browser/browser.py:386
-#: media_player/media_gui.py:1807
-#: gui/favorites.py:195
-#: gui/playlist_dialog.py:147
-#: gui/history.py:192
+#: gui\favorites.py:195 gui\history.py:192 gui\playlist_dialog.py:147
+#: media_player\media_gui.py:1807 youtube_browser\browser.py:386
 msgid "Link copied successfully"
 msgstr "Sao chép liên kết thành công"
 
-#: youtube_browser/search_handler.py:162
+#: youtube_browser\search_handler.py:162
 msgid "Live"
 msgstr "Trực tiếp"
 
-#: youtube_browser/browser.py:37
+#: youtube_browser\browser.py:37
 msgid "Load more results"
 msgstr "Tải thêm kết quả"
 
-#: gui/settings_dialog.py:121
+#: gui\settings_dialog.py:121
 msgid "Load more results when reaching the end of the list"
 msgstr "Tự động tải thêm kết quả khi xem hết danh sách"
 
@@ -993,69 +898,67 @@ msgstr "Đang tải trình quản lý liên kết..."
 msgid "Loading media player..."
 msgstr "Đang tải trình phát..."
 
-#: youtube_browser/browser.py:390
+#: youtube_browser\browser.py:390
 msgid "Loading more results"
 msgstr "Đang tải thêm kết quả"
 
-#: gui/playlist_dialog.py:64
+#: gui\playlist_dialog.py:64
 msgid "Loading playlist"
 msgstr "Đang tải danh sách phát"
 
-#: youtube_browser/browser.py:619
+#: youtube_browser\browser.py:619
 msgid "Loading playlist for shuffle..."
 msgstr "Đang tải danh sách để phát ngẫu nhiên..."
 
-#: media_player/media_gui.py:1235
-#: media_player/media_gui.py:1239
-#: media_player/media_gui.py:1134
+#: media_player\media_gui.py:1235 media_player\media_gui.py:1239
+#: media_player\media_gui.py:1134
 msgid "Loading..."
 msgstr "Đang tải..."
 
 msgid "MB"
 msgstr "MB"
 
-#: gui/settings_dialog.py:163
+#: gui\settings_dialog.py:163
 msgid "MP3 conversion quality: "
 msgstr "Chất lượng chuyển đổi MP3: "
 
-#: gui/download_dialog.py:23
+#: gui\download_dialog.py:23
 msgid "Media Type"
 msgstr "Loại phương tiện"
 
-#: gui/auto_detect_dialog.py:37
+#: gui\auto_detect_dialog.py:37
 msgid "Menu"
 msgstr "Menu"
 
-#: youtube_browser/browser.py:598
-#: gui/collections.py:432
+#: gui\collections.py:432 youtube_browser\browser.py:598
 msgid "Merge Collection"
 msgstr "Gộp bộ sưu tập"
 
-#: youtube_browser/browser.py:266
+#: youtube_browser\browser.py:266
 msgid "Merge into Existing Collection..."
 msgstr "Gộp vào Bộ sưu tập có sẵn..."
 
-#: gui/collections.py:131
+#: gui\collections.py:131
 msgid "Merge into..."
 msgstr "Gộp vào..."
 
-#: gui/collections.py:462
+#: gui\collections.py:462
 msgid "Merged {} videos from '{}' into '{}'"
 msgstr "Đã gộp {} video từ '{}' vào '{}'"
 
-#: gui/collections.py:438
+#: gui\collections.py:438
 msgid "Merging collections, please wait..."
 msgstr "Đang gộp bộ sưu tập, vui lòng đợi..."
 
-#: youtube_browser/browser.py:605
+#: youtube_browser\browser.py:605
 msgid "Merging into {}..."
 msgstr "Đang gộp vào {}..."
 
-#: youtube_browser/browser.py:396
+#: youtube_browser\browser.py:396
 msgid "More search results loaded"
 msgstr "Đã tải thêm kết quả tìm kiếm"
 
-#: gui/playlist_dialog.py:201
+#: gui\playlist_dialog.py:201
 msgid "More videos loaded"
 msgstr "Đã tải thêm video"
 
@@ -1063,9 +966,7 @@ msgstr "Đã tải thêm video"
 msgid "Navigation"
 msgstr "Điều hướng"
 
-#: gui/collections.py:278
-#: gui/collections.py:865
-#: gui/collections.py:920
+#: gui\collections.py:278 gui\collections.py:865 gui\collections.py:920
 msgid "New Collection"
 msgstr "Bộ sưu tập mới"
 
@@ -1073,11 +974,11 @@ msgstr "Bộ sưu tập mới"
 msgid "New Update"
 msgstr "Cập nhật mới"
 
-#: media_player/media_gui.py:224
+#: media_player\media_gui.py:224
 msgid "Next Video"
 msgstr "Video tiếp theo"
 
-#: gui/search_dialog.py:26
+#: gui\search_dialog.py:26
 msgid "No Filter"
 msgstr "Không lọc"
 
@@ -1089,77 +990,72 @@ msgstr "Không có cập nhật"
 msgid "No changelog available."
 msgstr "Không có nhật ký thay đổi."
 
-#: youtube_browser/browser.py:594
+#: youtube_browser\browser.py:594
 msgid "No collections found"
 msgstr "Không tìm thấy bộ sưu tập nào"
 
-#: youtube_browser/browser.py:648
-#: gui/playlist_dialog.py:292
+#: gui\playlist_dialog.py:292 youtube_browser\browser.py:648
 msgid "No collections found. Please create one first."
 msgstr "Không tìm thấy bộ sưu tập nào. Vui lòng tạo một cái trước."
 
-#: gui/settings_dialog.py:372
+#: gui\settings_dialog.py:372
 msgid "No cookies found to delete."
 msgstr "Không tìm thấy cookies nào để xóa."
 
-#: youtube_browser/extras.py:16
+#: youtube_browser\extras.py:16
 msgid "No description available."
 msgstr "Không có mô tả."
 
-#: media_player/media_gui.py:1724
-#: gui/playlist_dialog.py:203
+#: gui\playlist_dialog.py:203 media_player\media_gui.py:1724
 msgid "No more videos"
 msgstr "Không còn video nào"
 
-#: media_player/media_gui.py:1833
+#: media_player\media_gui.py:1833
 msgid "No other audio tracks available."
 msgstr "Không có bản âm thanh nào khác."
 
-#: gui/collections.py:428
+#: gui\collections.py:428
 msgid "No other collections to merge into."
 msgstr "Không có bộ sưu tập nào khác để gộp vào."
 
-#: media_player/media_gui.py:1794
+#: media_player\media_gui.py:1794
 msgid "No previous video"
 msgstr "Không có video trước đó"
 
-#: media_player/media_gui.py:1770
+#: media_player\media_gui.py:1770
 msgid "No previous video."
 msgstr "Không có video trước đó."
 
-#: media_player/media_gui.py:656
+#: media_player\media_gui.py:656
 msgid "No suggested videos available yet."
 msgstr "Chưa có video đề xuất."
 
-#: media_player/media_gui.py:1597
+#: media_player\media_gui.py:1597
 msgid "No suggested videos available."
 msgstr "Không có video đề xuất."
 
-#: media_player/media_gui.py:646
+#: media_player\media_gui.py:646
 msgid "No video data"
 msgstr "Không có dữ liệu video"
 
-#: media_player/media_gui.py:669
-#: media_player/media_gui.py:954
+#: media_player\media_gui.py:669 media_player\media_gui.py:954
 msgid "Normal"
 msgstr "Bình thường"
 
-#: gui/settings_dialog.py:55
+#: gui\settings_dialog.py:55
 msgid "O&K"
 msgstr "&Đồng ý"
 
-#: youtube_browser/browser.py:458
-#: gui/collections.py:37
-#: gui/collections.py:129
-#: gui/link_dlg.py:46
+#: gui\collections.py:37 gui\collections.py:129 gui\link_dlg.py:46
+#: youtube_browser\browser.py:458
 msgid "Open"
 msgstr "Mở"
 
-#: gui/settings_dialog.py:54
+#: gui\settings_dialog.py:54
 msgid "Open Configuration Folder"
 msgstr "Mở thư mục cấu hình"
 
-#: gui/auto_detect_dialog.py:59
+#: gui\auto_detect_dialog.py:59
 msgid "Open Download Dialog..."
 msgstr "Mở hộp thoại tải xuống..."
 
@@ -1167,29 +1063,24 @@ msgstr "Mở hộp thoại tải xuống..."
 msgid "Open downloads folder (Ctrl+O)"
 msgstr "Mở thư mục tải xuống (Ctrl+O)"
 
-#: media_player/media_gui.py:303
+#: media_player\media_gui.py:303
 msgid "Open in Browser (Ctrl+B)"
 msgstr "Mở trong Trình duyệt (Ctrl+B)"
 
-#: youtube_browser/browser.py:213
-#: youtube_browser/browser.py:277
-#: gui/favorites.py:159
-#: gui/playlist_dialog.py:112
-#: gui/history.py:155
+#: gui\favorites.py:159 gui\history.py:155 gui\playlist_dialog.py:112
+#: youtube_browser\browser.py:213 youtube_browser\browser.py:277
 msgid "Open in Web Browser"
 msgstr "Mở trong trình duyệt web"
 
-#: gui/auto_detect_dialog.py:36
+#: gui\auto_detect_dialog.py:36
 msgid "Open..."
 msgstr "Mở..."
 
-#: media_player/media_gui.py:1810
+#: media_player\media_gui.py:1810
 msgid "Opening"
 msgstr "Đang mở"
 
-#: A11YTube.py:170
-#: youtube_browser/browser.py:88
-#: media_player/media_gui.py:293
+#: A11YTube.py:170 media_player\media_gui.py:293 youtube_browser\browser.py:88
 msgid "Options"
 msgstr "Tùy chọn"
 
@@ -1197,52 +1088,38 @@ msgstr "Tùy chọn"
 msgid "Options List"
 msgstr "Danh sách tùy chọn"
 
-#: media_player/media_gui.py:687
-#: media_player/media_gui.py:551
-#: media_player/media_gui.py:691
-#: media_player/media_gui.py:552
+#: media_player\media_gui.py:687 media_player\media_gui.py:551
+#: media_player\media_gui.py:691 media_player\media_gui.py:552
 msgid "Pause"
 msgstr "Tạm dừng"
 
-#: media_player/media_gui.py:694
+#: media_player\media_gui.py:694
 msgid "Paused"
 msgstr "Đã tạm dừng"
 
-#: download_handler/downloader.py:90
-#: gui/download_progress.py:10
+#: download_handler\downloader.py:90 gui\download_progress.py:10
 msgid "Percentage: {}%"
 msgstr "Tiến độ: {}%"
 
-#: youtube_browser/browser.py:467
-#: media_player/media_gui.py:554
-#: media_player/media_gui.py:555
-#: media_player/media_gui.py:695
-#: gui/favorites.py:27
-#: gui/auto_detect_dialog.py:30
-#: gui/playlist_dialog.py:24
-#: gui/playlist_dialog.py:84
-#: gui/collections.py:487
-#: gui/history.py:27
-#: gui/link_dlg.py:15
-#: gui/link_dlg.py:48
+#: gui\auto_detect_dialog.py:30 gui\collections.py:487 gui\favorites.py:27
+#: gui\history.py:27 gui\link_dlg.py:15 gui\link_dlg.py:48
+#: gui\playlist_dialog.py:24 gui\playlist_dialog.py:84
+#: media_player\media_gui.py:554 media_player\media_gui.py:555
+#: media_player\media_gui.py:695 youtube_browser\browser.py:467
 msgid "Play"
 msgstr "Phát"
 
-#: youtube_browser/browser.py:40
+#: youtube_browser\browser.py:40
 msgid "Play (enter)"
 msgstr "Phát (Enter)"
 
-#: youtube_browser/browser.py:194
-#: gui/favorites.py:137
-#: gui/collections.py:566
-#: gui/history.py:135
+#: gui\collections.py:566 gui\favorites.py:137 gui\history.py:135
+#: youtube_browser\browser.py:194
 msgid "Play Audio"
 msgstr "Phát Âm thanh"
 
-#: youtube_browser/browser.py:192
-#: gui/favorites.py:135
-#: gui/collections.py:565
-#: gui/history.py:133
+#: gui\collections.py:565 gui\favorites.py:135 gui\history.py:133
+#: youtube_browser\browser.py:192
 msgid "Play Video"
 msgstr "Phát Video"
 
@@ -1250,83 +1127,74 @@ msgstr "Phát Video"
 msgid "Play YouTube video from link (Ctrl+P)"
 msgstr "Phát video từ liên kết (Ctrl+P)"
 
-#: gui/playlist_dialog.py:86
+#: gui\playlist_dialog.py:86
 msgid "Play as Audio"
 msgstr "Phát dưới dạng Âm thanh"
 
-#: gui/link_dlg.py:14
+#: gui\link_dlg.py:14
 msgid "Play as: "
 msgstr "Phát dưới dạng: "
 
-#: media_player/media_gui.py:222
+#: media_player\media_gui.py:222
 msgid "Play/Pause"
 msgstr "Phát/Tạm dừng"
 
-#: media_player/media_gui.py:1327
+#: media_player\media_gui.py:1327
 msgid "Playback blocked by YouTube anti-bot. Please check your cookies."
 msgstr "Phát lại bị chặn bởi chống bot của YouTube. Vui lòng kiểm tra cookies."
 
-#: media_player/media_gui.py:686
-#: media_player/media_gui.py:690
+#: media_player\media_gui.py:686 media_player\media_gui.py:690
 msgid "Played"
 msgstr "Đã phát"
 
-#: gui/settings_dialog.py:28
+#: gui\settings_dialog.py:28
 msgid "Player"
 msgstr "Trình phát"
 
-#: media_player/media_gui.py:215
+#: media_player\media_gui.py:215
 msgid "Player Controls"
 msgstr "Điều khiển trình phát"
 
-#: A11YTube.py:381
-#: youtube_browser/browser.py:158
-#: youtube_browser/browser.py:170
-#: gui/favorites.py:111
-#: gui/favorites.py:120
-#: gui/auto_detect_dialog.py:110
-#: gui/playlist_dialog.py:166
-#: gui/playlist_dialog.py:178
-#: gui/collections.py:641
-#: gui/history.py:109
-#: gui/history.py:118
+#: A11YTube.py:381 gui\auto_detect_dialog.py:110 gui\collections.py:641
+#: gui\favorites.py:111 gui\favorites.py:120 gui\history.py:109
+#: gui\history.py:118 gui\playlist_dialog.py:166 gui\playlist_dialog.py:178
+#: youtube_browser\browser.py:158 youtube_browser\browser.py:170
 msgid "Playing"
 msgstr "Đang phát"
 
-#: media_player/media_gui.py:1644
+#: media_player\media_gui.py:1644
 msgid "Playing suggested video"
 msgstr "Đang phát video đề xuất"
 
-#: youtube_browser/search_handler.py:140
-#: gui/search_dialog.py:27
+#: gui\search_dialog.py:27 youtube_browser\search_handler.py:140
 msgid "Playlist"
 msgstr "Danh sách phát"
 
-#: gui/playlist_dialog.py:22
+#: gui\playlist_dialog.py:22
 msgid "Playlist Videos: "
 msgstr "Các video trong danh sách: "
 
-#: youtube_browser/browser.py:679
+#: youtube_browser\browser.py:679
 msgid "Playlist is empty"
 msgstr "Danh sách phát trống"
 
-#: gui/download_dialog.py:82
+#: gui\download_dialog.py:82
 msgid "Please enter a valid link."
 msgstr "Vui lòng nhập một liên kết hợp lệ."
 
-#: media_player/media_gui.py:1108
+#: media_player\media_gui.py:1108
 msgid "Please wait, video is loading..."
 msgstr "Vui lòng đợi, đang tải video..."
 
-#: gui/settings_dialog.py:26
+#: gui\settings_dialog.py:26
 msgid "Preferences"
 msgstr "Tùy chỉnh"
 
-#: media_player/media_gui.py:218
+#: media_player\media_gui.py:218
 msgid "Previous Video"
 msgstr "Video trước đó"
 
-#: gui/settings_dialog.py:107
+#: gui\settings_dialog.py:107
 msgid "Program Language: "
 msgstr "Ngôn ngữ chương trình: "
 
@@ -1338,110 +1206,111 @@ msgstr "Tên chương trình"
 msgid "Ready"
 msgstr "Sẵn sàng"
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Remaining: {} {}"
 msgstr "Còn lại: {} {}"
 
-#: gui/collections.py:907
+#: gui\collections.py:907
 msgid "Remove"
 msgstr "Xóa"
 
-#: gui/collections.py:490
+#: gui\collections.py:490
 msgid "Remove from Collection"
 msgstr "Xóa khỏi Bộ sưu tập"
 
-#: gui/favorites.py:30
+#: gui\favorites.py:30
 msgid "Remove from Favorites"
 msgstr "Xóa khỏi Yêu thích"
 
-#: gui/history.py:30
+#: gui\history.py:30
 msgid "Remove from History"
 msgstr "Xóa khỏi Lịch sử"
 
-#: gui/collections.py:676
-#: gui/collections.py:958
+#: gui\collections.py:676 gui\collections.py:958
 msgid "Removed"
 msgstr "Đã xóa"
 
-#: media_player/media_gui.py:642
-#: gui/auto_detect_dialog.py:72
+#: gui\auto_detect_dialog.py:72 media_player\media_gui.py:642
 msgid "Removed from favorites"
 msgstr "Đã xóa khỏi yêu thích"
 
-#: gui/history.py:103
+#: gui\history.py:103
 msgid "Removed from history"
 msgstr "Đã xóa khỏi lịch sử"
 
-#: gui/collections.py:132
+#: gui\collections.py:132
 msgid "Rename"
 msgstr "Đổi tên"
 
-#: gui/collections.py:318
+#: gui\collections.py:318
 msgid "Rename Collection"
 msgstr "Đổi tên Bộ sưu tập"
 
-#: gui/collections.py:323
+#: gui\collections.py:323
 msgid "Renamed"
 msgstr "Đã đổi tên"
 
-#: media_player/media_gui.py:231
+#: media_player\media_gui.py:231
 msgid "Repeat"
 msgstr "Lặp lại"
 
-#: media_player/media_gui.py:620
+#: media_player\media_gui.py:620
 msgid "Repeat off"
 msgstr "Tắt lặp lại"
 
-#: media_player/media_gui.py:620
+#: media_player\media_gui.py:620
 msgid "Repeat on"
 msgstr "Bật lặp lại"
 
-#: gui/settings_dialog.py:231
+#: gui\settings_dialog.py:231
 msgid "Repeat video"
 msgstr "Lặp lại video"
 
-#: media_player/media_gui.py:1733
+#: media_player\media_gui.py:1733
 msgid "Reshuffling..."
 msgstr "Đang xáo trộn lại..."
 
-#: gui/settings_dialog.py:285
+#: gui\settings_dialog.py:285
 msgid "Restore Configuration..."
 msgstr "Khôi phục cấu hình..."
 
-#: gui/settings_dialog.py:401
+#: gui\settings_dialog.py:401
 msgid "Restore failed."
 msgstr "Khôi phục thất bại."
 
-#: gui/settings_dialog.py:397
+#: gui\settings_dialog.py:397
 msgid "Restore successful! Program will now restart."
 msgstr "Khôi phục thành công! Chương trình sẽ khởi động lại ngay."
 
-#: gui/settings_dialog.py:394
-msgid "Restoring data will overwrite your current configuration and restart the program.\nAre you sure you want to proceed?"
-msgstr "Việc khôi phục dữ liệu sẽ ghi đè cấu hình hiện tại và khởi động lại chương trình.\nBạn có chắc chắn muốn tiếp tục không?"
+#: gui\settings_dialog.py:394
+msgid ""
+"Restoring data will overwrite your current configuration and restart the program.\n"
+"Are you sure you want to proceed?"
+msgstr ""
+"Việc khôi phục dữ liệu sẽ ghi đè cấu hình hiện tại và khởi động lại chương trình.\n"
+"Bạn có chắc chắn muốn tiếp tục không?"
 
-#: media_player/media_gui.py:726
+#: media_player\media_gui.py:726
 msgid "Resuming to seek..."
 msgstr "Đang tiếp tục để tua..."
 
-#: media_player/media_gui.py:221
+#: media_player\media_gui.py:221
 msgid "Rewind <"
 msgstr "Tua lại <"
 
-#: gui/settings_dialog.py:379
+#: gui\settings_dialog.py:379
 msgid "Save Backup File"
 msgstr "Lưu tệp sao lưu"
 
-#: gui/collections.py:405
+#: gui\collections.py:405
 msgid "Save Collection"
 msgstr "Lưu bộ sưu tập"
 
-#: gui/search_dialog.py:31
-#: gui/search_dialog.py:7
+#: gui\search_dialog.py:31 gui\search_dialog.py:7
 msgid "Search"
 msgstr "Tìm kiếm"
 
-#: youtube_browser/browser.py:35
+#: youtube_browser\browser.py:35
 msgid "Search Results: "
 msgstr "Kết quả tìm kiếm: "
 
@@ -1449,150 +1318,138 @@ msgstr "Kết quả tìm kiếm: "
 msgid "Search YouTube (Ctrl+S)"
 msgstr "Tìm kiếm YouTube (Ctrl+S)"
 
-#: gui/search_dialog.py:13
+#: gui\search_dialog.py:13
 msgid "Search YouTube: "
 msgstr "Tìm kiếm YouTube: "
 
-#: youtube_browser/browser.py:44
+#: youtube_browser\browser.py:44
 msgid "Search... (ctrl+s)"
 msgstr "Tìm kiếm... (Ctrl+S)"
 
-#: youtube_browser/browser.py:125
+#: youtube_browser\browser.py:125
 msgid "Searching"
 msgstr "Đang tìm"
 
-#: media_player/media_gui.py:283
-#: media_player/media_gui.py:963
-#: media_player/media_gui.py:968
+#: media_player\media_gui.py:283 media_player\media_gui.py:963
+#: media_player\media_gui.py:968
 msgid "Seek"
 msgstr "Tua"
 
-#: media_player/media_gui.py:280
+#: media_player\media_gui.py:280
 msgid "Seek & Volume"
 msgstr "Tua & Âm lượng"
 
-#: media_player/media_gui.py:1841
+#: media_player\media_gui.py:1841
 msgid "Select Audio Track"
 msgstr "Chọn bản âm thanh"
 
-#: gui/settings_dialog.py:391
+#: gui\settings_dialog.py:391
 msgid "Select Backup File"
 msgstr "Chọn tệp sao lưu"
 
-#: gui/collections.py:353
+#: gui\collections.py:353
 msgid "Select Collection File"
 msgstr "Chọn tệp bộ sưu tập"
 
-#: gui/settings_dialog.py:343
-#: gui/download_dialog.py:67
+#: gui\download_dialog.py:67 gui\settings_dialog.py:343
 msgid "Select Download Folder"
 msgstr "Chọn thư mục tải xuống"
 
-#: media_player/media_gui.py:673
+#: media_player\media_gui.py:673
 msgid "Select Playback Speed"
 msgstr "Chọn tốc độ phát"
 
-#: media_player/media_gui.py:660
+#: media_player\media_gui.py:660
 msgid "Select a video to play"
 msgstr "Chọn video để phát"
 
-#: youtube_browser/browser.py:652
-#: gui/playlist_dialog.py:296
+#: gui\playlist_dialog.py:296 youtube_browser\browser.py:652
 msgid "Select collection to add video to:"
 msgstr "Chọn bộ sưu tập để thêm video vào:"
 
-#: gui/collections.py:432
+#: gui\collections.py:432
 msgid "Select collection to merge '{}' into:"
 msgstr "Chọn bộ sưu tập để gộp '{}' vào:"
 
-#: youtube_browser/browser.py:598
+#: youtube_browser\browser.py:598
 msgid "Select collection to merge into:"
 msgstr "Chọn bộ sưu tập để gộp vào:"
 
-#: gui/settings_dialog.py:349
+#: gui\settings_dialog.py:349
 msgid "Select cookies.txt"
 msgstr "Chọn cookies.txt"
 
-#: gui/settings_dialog.py:16
+#: gui\settings_dialog.py:16
 msgid "Settings"
 msgstr "Cài đặt"
 
-#: A11YTube.py:151
-#: media_player/media_gui.py:305
+#: A11YTube.py:151 media_player\media_gui.py:305
 msgid "Settings (Ctrl+Shift+S)"
 msgstr "Cài đặt (Ctrl+Shift+S)"
 
-#: youtube_browser/browser.py:76
+#: youtube_browser\browser.py:76
 msgid "Settings...\tCtrl+Shift+S"
 msgstr "Cài đặt...\tCtrl+Shift+S"
 
-#: youtube_browser/browser.py:240
-#: gui/collections.py:116
+#: gui\collections.py:116 youtube_browser\browser.py:240
 msgid "Shuffle Play Audio"
 msgstr "Phát ngẫu nhiên Âm thanh"
 
-#: youtube_browser/browser.py:239
-#: gui/collections.py:115
+#: gui\collections.py:115 youtube_browser\browser.py:239
 msgid "Shuffle Play Video"
 msgstr "Phát ngẫu nhiên Video"
 
-#: gui/settings_dialog.py:233
+#: gui\settings_dialog.py:233
 msgid "Skip silence (Recommended only for music)"
 msgstr "Bỏ qua khoảng lặng (Chỉ khuyến nghị cho âm nhạc)"
 
-#: media_player/media_gui.py:1341
+#: media_player\media_gui.py:1341
 msgid "Skipping..."
 msgstr "Đang bỏ qua..."
 
-#: media_player/media_gui.py:669
-#: media_player/media_gui.py:958
+#: media_player\media_gui.py:669 media_player\media_gui.py:958
 msgid "Slow"
 msgstr "Chậm"
 
-#: gui/settings_dialog.py:123
+#: gui\settings_dialog.py:123
 msgid "Speak notifications when window is inactive"
 msgstr "Đọc thông báo khi cửa sổ không hoạt động"
 
-#: gui/settings_dialog.py:234
+#: gui\settings_dialog.py:234
 msgid "Speak player status notifications"
 msgstr "Đọc thông báo trạng thái trình phát"
 
-#: media_player/media_gui.py:227
-#: media_player/media_gui.py:673
+#: media_player\media_gui.py:227 media_player\media_gui.py:673
 msgid "Speed"
 msgstr "Tốc độ"
 
-#: download_handler/downloader.py:94
+#: download_handler\downloader.py:94
 msgid "Speed: {}"
-msgstr ""
+msgstr "Tốc độ: {}"
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Speed: {} {}"
 msgstr "Tốc độ: {} {}"
 
-#: gui/update_dialog.py:22
+#: gui\update_dialog.py:22
 msgid "Stop Download"
 msgstr "Dừng tải"
 
-#: download_handler/downloader.py:144
-#: gui/settings_dialog.py:355
-#: gui/settings_dialog.py:386
-#: gui/settings_dialog.py:368
-#: gui/settings_dialog.py:397
-#: gui/update_dialog.py:84
+#: download_handler\downloader.py:144 gui\settings_dialog.py:355
+#: gui\settings_dialog.py:386 gui\settings_dialog.py:368
+#: gui\settings_dialog.py:397 gui\update_dialog.py:84
 msgid "Success"
 msgstr "Thành công"
 
-#: media_player/media_gui.py:272
-#: media_player/media_gui.py:660
+#: media_player\media_gui.py:272 media_player\media_gui.py:660
 msgid "Suggested Videos"
 msgstr "Video đề xuất"
 
-#: gui/settings_dialog.py:122
+#: gui\settings_dialog.py:122
 msgid "Swap Enter and Ctrl+Enter for Video/Audio"
 msgstr "Đổi hành động phím Enter và Ctrl+Enter cho Video/Âm thanh"
 
-#: media_player/media_gui.py:1872
+#: media_player\media_gui.py:1872
 msgid "Switched to"
 msgstr "Đã chuyển sang"
 
@@ -1607,34 +1464,32 @@ msgstr "Tính năng này bị vô hiệu hóa vì 'Tiếp tục xem' đang tắt
 msgid "This program aims to provide the easiest way for blind users to browse and download from YouTube hosting service."
 msgstr "Chương trình này nhằm mục đích cung cấp cách dễ dàng nhất cho người mù duyệt và tải xuống từ dịch vụ lưu trữ YouTube."
 
-#: utiles.py:125
-#: utiles.py:142
-#: download_handler/downloader.py:132
-#: youtube_browser/extras.py:30
+#: utiles.py:124 utiles.py:141 download_handler\downloader.py:132
+#: youtube_browser\extras.py:30
 msgid "This video is age restricted or requires a valid cookies.txt file to play."
 msgstr "Video này bị giới hạn độ tuổi hoặc yêu cầu tệp cookies.txt hợp lệ để phát."
 
-#: media_player/media_gui.py:1331
+#: media_player\media_gui.py:1331
 msgid "This video is for members only."
 msgstr "Video này chỉ dành cho hội viên."
 
-#: media_player/media_gui.py:1329
+#: media_player\media_gui.py:1329
 msgid "This video is private."
 msgstr "Video này là riêng tư."
 
-#: media_player/media_gui.py:282
+#: media_player\media_gui.py:282
 msgid "Time"
 msgstr "Thời gian"
 
-#: gui/activity_dialog.py:39
+#: gui\activity_dialog.py:39
 msgid "To fix login errors, please manually import cookies.txt from your browser."
 msgstr "Để sửa lỗi đăng nhập, vui lòng nhập thủ công cookies.txt từ trình duyệt của bạn."
 
-#: utiles.py:199
+#: utiles.py:198
 msgid "Today"
 msgstr "Hôm nay"
 
-#: gui/playlist_dialog.py:109
+#: gui\playlist_dialog.py:109
 msgid "Toggle Favorite\tCtrl+F"
 msgstr "Bật/Tắt Yêu thích\tCtrl+F"
 
@@ -1646,63 +1501,53 @@ msgstr "Công cụ"
 msgid "Tools Options"
 msgstr "Tùy chọn Công cụ"
 
-#: download_handler/downloader.py:91
+#: download_handler\downloader.py:91
 msgid "Total Size: {}"
-msgstr ""
+msgstr "Tổng kích thước: {}"
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Total Size: {} {}"
 msgstr "Tổng kích thước: {} {}"
 
-#: media_player/media_gui.py:633
+#: media_player\media_gui.py:633
 msgid "Unable to add to favorites"
 msgstr "Không thể thêm vào yêu thích"
 
-#: media_player/media_gui.py:1606
+#: media_player\media_gui.py:1606
 msgid "Unable to play next: {}"
 msgstr "Không thể phát tiếp: {}"
 
-#: youtube_browser/search_handler.py:110
-#: media_player/media_gui.py:2074
-#: media_player/media_gui.py:2080
+#: media_player\media_gui.py:2074 media_player\media_gui.py:2080
+#: youtube_browser\search_handler.py:110
 msgid "Unknown"
 msgstr "Không xác định"
 
-#: utiles.py:317
-#: utiles.py:350
-#: utiles.py:393
-#: youtube_browser/extras.py:20
-#: youtube_browser/search_handler.py:23
-#: youtube_browser/browser.py:322
-#: gui/collections.py:662
+#: utiles.py:317 utiles.py:350 utiles.py:393 gui\collections.py:662
+#: youtube_browser\browser.py:322 youtube_browser\extras.py:20
+#: youtube_browser\search_handler.py:23
 msgid "Unknown Channel"
 msgstr "Kênh không xác định"
 
-#: youtube_browser/search_handler.py:14
+#: youtube_browser\search_handler.py:14
 msgid "Unknown Playlist"
 msgstr "Danh sách phát không xác định"
 
-#: utiles.py:314
-#: utiles.py:315
-#: utiles.py:347
-#: utiles.py:348
-#: utiles.py:390
-#: utiles.py:391
-#: youtube_browser/search_handler.py:19
+#: utiles.py:314 utiles.py:315 utiles.py:347 utiles.py:348 utiles.py:390
+#: utiles.py:391 youtube_browser\search_handler.py:19
 msgid "Unknown Title"
 msgstr "Tiêu đề không xác định"
 
-#: youtube_browser/extras.py:17
+#: youtube_browser\extras.py:17
 msgid "Unknown Video"
 msgstr "Video không xác định"
 
-#: gui/update_dialog.py:84
+#: gui\update_dialog.py:84
 msgid "Update downloaded successfully. Press OK to start installation."
 msgstr "Đã tải bản cập nhật thành công. Nhấn OK để bắt đầu cài đặt."
 
 #: A11YTube.py:153
 msgid "Update yt-dlp core"
-msgstr ""
+msgstr "Cập nhật lõi yt-dlp"
 
 #: A11YTube.py:156
 msgid "User Guide (F1)"
@@ -1712,76 +1557,62 @@ msgstr "Hướng dẫn sử dụng (F1)"
 msgid "Version"
 msgstr "Phiên bản"
 
-#: youtube_browser/browser.py:198
-#: youtube_browser/browser.py:248
-#: youtube_browser/browser.py:346
-#: gui/favorites.py:140
-#: gui/favorites.py:231
-#: gui/playlist_dialog.py:89
-#: gui/playlist_dialog.py:246
-#: gui/playlist_dialog.py:254
-#: gui/collections.py:572
-#: gui/collections.py:706
-#: gui/history.py:138
-#: gui/history.py:224
-#: gui/link_dlg.py:14
-#: gui/download_dialog.py:23
+#: gui\collections.py:572 gui\collections.py:706 gui\download_dialog.py:23
+#: gui\favorites.py:140 gui\favorites.py:231 gui\history.py:138
+#: gui\history.py:224 gui\link_dlg.py:14 gui\playlist_dialog.py:89
+#: gui\playlist_dialog.py:246 gui\playlist_dialog.py:254
+#: youtube_browser\browser.py:198 youtube_browser\browser.py:248
+#: youtube_browser\browser.py:346
 msgid "Video"
 msgstr "Video"
 
-#: gui/settings_dialog.py:159
+#: gui\settings_dialog.py:159
 msgid "Video (mp4)"
 msgstr "Video (mp4)"
 
-#: gui/description.py:11
+#: gui\description.py:11
 msgid "Video Description"
 msgstr "Mô tả Video"
 
-#: gui/link_dlg.py:12
+#: gui\link_dlg.py:12
 msgid "Video Link"
 msgstr "Liên kết Video"
 
-#: youtube_browser/browser.py:666
-#: gui/playlist_dialog.py:310
+#: gui\playlist_dialog.py:310 youtube_browser\browser.py:666
 msgid "Video added to collection"
 msgstr "Đã thêm video vào bộ sưu tập"
 
-#: youtube_browser/browser.py:500
-#: gui/playlist_dialog.py:338
-#: gui/playlist_dialog.py:366
+#: gui\playlist_dialog.py:338 gui\playlist_dialog.py:366
+#: youtube_browser\browser.py:500
 msgid "Video added to favorites"
 msgstr "Đã thêm video vào yêu thích"
 
-#: youtube_browser/browser.py:668
-#: gui/playlist_dialog.py:312
+#: gui\playlist_dialog.py:312 youtube_browser\browser.py:668
 msgid "Video already in collection"
 msgstr "Video đã có trong bộ sưu tập"
 
-#: youtube_browser/browser.py:503
-#: gui/favorites.py:106
-#: gui/playlist_dialog.py:327
-#: gui/playlist_dialog.py:370
+#: gui\favorites.py:106 gui\playlist_dialog.py:327 gui\playlist_dialog.py:370
+#: youtube_browser\browser.py:503
 msgid "Video removed from favorites"
 msgstr "Đã xóa video khỏi yêu thích"
 
-#: gui/collections.py:484
+#: gui\collections.py:484
 msgid "Videos in collection:"
 msgstr "Video trong bộ sưu tập:"
 
-#: gui/search_dialog.py:21
+#: gui\search_dialog.py:21
 msgid "Voice Search (Hold Space)"
 msgstr "Tìm kiếm bằng giọng nói (Giữ Space)"
 
-#: media_player/media_gui.py:284
-#: media_player/media_gui.py:285
+#: media_player\media_gui.py:284 media_player\media_gui.py:285
 msgid "Volume"
 msgstr "Âm lượng"
 
-#: gui/update_dialog.py:21
+#: gui\update_dialog.py:21
 msgid "Waiting to start download..."
 msgstr "Đang đợi bắt đầu tải..."
 
-#: gui/history.py:26
+#: gui\history.py:26
 msgid "Watch History"
 msgstr "Lịch sử xem"
 
@@ -1789,7 +1620,7 @@ msgstr "Lịch sử xem"
 msgid "Watch History (Ctrl+H)"
 msgstr "Lịch sử xem (Ctrl+H)"
 
-#: gui/history.py:25
+#: gui\history.py:25
 msgid "Watch History: "
 msgstr "Lịch sử xem: "
 
@@ -1801,7 +1632,7 @@ msgstr "Trang web: https://ddt.one"
 msgid "Welcome to A11YTube"
 msgstr "Chào mừng đến với A11YTube"
 
-#: utiles.py:200
+#: utiles.py:199
 msgid "Yesterday"
 msgstr "Hôm qua"
 
@@ -1809,113 +1640,108 @@ msgstr "Hôm qua"
 msgid "You are running the latest version."
 msgstr "Bạn đang dùng phiên bản mới nhất."
 
-#: youtube_browser/browser.py:482
+#: youtube_browser\browser.py:482
 msgid "You cannot add playlists to favorites."
 msgstr "Bạn không thể thêm danh sách phát vào yêu thích."
 
-#: gui/collections.py:32
+#: gui\collections.py:32
 msgid "Your Collections:"
 msgstr "Bộ sưu tập của bạn:"
 
-#: gui/auto_detect_dialog.py:18
-#: gui/auto_detect_dialog.py:33
-#: gui/auto_detect_dialog.py:103
+#: gui\auto_detect_dialog.py:18 gui\auto_detect_dialog.py:33
+#: gui\auto_detect_dialog.py:103
 msgid "channel"
 msgstr "kênh"
 
-#: utiles.py:171
+#: utiles.py:170
 msgid "one hour"
 msgstr "một giờ"
 
-#: utiles.py:163
+#: utiles.py:162
 msgid "one minute"
 msgstr "một phút"
 
-#: utiles.py:167
+#: utiles.py:166
 msgid "one second"
 msgstr "một giây"
 
-#: gui/auto_detect_dialog.py:16
-#: gui/auto_detect_dialog.py:32
-#: gui/auto_detect_dialog.py:103
+#: gui\auto_detect_dialog.py:16 gui\auto_detect_dialog.py:32
+#: gui\auto_detect_dialog.py:103
 msgid "playlist"
 msgstr "danh sách phát"
 
-#: media_player/media_gui.py:963
-#: media_player/media_gui.py:968
+#: media_player\media_gui.py:963 media_player\media_gui.py:968
 msgid "seconds"
 msgstr "giây"
 
-#: utiles.py:172
+#: utiles.py:171
 msgid "two hours"
 msgstr "hai giờ"
 
-#: utiles.py:164
+#: utiles.py:163
 msgid "two minutes"
 msgstr "hai phút"
 
-#: utiles.py:168
+#: utiles.py:167
 msgid "two seconds"
 msgstr "hai giây"
 
-#: gui/auto_detect_dialog.py:20
-#: gui/auto_detect_dialog.py:39
+#: gui\auto_detect_dialog.py:20 gui\auto_detect_dialog.py:39
 msgid "video"
 msgstr "video"
 
-#: gui/collections.py:80
-#: gui/collections.py:472
+#: gui\collections.py:80 gui\collections.py:472
 msgid "videos"
 msgstr "video"
 
 #: ytdlp_handler.py:58
 msgid "yt-dlp Update"
-msgstr ""
+msgstr "Cập nhật yt-dlp"
 
-#: utiles.py:76
+#: utiles.py:75
 msgid "yt-dlp error: "
-msgstr ""
+msgstr "lỗi yt-dlp: "
 
 #: ytdlp_handler.py:62
 msgid "yt-dlp is not installed."
-msgstr ""
+msgstr "yt-dlp chưa được cài đặt."
 
 #: ytdlp_handler.py:58
 msgid "yt-dlp updated successfully."
-msgstr ""
+msgstr "yt-dlp đã cập nhật thành công."
 
-#: utiles.py:181
+#: utiles.py:180
 msgid "{} and {}"
 msgstr "{} và {}"
 
-#: utiles.py:182
+#: utiles.py:181
 msgid "{} and {} and {}"
 msgstr "{} và {} và {}"
 
-#: utiles.py:201
+#: utiles.py:200
 msgid "{} days ago"
 msgstr "{} ngày trước"
 
-#: utiles.py:173
+#: utiles.py:172
 msgid "{} hours"
 msgstr "{} giờ"
 
-#: utiles.py:165
+#: utiles.py:164
 msgid "{} minutes"
 msgstr "{} phút"
 
-#: utiles.py:205
+#: utiles.py:204
 msgid "{} months ago"
 msgstr "{} tháng trước"
 
-#: utiles.py:169
+#: utiles.py:168
 msgid "{} seconds"
 msgstr "{} giây"
 
-#: youtube_browser/search_handler.py:162
+#: youtube_browser\search_handler.py:162
 msgid "{} views"
 msgstr "{} lượt xem"
 
-#: utiles.py:209
+#: utiles.py:208
 msgid "{} years ago"
 msgstr "{} năm trước"

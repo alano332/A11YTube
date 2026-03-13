@@ -1,3 +1,9 @@
+Phiên bản 0.3.4
+Tính năng mới & Kiến trúc:
+- Hệ thống tự động cập nhật yt-dlp: Viết lại cấu trúc để sử dụng `yt-dlp` như một tệp thực thi độc lập có khả năng tự động cập nhật. Điều này giúp hệ thống xử lý cốt lõi luôn bắt kịp các thay đổi mới nhất của YouTube một cách tự động.
+- Cập nhật thủ công: Thêm tùy chọn "Kiểm tra cập nhật yt-dlp" trong thẻ Công cụ (Tools), cho phép người dùng chủ động kiểm tra và tải về phiên bản yt-dlp mới nhất.
+Cải tiến & Sửa lỗi:
+- Phát tự động vô hạn (Infinite Autoplay): Cải thiện kích thước và logic của danh sách video đề xuất. Sửa lỗi tính năng tự động phát bài tiếp theo bị dừng lại sau khi phát hết 19 video, đảm bảo trải nghiệm nghe liên tục không giới hạn.
 Phiên bản 0.3.3.2
 Bảo trì:
 - Cập nhật cốt lõi: Đã cập nhật thư viện `yt-dlp` lên phiên bản 2026.02.04.

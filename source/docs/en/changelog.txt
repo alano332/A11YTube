@@ -1,3 +1,9 @@
+Version 0.3.4
+New Features & Architecture:
+- yt-dlp Auto-Update System: Refactored `yt-dlp` to function as a standalone executable with built-in auto-update capabilities. This ensures the core downloading/extraction engine stays up-to-date with YouTube's latest changes automatically.
+- Manual Updater: Added a new "Check for yt-dlp updates" option in the Tools tab, allowing users to manually force an update of the underlying engine.
+Improvements & Bug Fixes:
+- Infinite Autoplay: Improved the suggestion pool size and logic. Fixed a limitation where the Auto-Next feature for recommended videos would stop working after 19 tracks. The player now supports true infinite playback for recommended content.
 Version 0.3.3.2
 Maintenance:
 - Core Update: Updated the `yt-dlp` library to version 2026.02.04.

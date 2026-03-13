@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: A11YTube 0.2.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-13 18:34+0000\n"
+"POT-Creation-Date: 2026-03-14 02:33+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,23 +17,23 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: gui/settings_dialog.py:148
+#: gui\settings_dialog.py:148
 msgid "&Change Path"
 msgstr ""
 
-#: utiles.py:204
+#: utiles.py:203
 msgid "1 month ago"
 msgstr ""
 
-#: utiles.py:208
+#: utiles.py:207
 msgid "1 year ago"
 msgstr ""
 
-#: gui/settings_dialog.py:360
+#: gui\settings_dialog.py:360
 msgid "1. Install 'Get cookies.txt LOCALLY' extension for Chrome/Firefox.\n2. Open YouTube and log in.\n3. Open the extension and click 'Export'.\n4. Save the file.\n5. Click 'Import cookies.txt...' below and select that file."
 msgstr ""
 
-#: gui/auto_detect_dialog.py:28
+#: gui\auto_detect_dialog.py:28
 msgid "A YouTube {} link has been detected in the clipboard. Please select the desired action."
 msgstr ""
 
@@ -62,43 +62,43 @@ msgstr ""
 msgid "About..."
 msgstr ""
 
-#: gui/collections.py:864
-#: gui/collections.py:941
-#: gui/collections.py:914
+#: gui\collections.py:864
+#: gui\collections.py:941
+#: gui\collections.py:914
 msgid "Add"
 msgstr ""
 
-#: youtube_browser/browser.py:267
-#: youtube_browser/browser.py:652
-#: media_player/media_gui.py:268
-#: gui/playlist_dialog.py:296
-#: gui/collections.py:853
+#: gui\collections.py:853
+#: gui\playlist_dialog.py:296
+#: media_player\media_gui.py:268
+#: youtube_browser\browser.py:267
+#: youtube_browser\browser.py:652
 msgid "Add to Collection"
 msgstr ""
 
-#: youtube_browser/browser.py:208
-#: gui/playlist_dialog.py:101
+#: gui\playlist_dialog.py:101
+#: youtube_browser\browser.py:208
 msgid "Add to Collection...	Ctrl+L"
 msgstr ""
 
-#: youtube_browser/browser.py:43
-#: media_player/media_gui.py:234
+#: media_player\media_gui.py:234
+#: youtube_browser\browser.py:43
 msgid "Add to Favorites"
 msgstr ""
 
-#: media_player/media_gui.py:639
+#: media_player\media_gui.py:639
 msgid "Added to favorites"
 msgstr ""
 
-#: gui/collections.py:943
+#: gui\collections.py:943
 msgid "Added to {}"
 msgstr ""
 
-#: youtube_browser/browser.py:736
+#: youtube_browser\browser.py:736
 msgid "Added {} videos to collection"
 msgstr ""
 
-#: gui/settings_dialog.py:426
+#: gui\settings_dialog.py:426
 msgid "Alert"
 msgstr ""
 
@@ -107,17 +107,17 @@ msgstr ""
 msgid "An error occurred while connecting to the update service. Please check your internet connection and try again."
 msgstr ""
 
-#: media_player/media_gui.py:2053
+#: media_player\media_gui.py:2053
 msgid "An error occurred while fetching video description"
 msgstr ""
 
-#: gui/update_dialog.py:90
+#: gui\update_dialog.py:90
 msgid "An error occurred while opening the installer. Please try again or contact the developer."
 msgstr ""
 
-#: gui/settings_dialog.py:377
-#: gui/settings_dialog.py:370
-#: gui/activity_dialog.py:41
+#: gui\activity_dialog.py:41
+#: gui\settings_dialog.py:377
+#: gui\settings_dialog.py:370
 msgid "An error occurred: {}"
 msgstr ""
 
@@ -125,156 +125,156 @@ msgstr ""
 msgid "Application is already running"
 msgstr ""
 
-#: gui/favorites.py:83
-#: gui/collections.py:688
+#: gui\collections.py:688
+#: gui\favorites.py:83
 msgid "Are you sure you want to clear your favorites?"
 msgstr ""
 
-#: gui/history.py:81
+#: gui\history.py:81
 msgid "Are you sure you want to clear your watch history?"
 msgstr ""
 
-#: gui/collections.py:300
+#: gui\collections.py:300
 msgid "Are you sure you want to delete '{}'?"
 msgstr ""
 
-#: gui/settings_dialog.py:365
+#: gui\settings_dialog.py:365
 msgid "Are you sure you want to delete your current cookies.txt?"
 msgstr ""
 
-#: youtube_browser/browser.py:202
-#: youtube_browser/browser.py:252
-#: youtube_browser/browser.py:350
-#: gui/favorites.py:144
-#: gui/favorites.py:235
-#: gui/playlist_dialog.py:93
-#: gui/playlist_dialog.py:250
-#: gui/playlist_dialog.py:258
-#: gui/collections.py:576
-#: gui/history.py:142
-#: gui/history.py:228
-#: gui/link_dlg.py:14
-#: gui/download_dialog.py:23
+#: gui\collections.py:576
+#: gui\download_dialog.py:23
+#: gui\favorites.py:144
+#: gui\favorites.py:235
+#: gui\history.py:142
+#: gui\history.py:228
+#: gui\link_dlg.py:14
+#: gui\playlist_dialog.py:93
+#: gui\playlist_dialog.py:250
+#: gui\playlist_dialog.py:258
+#: youtube_browser\browser.py:202
+#: youtube_browser\browser.py:252
+#: youtube_browser\browser.py:350
 msgid "Audio"
 msgstr ""
 
-#: gui/settings_dialog.py:159
+#: gui\settings_dialog.py:159
 msgid "Audio (m4a)"
 msgstr ""
 
-#: gui/settings_dialog.py:159
+#: gui\settings_dialog.py:159
 msgid "Audio (mp3)"
 msgstr ""
 
-#: gui/settings_dialog.py:180
+#: gui\settings_dialog.py:180
 msgid "Audio Output Device: "
 msgstr ""
 
-#: media_player/media_gui.py:228
+#: media_player\media_gui.py:228
 msgid "Audio Track"
 msgstr ""
 
-#: media_player/media_gui.py:1841
+#: media_player\media_gui.py:1841
 msgid "Audio Tracks"
 msgstr ""
 
-#: download_handler/downloader.py:135
-#: gui/activity_dialog.py:39
+#: download_handler\downloader.py:135
+#: gui\activity_dialog.py:39
 msgid "Authentication Error"
 msgstr ""
 
-#: utiles.py:75
+#: utiles.py:74
 msgid "Authentication Error: "
 msgstr ""
 
-#: utiles.py:129
-#: utiles.py:146
-#: download_handler/downloader.py:134
+#: utiles.py:128
+#: utiles.py:145
+#: download_handler\downloader.py:134
 msgid "Authentication failed. Your cookies.txt might be expired or invalid. Please delete and re-import a fresh one."
 msgstr ""
 
-#: media_player/media_gui.py:232
+#: media_player\media_gui.py:232
 msgid "Auto Next"
 msgstr ""
 
-#: gui/settings_dialog.py:120
+#: gui\settings_dialog.py:120
 msgid "Auto check for updates on startup"
 msgstr ""
 
-#: gui/settings_dialog.py:119
+#: gui\settings_dialog.py:119
 msgid "Auto detect links on startup"
 msgstr ""
 
-#: media_player/media_gui.py:628
+#: media_player\media_gui.py:628
 msgid "Auto play next off"
 msgstr ""
 
-#: media_player/media_gui.py:628
+#: media_player\media_gui.py:628
 msgid "Auto play next on"
 msgstr ""
 
-#: gui/settings_dialog.py:232
+#: gui\settings_dialog.py:232
 msgid "Auto play next video"
 msgstr ""
 
-#: gui/playlist_dialog.py:28
-#: gui/collections.py:492
+#: gui\collections.py:492
+#: gui\playlist_dialog.py:28
 msgid "Back"
 msgstr ""
 
-#: youtube_browser/browser.py:45
-#: gui/favorites.py:32
-#: gui/history.py:32
+#: gui\favorites.py:32
+#: gui\history.py:32
+#: youtube_browser\browser.py:45
 msgid "Back to Main Window"
 msgstr ""
 
-#: gui/settings_dialog.py:284
+#: gui\settings_dialog.py:284
 msgid "Backup Configuration..."
 msgstr ""
 
-#: gui/settings_dialog.py:386
+#: gui\settings_dialog.py:386
 msgid "Backup created successfully!"
 msgstr ""
 
-#: gui/settings_dialog.py:388
+#: gui\settings_dialog.py:388
 msgid "Backup failed."
 msgstr ""
 
-#: gui/settings_dialog.py:281
+#: gui\settings_dialog.py:281
 msgid "Backup or Restore your configuration."
 msgstr ""
 
-#: media_player/media_gui.py:220
+#: media_player\media_gui.py:220
 msgid "Beginning of Video"
 msgstr ""
 
-#: media_player/media_gui.py:1803
+#: media_player\media_gui.py:1803
 msgid "Beginning of shuffle list"
 msgstr ""
 
-#: media_player/media_gui.py:764
+#: media_player\media_gui.py:764
 msgid "Beginning of video"
 msgstr ""
 
-#: youtube_browser/search_handler.py:41
-#: youtube_browser/search_handler.py:135
-#: youtube_browser/search_handler.py:141
+#: youtube_browser\search_handler.py:41
+#: youtube_browser\search_handler.py:135
+#: youtube_browser\search_handler.py:141
 msgid "By"
 msgstr ""
 
-#: gui/settings_dialog.py:57
+#: gui\settings_dialog.py:57
 msgid "C&ancel"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:46
+#: gui\auto_detect_dialog.py:46
 msgid "Cancel"
 msgstr ""
 
-#: gui/update_dialog.py:76
+#: gui\update_dialog.py:76
 msgid "Cannot update at this time"
 msgstr ""
 
-#: gui/settings_dialog.py:32
+#: gui\settings_dialog.py:32
 msgid "Category"
 msgstr ""
 
@@ -298,71 +298,71 @@ msgstr ""
 msgid "Checking for yt-dlp updates. Please wait..."
 msgstr ""
 
-#: gui/collections.py:491
+#: gui\collections.py:491
 msgid "Clear Collection"
 msgstr ""
 
-#: gui/favorites.py:31
+#: gui\favorites.py:31
 msgid "Clear Favorites"
 msgstr ""
 
-#: gui/history.py:31
+#: gui\history.py:31
 msgid "Clear History"
 msgstr ""
 
-#: gui/settings_dialog.py:264
+#: gui\settings_dialog.py:264
 msgid "Clear cookies.txt"
 msgstr ""
 
-#: youtube_browser/browser.py:559
+#: youtube_browser\browser.py:559
 msgid "Clone Playlist"
 msgstr ""
 
-#: youtube_browser/browser.py:265
+#: youtube_browser\browser.py:265
 msgid "Clone as New Collection..."
 msgstr ""
 
-#: youtube_browser/browser.py:577
+#: youtube_browser\browser.py:577
 msgid "Cloning playlist..."
 msgstr ""
 
-#: gui/text_viewer.py:15
-#: gui/search_dialog.py:34
-#: gui/description.py:20
-#: gui/collections.py:42
-#: gui/collections.py:866
-#: gui/link_dlg.py:17
+#: gui\collections.py:42
+#: gui\collections.py:866
+#: gui\description.py:20
+#: gui\link_dlg.py:17
+#: gui\search_dialog.py:34
+#: gui\text_viewer.py:15
 msgid "Close"
 msgstr ""
 
-#: gui/collections.py:365
+#: gui\collections.py:365
 msgid "Collection '{}' already exists. Enter a new name:"
 msgstr ""
 
-#: gui/collections.py:694
+#: gui\collections.py:694
 msgid "Collection cleared"
 msgstr ""
 
-#: gui/collections.py:283
+#: gui\collections.py:283
 msgid "Collection created"
 msgstr ""
 
-#: gui/collections.py:302
+#: gui\collections.py:302
 msgid "Collection deleted"
 msgstr ""
 
-#: gui/collections.py:413
+#: gui\collections.py:413
 msgid "Collection exported"
 msgstr ""
 
-#: gui/collections.py:159
-#: gui/collections.py:201
+#: gui\collections.py:159
+#: gui\collections.py:201
 msgid "Collection is empty"
 msgstr ""
 
-#: youtube_browser/browser.py:574
-#: gui/collections.py:292
-#: gui/collections.py:333
+#: gui\collections.py:292
+#: gui\collections.py:333
+#: youtube_browser\browser.py:574
 msgid "Collection name already exists or is invalid"
 msgstr ""
 
@@ -370,119 +370,119 @@ msgstr ""
 msgid "Collections (Ctrl+L)"
 msgstr ""
 
-#: gui/collections.py:22
+#: gui\collections.py:22
 msgid "Collections Manager"
 msgstr ""
 
-#: download_handler/downloader.py:139
+#: download_handler\downloader.py:139
 msgid "Completed with Errors"
 msgstr ""
 
-#: gui/settings_dialog.py:426
+#: gui\settings_dialog.py:426
 msgid "Configuration changed. You must restart the program for the changes to take effect. Do you want to restart now?"
 msgstr ""
 
-#: gui/settings_dialog.py:365
-#: gui/favorites.py:83
-#: gui/collections.py:204
-#: gui/collections.py:688
-#: gui/collections.py:739
-#: gui/collections.py:300
-#: gui/history.py:81
+#: gui\collections.py:204
+#: gui\collections.py:688
+#: gui\collections.py:739
+#: gui\collections.py:300
+#: gui\favorites.py:83
+#: gui\history.py:81
+#: gui\settings_dialog.py:365
 msgid "Confirm"
 msgstr ""
 
-#: gui/settings_dialog.py:395
+#: gui\settings_dialog.py:395
 msgid "Confirm Restore"
 msgstr ""
 
-#: youtube_browser/browser.py:42
-#: gui/favorites.py:29
-#: gui/playlist_dialog.py:27
-#: gui/collections.py:38
-#: gui/collections.py:489
-#: gui/history.py:29
+#: gui\collections.py:38
+#: gui\collections.py:489
+#: gui\favorites.py:29
+#: gui\history.py:29
+#: gui\playlist_dialog.py:27
+#: youtube_browser\browser.py:42
 msgid "Context Menu"
 msgstr ""
 
-#: gui/settings_dialog.py:230
+#: gui\settings_dialog.py:230
 msgid "Continue watching"
 msgstr ""
 
-#: gui/settings_dialog.py:29
+#: gui\settings_dialog.py:29
 msgid "Cookies"
 msgstr ""
 
-#: gui/settings_dialog.py:368
+#: gui\settings_dialog.py:368
 msgid "Cookies deleted successfully."
 msgstr ""
 
-#: gui/settings_dialog.py:355
+#: gui\settings_dialog.py:355
 msgid "Cookies imported successfully. Restart functionality to apply."
 msgstr ""
 
-#: gui/description.py:17
+#: gui\description.py:17
 msgid "Copy"
 msgstr ""
 
-#: youtube_browser/browser.py:211
-#: youtube_browser/browser.py:276
+#: youtube_browser\browser.py:211
+#: youtube_browser\browser.py:276
 msgid "Copy Link	Ctrl+K"
 msgstr ""
 
-#: media_player/media_gui.py:302
+#: media_player\media_gui.py:302
 msgid "Copy Link (Ctrl+K)"
 msgstr ""
 
-#: gui/favorites.py:157
-#: gui/playlist_dialog.py:97
-#: gui/history.py:153
+#: gui\favorites.py:157
+#: gui\history.py:153
+#: gui\playlist_dialog.py:97
 msgid "Copy Video Link	Ctrl+K"
 msgstr ""
 
-#: youtube_browser/browser.py:392
+#: youtube_browser\browser.py:392
 msgid "Could not load more results"
 msgstr ""
 
-#: gui/playlist_dialog.py:205
+#: gui\playlist_dialog.py:205
 msgid "Could not load more videos"
 msgstr ""
 
-#: youtube_browser/browser.py:708
+#: youtube_browser\browser.py:708
 msgid "Could not play video"
 msgstr ""
 
-#: gui/collections.py:41
+#: gui\collections.py:41
 msgid "Create New"
 msgstr ""
 
-#: gui/collections.py:929
+#: gui\collections.py:929
 msgid "Created"
 msgstr ""
 
-#: gui/settings_dialog.py:30
+#: gui\settings_dialog.py:30
 msgid "Data"
 msgstr ""
 
-#: media_player/media_gui.py:1838
+#: media_player\media_gui.py:1838
 msgid "Default"
 msgstr ""
 
-#: gui/collections.py:39
-#: gui/collections.py:133
+#: gui\collections.py:39
+#: gui\collections.py:133
 msgid "Delete"
 msgstr ""
 
-#: media_player/media_gui.py:301
+#: media_player\media_gui.py:301
 msgid "Description (Ctrl+Shift+D)"
 msgstr ""
 
-#: youtube_browser/extras.py:14
+#: youtube_browser\extras.py:14
 msgid "Description not available."
 msgstr ""
 
 #: A11YTube.py:464
-#: gui/description.py:15
+#: gui\description.py:15
 msgid "Description: "
 msgstr ""
 
@@ -490,115 +490,115 @@ msgstr ""
 msgid "Developed By"
 msgstr ""
 
-#: gui/collections.py:582
+#: gui\collections.py:582
 msgid "Direct Download"
 msgstr ""
 
-#: media_player/media_gui.py:300
+#: media_player\media_gui.py:300
 msgid "Direct Download (Ctrl+D)"
 msgstr ""
 
-#: youtube_browser/browser.py:204
-#: gui/favorites.py:146
-#: gui/playlist_dialog.py:95
-#: gui/history.py:144
+#: gui\favorites.py:146
+#: gui\history.py:144
+#: gui\playlist_dialog.py:95
+#: youtube_browser\browser.py:204
 msgid "Direct Download...	ctrl+d"
 msgstr ""
 
-#: gui/settings_dialog.py:158
+#: gui\settings_dialog.py:158
 msgid "Direct download format: "
 msgstr ""
 
-#: youtube_browser/browser.py:386
-#: media_player/media_gui.py:1807
-#: gui/favorites.py:195
-#: gui/playlist_dialog.py:147
-#: gui/history.py:192
+#: gui\favorites.py:195
+#: gui\history.py:192
+#: gui\playlist_dialog.py:147
+#: media_player\media_gui.py:1807
+#: youtube_browser\browser.py:386
 msgid "Done"
 msgstr ""
 
-#: youtube_browser/browser.py:41
-#: youtube_browser/browser.py:304
-#: youtube_browser/browser.py:203
-#: gui/settings_dialog.py:27
-#: gui/favorites.py:28
-#: gui/favorites.py:145
-#: gui/auto_detect_dialog.py:29
-#: gui/playlist_dialog.py:25
-#: gui/playlist_dialog.py:94
-#: gui/collections.py:124
-#: gui/collections.py:488
-#: gui/collections.py:578
-#: gui/history.py:28
-#: gui/history.py:143
-#: gui/download_dialog.py:27
-#: gui/download_dialog.py:13
+#: gui\auto_detect_dialog.py:29
+#: gui\collections.py:124
+#: gui\collections.py:488
+#: gui\collections.py:578
+#: gui\download_dialog.py:27
+#: gui\download_dialog.py:13
+#: gui\favorites.py:28
+#: gui\favorites.py:145
+#: gui\history.py:28
+#: gui\history.py:143
+#: gui\playlist_dialog.py:25
+#: gui\playlist_dialog.py:94
+#: gui\settings_dialog.py:27
+#: youtube_browser\browser.py:41
+#: youtube_browser\browser.py:304
+#: youtube_browser\browser.py:203
 msgid "Download"
 msgstr ""
 
-#: youtube_browser/browser.py:217
-#: gui/favorites.py:151
-#: gui/playlist_dialog.py:126
-#: gui/collections.py:597
-#: gui/history.py:150
+#: gui\collections.py:597
+#: gui\favorites.py:151
+#: gui\history.py:150
+#: gui\playlist_dialog.py:126
+#: youtube_browser\browser.py:217
 msgid "Download Channel"
 msgstr ""
 
-#: gui/collections.py:122
-#: gui/collections.py:701
+#: gui\collections.py:122
+#: gui\collections.py:701
 msgid "Download Entire Collection (Audio - m4a)"
 msgstr ""
 
-#: gui/collections.py:123
-#: gui/collections.py:702
+#: gui\collections.py:123
+#: gui\collections.py:702
 msgid "Download Entire Collection (Audio - mp3)"
 msgstr ""
 
-#: gui/collections.py:121
-#: gui/collections.py:700
+#: gui\collections.py:121
+#: gui\collections.py:700
 msgid "Download Entire Collection (Video)"
 msgstr ""
 
-#: gui/playlist_dialog.py:259
+#: gui\playlist_dialog.py:259
 msgid "Download Entire Playlist"
 msgstr ""
 
-#: gui/settings_dialog.py:145
-#: gui/download_dialog.py:29
-#: gui/download_dialog.py:70
+#: gui\download_dialog.py:29
+#: gui\download_dialog.py:70
+#: gui\settings_dialog.py:145
 msgid "Download Folder: "
 msgstr ""
 
-#: gui/download_dialog.py:21
+#: gui\download_dialog.py:21
 msgid "Download Link: "
 msgstr ""
 
-#: youtube_browser/browser.py:253
-#: youtube_browser/browser.py:304
+#: youtube_browser\browser.py:253
+#: youtube_browser\browser.py:304
 msgid "Download Playlist"
 msgstr ""
 
-#: youtube_browser/browser.py:344
+#: youtube_browser\browser.py:344
 msgid "Download Playlist (Audio)"
 msgstr ""
 
-#: youtube_browser/browser.py:340
+#: youtube_browser\browser.py:340
 msgid "Download Playlist (Video)"
 msgstr ""
 
-#: gui/collections.py:709
+#: gui\collections.py:709
 msgid "Download Selection"
 msgstr ""
 
-#: media_player/media_gui.py:297
+#: media_player\media_gui.py:297
 msgid "Download Video"
 msgstr ""
 
-#: download_handler/downloader.py:144
+#: download_handler\downloader.py:144
 msgid "Download completed successfully"
 msgstr ""
 
-#: download_handler/downloader.py:139
+#: download_handler\downloader.py:139
 msgid "Download completed, but {} videos failed to download."
 msgstr ""
 
@@ -606,46 +606,46 @@ msgstr ""
 msgid "Download from link (Ctrl+D)"
 msgstr ""
 
-#: gui/update_dialog.py:98
-#: gui/download_progress.py:15
+#: gui\download_progress.py:15
+#: gui\update_dialog.py:98
 msgid "Download in progress. Do you want to cancel?"
 msgstr ""
 
-#: media_player/media_gui.py:298
+#: media_player\media_gui.py:298
 msgid "Download m4a"
 msgstr ""
 
-#: media_player/media_gui.py:299
+#: media_player\media_gui.py:299
 msgid "Download mp3"
 msgstr ""
 
-#: gui/collections.py:220
-#: gui/collections.py:749
+#: gui\collections.py:220
+#: gui\collections.py:749
 msgid "Download started"
 msgstr ""
 
-#: gui/collections.py:204
-#: gui/collections.py:739
+#: gui\collections.py:204
+#: gui\collections.py:739
 msgid "Download {} videos?"
 msgstr ""
 
-#: download_handler/downloader.py:92
+#: download_handler\downloader.py:92
 msgid "Downloaded: {}"
 msgstr ""
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Downloaded: {} {}"
 msgstr ""
 
-#: gui/download_progress.py:7
+#: gui\download_progress.py:7
 msgid "Downloading - {}"
 msgstr ""
 
-#: gui/update_dialog.py:17
+#: gui\update_dialog.py:17
 msgid "Downloading Updates"
 msgstr ""
 
-#: gui/update_dialog.py:81
+#: gui\update_dialog.py:81
 msgid "Downloading update {}%"
 msgstr ""
 
@@ -658,23 +658,23 @@ msgstr ""
 msgid "Downloading yt-dlp core: {}%"
 msgstr ""
 
-#: gui/collections.py:249
-#: gui/collections.py:786
+#: gui\collections.py:249
+#: gui\collections.py:786
 msgid "Downloading {} videos"
 msgstr ""
 
-#: youtube_browser/search_handler.py:41
-#: youtube_browser/search_handler.py:167
-#: media_player/media_gui.py:1007
+#: media_player\media_gui.py:1007
+#: youtube_browser\search_handler.py:41
+#: youtube_browser\search_handler.py:167
 msgid "Duration: {}"
 msgstr ""
 
-#: download_handler/downloader.py:93
+#: download_handler\downloader.py:93
 msgid "ETA: {}"
 msgstr ""
 
-#: media_player/media_gui.py:750
-#: media_player/media_gui.py:999
+#: media_player\media_gui.py:750
+#: media_player\media_gui.py:999
 msgid "Elapsed: {}"
 msgstr ""
 
@@ -682,23 +682,23 @@ msgstr ""
 msgid "Email: trung@ddt.one"
 msgstr ""
 
-#: media_player/media_gui.py:1666
-#: media_player/media_gui.py:1668
-#: media_player/media_gui.py:1664
+#: media_player\media_gui.py:1666
+#: media_player\media_gui.py:1668
+#: media_player\media_gui.py:1664
 msgid "End of suggestions."
 msgstr ""
 
-#: youtube_browser/browser.py:559
-#: gui/collections.py:278
-#: gui/collections.py:920
+#: gui\collections.py:278
+#: gui\collections.py:920
+#: youtube_browser\browser.py:559
 msgid "Enter collection name:"
 msgstr ""
 
-#: gui/collections.py:318
+#: gui\collections.py:318
 msgid "Enter new name for '{}':"
 msgstr ""
 
-#: gui/link_dlg.py:8
+#: gui\link_dlg.py:8
 msgid "Enter video link to play"
 msgstr ""
 
@@ -707,88 +707,88 @@ msgstr ""
 #: utiles.py:257
 #: ytdlp_handler.py:62
 #: ytdlp_handler.py:60
-#: youtube_browser/browser.py:482
-#: youtube_browser/browser.py:574
-#: youtube_browser/browser.py:594
-#: youtube_browser/browser.py:648
-#: media_player/media_gui.py:1362
-#: media_player/media_gui.py:493
-#: media_player/media_gui.py:1609
-#: gui/settings_dialog.py:377
-#: gui/settings_dialog.py:388
-#: gui/settings_dialog.py:357
-#: gui/settings_dialog.py:401
-#: gui/settings_dialog.py:370
-#: gui/update_dialog.py:76
-#: gui/update_dialog.py:90
-#: gui/playlist_dialog.py:292
-#: gui/collections.py:292
-#: gui/collections.py:333
-#: gui/collections.py:375
-#: gui/collections.py:390
-#: gui/collections.py:415
-#: gui/collections.py:931
-#: gui/activity_dialog.py:41
-#: gui/download_dialog.py:82
+#: gui\activity_dialog.py:41
+#: gui\collections.py:292
+#: gui\collections.py:333
+#: gui\collections.py:375
+#: gui\collections.py:390
+#: gui\collections.py:415
+#: gui\collections.py:931
+#: gui\download_dialog.py:82
+#: gui\playlist_dialog.py:292
+#: gui\settings_dialog.py:377
+#: gui\settings_dialog.py:388
+#: gui\settings_dialog.py:357
+#: gui\settings_dialog.py:401
+#: gui\settings_dialog.py:370
+#: gui\update_dialog.py:76
+#: gui\update_dialog.py:90
+#: media_player\media_gui.py:1362
+#: media_player\media_gui.py:493
+#: media_player\media_gui.py:1609
+#: youtube_browser\browser.py:482
+#: youtube_browser\browser.py:574
+#: youtube_browser\browser.py:594
+#: youtube_browser\browser.py:648
 msgid "Error"
 msgstr ""
 
-#: youtube_browser/browser.py:739
+#: youtube_browser\browser.py:739
 msgid "Error cloning playlist"
 msgstr ""
 
-#: gui/collections.py:415
+#: gui\collections.py:415
 msgid "Error exporting collection: {}"
 msgstr ""
 
-#: youtube_browser/extras.py:34
-#: youtube_browser/extras.py:32
+#: youtube_browser\extras.py:34
+#: youtube_browser\extras.py:32
 msgid "Error fetching description: {}"
 msgstr ""
 
-#: gui/collections.py:390
+#: gui\collections.py:390
 msgid "Error importing collection: {}"
 msgstr ""
 
-#: youtube_browser/browser.py:713
-#: media_player/media_gui.py:1550
+#: media_player\media_gui.py:1550
+#: youtube_browser\browser.py:713
 msgid "Error loading playlist"
 msgstr ""
 
-#: gui/collections.py:465
+#: gui\collections.py:465
 msgid "Error merging collections"
 msgstr ""
 
-#: gui/update_dialog.py:98
-#: gui/download_progress.py:15
+#: gui\download_progress.py:15
+#: gui\update_dialog.py:98
 msgid "Exit"
 msgstr ""
 
-#: media_player/media_gui.py:328
+#: media_player\media_gui.py:328
 msgid "Exit Full Screen"
 msgstr ""
 
-#: gui/description.py:18
+#: gui\description.py:18
 msgid "Export to text file (txt)..."
 msgstr ""
 
-#: gui/description.py:19
+#: gui\description.py:19
 msgid "Export to web page (html)..."
 msgstr ""
 
-#: gui/collections.py:130
+#: gui\collections.py:130
 msgid "Export..."
 msgstr ""
 
-#: gui/collections.py:375
+#: gui\collections.py:375
 msgid "Failed to create collection. Name invalid or exists."
 msgstr ""
 
-#: gui/settings_dialog.py:357
+#: gui\settings_dialog.py:357
 msgid "Failed to import cookies: {}"
 msgstr ""
 
-#: media_player/media_gui.py:493
+#: media_player\media_gui.py:493
 msgid "Failed to initialize media player. Please check your settings or installation."
 msgstr ""
 
@@ -796,12 +796,12 @@ msgstr ""
 msgid "Failed to update yt-dlp: {}"
 msgstr ""
 
-#: media_player/media_gui.py:669
-#: media_player/media_gui.py:950
+#: media_player\media_gui.py:669
+#: media_player\media_gui.py:950
 msgid "Fast"
 msgstr ""
 
-#: gui/playlist_dialog.py:26
+#: gui\playlist_dialog.py:26
 msgid "Favorite"
 msgstr ""
 
@@ -809,11 +809,11 @@ msgstr ""
 msgid "Favorite Videos (Ctrl+F)"
 msgstr ""
 
-#: gui/favorites.py:89
+#: gui\favorites.py:89
 msgid "Favorites cleared"
 msgstr ""
 
-#: gui/favorites.py:25
+#: gui\favorites.py:25
 msgid "Favorites: "
 msgstr ""
 
@@ -821,59 +821,59 @@ msgstr ""
 msgid "Feature Disabled"
 msgstr ""
 
-#: media_player/media_gui.py:1823
+#: media_player\media_gui.py:1823
 msgid "Fetching audio tracks, please wait..."
 msgstr ""
 
-#: media_player/media_gui.py:1648
+#: media_player\media_gui.py:1648
 msgid "Fetching more suggested videos..."
 msgstr ""
 
-#: media_player/media_gui.py:1592
+#: media_player\media_gui.py:1592
 msgid "Fetching suggested videos, please wait..."
 msgstr ""
 
-#: media_player/media_gui.py:2049
+#: media_player\media_gui.py:2049
 msgid "Fetching video description"
 msgstr ""
 
-#: gui/search_dialog.py:24
+#: gui\search_dialog.py:24
 msgid "Filter: "
 msgstr ""
 
-#: media_player/player.py:111
+#: media_player\player.py:111
 msgid "Follow System (Default)"
 msgstr ""
 
-#: gui/download_dialog.py:24
+#: gui\download_dialog.py:24
 msgid "Format"
 msgstr ""
 
-#: media_player/media_gui.py:223
+#: media_player\media_gui.py:223
 msgid "Forward >"
 msgstr ""
 
-#: media_player/media_gui.py:233
+#: media_player\media_gui.py:233
 msgid "Full Screen"
 msgstr ""
 
-#: media_player/media_gui.py:1068
+#: media_player\media_gui.py:1068
 msgid "Full screen off"
 msgstr ""
 
-#: media_player/media_gui.py:1060
+#: media_player\media_gui.py:1060
 msgid "Full screen on"
 msgstr ""
 
-#: youtube_browser/browser.py:216
-#: gui/favorites.py:150
-#: gui/playlist_dialog.py:125
-#: gui/collections.py:596
-#: gui/history.py:149
+#: gui\collections.py:596
+#: gui\favorites.py:150
+#: gui\history.py:149
+#: gui\playlist_dialog.py:125
+#: youtube_browser\browser.py:216
 msgid "Go to Channel"
 msgstr ""
 
-#: media_player/media_gui.py:1767
+#: media_player\media_gui.py:1767
 msgid "Going back to"
 msgstr ""
 
@@ -885,7 +885,7 @@ msgstr ""
 msgid "Help Options"
 msgstr ""
 
-#: gui/history.py:87
+#: gui\history.py:87
 msgid "History cleared"
 msgstr ""
 
@@ -897,33 +897,33 @@ msgstr ""
 msgid "Home Options"
 msgstr ""
 
-#: gui/settings_dialog.py:258
+#: gui\settings_dialog.py:258
 msgid "How to get cookies.txt?"
 msgstr ""
 
-#: gui/collections.py:365
+#: gui\collections.py:365
 msgid "Import Collision"
 msgstr ""
 
-#: gui/settings_dialog.py:255
+#: gui\settings_dialog.py:255
 msgid "Import cookies.txt to fix login or 403 errors."
 msgstr ""
 
-#: gui/settings_dialog.py:259
+#: gui\settings_dialog.py:259
 msgid "Import cookies.txt..."
 msgstr ""
 
-#: gui/collections.py:40
+#: gui\collections.py:40
 msgid "Import..."
 msgstr ""
 
-#: gui/collections.py:383
+#: gui\collections.py:383
 msgid "Imported {} videos into '{}'"
 msgstr ""
 
-#: media_player/media_gui.py:1833
-#: gui/settings_dialog.py:372
-#: gui/collections.py:428
+#: gui\collections.py:428
+#: gui\settings_dialog.py:372
+#: media_player\media_gui.py:1833
 msgid "Info"
 msgstr ""
 
@@ -931,31 +931,31 @@ msgstr ""
 msgid "Initializing yt-dlp..."
 msgstr ""
 
-#: gui/update_dialog.py:86
+#: gui\update_dialog.py:86
 msgid "Installing update"
 msgstr ""
 
-#: gui/settings_dialog.py:361
+#: gui\settings_dialog.py:361
 msgid "Instructions"
 msgstr ""
 
-#: youtube_browser/browser.py:386
-#: media_player/media_gui.py:1807
-#: gui/favorites.py:195
-#: gui/playlist_dialog.py:147
-#: gui/history.py:192
+#: gui\favorites.py:195
+#: gui\history.py:192
+#: gui\playlist_dialog.py:147
+#: media_player\media_gui.py:1807
+#: youtube_browser\browser.py:386
 msgid "Link copied successfully"
 msgstr ""
 
-#: youtube_browser/search_handler.py:162
+#: youtube_browser\search_handler.py:162
 msgid "Live"
 msgstr ""
 
-#: youtube_browser/browser.py:37
+#: youtube_browser\browser.py:37
 msgid "Load more results"
 msgstr ""
 
-#: gui/settings_dialog.py:121
+#: gui\settings_dialog.py:121
 msgid "Load more results when reaching the end of the list"
 msgstr ""
 
@@ -983,66 +983,66 @@ msgstr ""
 msgid "Loading media player..."
 msgstr ""
 
-#: youtube_browser/browser.py:390
+#: youtube_browser\browser.py:390
 msgid "Loading more results"
 msgstr ""
 
-#: gui/playlist_dialog.py:64
+#: gui\playlist_dialog.py:64
 msgid "Loading playlist"
 msgstr ""
 
-#: youtube_browser/browser.py:619
+#: youtube_browser\browser.py:619
 msgid "Loading playlist for shuffle..."
 msgstr ""
 
-#: media_player/media_gui.py:1235
-#: media_player/media_gui.py:1239
-#: media_player/media_gui.py:1134
+#: media_player\media_gui.py:1235
+#: media_player\media_gui.py:1239
+#: media_player\media_gui.py:1134
 msgid "Loading..."
 msgstr ""
 
-#: gui/settings_dialog.py:163
+#: gui\settings_dialog.py:163
 msgid "MP3 conversion quality: "
 msgstr ""
 
-#: gui/download_dialog.py:23
+#: gui\download_dialog.py:23
 msgid "Media Type"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:37
+#: gui\auto_detect_dialog.py:37
 msgid "Menu"
 msgstr ""
 
-#: youtube_browser/browser.py:598
-#: gui/collections.py:432
+#: gui\collections.py:432
+#: youtube_browser\browser.py:598
 msgid "Merge Collection"
 msgstr ""
 
-#: youtube_browser/browser.py:266
+#: youtube_browser\browser.py:266
 msgid "Merge into Existing Collection..."
 msgstr ""
 
-#: gui/collections.py:131
+#: gui\collections.py:131
 msgid "Merge into..."
 msgstr ""
 
-#: gui/collections.py:462
+#: gui\collections.py:462
 msgid "Merged {} videos from '{}' into '{}'"
 msgstr ""
 
-#: gui/collections.py:438
+#: gui\collections.py:438
 msgid "Merging collections, please wait..."
 msgstr ""
 
-#: youtube_browser/browser.py:605
+#: youtube_browser\browser.py:605
 msgid "Merging into {}..."
 msgstr ""
 
-#: youtube_browser/browser.py:396
+#: youtube_browser\browser.py:396
 msgid "More search results loaded"
 msgstr ""
 
-#: gui/playlist_dialog.py:201
+#: gui\playlist_dialog.py:201
 msgid "More videos loaded"
 msgstr ""
 
@@ -1050,9 +1050,9 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: gui/collections.py:278
-#: gui/collections.py:865
-#: gui/collections.py:920
+#: gui\collections.py:278
+#: gui\collections.py:865
+#: gui\collections.py:920
 msgid "New Collection"
 msgstr ""
 
@@ -1060,11 +1060,11 @@ msgstr ""
 msgid "New Update"
 msgstr ""
 
-#: media_player/media_gui.py:224
+#: media_player\media_gui.py:224
 msgid "Next Video"
 msgstr ""
 
-#: gui/search_dialog.py:26
+#: gui\search_dialog.py:26
 msgid "No Filter"
 msgstr ""
 
@@ -1076,77 +1076,77 @@ msgstr ""
 msgid "No changelog available."
 msgstr ""
 
-#: youtube_browser/browser.py:594
+#: youtube_browser\browser.py:594
 msgid "No collections found"
 msgstr ""
 
-#: youtube_browser/browser.py:648
-#: gui/playlist_dialog.py:292
+#: gui\playlist_dialog.py:292
+#: youtube_browser\browser.py:648
 msgid "No collections found. Please create one first."
 msgstr ""
 
-#: gui/settings_dialog.py:372
+#: gui\settings_dialog.py:372
 msgid "No cookies found to delete."
 msgstr ""
 
-#: youtube_browser/extras.py:16
+#: youtube_browser\extras.py:16
 msgid "No description available."
 msgstr ""
 
-#: media_player/media_gui.py:1724
-#: gui/playlist_dialog.py:203
+#: gui\playlist_dialog.py:203
+#: media_player\media_gui.py:1724
 msgid "No more videos"
 msgstr ""
 
-#: media_player/media_gui.py:1833
+#: media_player\media_gui.py:1833
 msgid "No other audio tracks available."
 msgstr ""
 
-#: gui/collections.py:428
+#: gui\collections.py:428
 msgid "No other collections to merge into."
 msgstr ""
 
-#: media_player/media_gui.py:1794
+#: media_player\media_gui.py:1794
 msgid "No previous video"
 msgstr ""
 
-#: media_player/media_gui.py:1770
+#: media_player\media_gui.py:1770
 msgid "No previous video."
 msgstr ""
 
-#: media_player/media_gui.py:656
+#: media_player\media_gui.py:656
 msgid "No suggested videos available yet."
 msgstr ""
 
-#: media_player/media_gui.py:1597
+#: media_player\media_gui.py:1597
 msgid "No suggested videos available."
 msgstr ""
 
-#: media_player/media_gui.py:646
+#: media_player\media_gui.py:646
 msgid "No video data"
 msgstr ""
 
-#: media_player/media_gui.py:669
-#: media_player/media_gui.py:954
+#: media_player\media_gui.py:669
+#: media_player\media_gui.py:954
 msgid "Normal"
 msgstr ""
 
-#: gui/settings_dialog.py:55
+#: gui\settings_dialog.py:55
 msgid "O&K"
 msgstr ""
 
-#: youtube_browser/browser.py:458
-#: gui/collections.py:37
-#: gui/collections.py:129
-#: gui/link_dlg.py:46
+#: gui\collections.py:37
+#: gui\collections.py:129
+#: gui\link_dlg.py:46
+#: youtube_browser\browser.py:458
 msgid "Open"
 msgstr ""
 
-#: gui/settings_dialog.py:54
+#: gui\settings_dialog.py:54
 msgid "Open Configuration Folder"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:59
+#: gui\auto_detect_dialog.py:59
 msgid "Open Download Dialog..."
 msgstr ""
 
@@ -1154,29 +1154,29 @@ msgstr ""
 msgid "Open downloads folder (Ctrl+O)"
 msgstr ""
 
-#: media_player/media_gui.py:303
+#: media_player\media_gui.py:303
 msgid "Open in Browser (Ctrl+B)"
 msgstr ""
 
-#: youtube_browser/browser.py:213
-#: youtube_browser/browser.py:277
-#: gui/favorites.py:159
-#: gui/playlist_dialog.py:112
-#: gui/history.py:155
+#: gui\favorites.py:159
+#: gui\history.py:155
+#: gui\playlist_dialog.py:112
+#: youtube_browser\browser.py:213
+#: youtube_browser\browser.py:277
 msgid "Open in Web Browser"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:36
+#: gui\auto_detect_dialog.py:36
 msgid "Open..."
 msgstr ""
 
-#: media_player/media_gui.py:1810
+#: media_player\media_gui.py:1810
 msgid "Opening"
 msgstr ""
 
 #: A11YTube.py:170
-#: youtube_browser/browser.py:88
-#: media_player/media_gui.py:293
+#: media_player\media_gui.py:293
+#: youtube_browser\browser.py:88
 msgid "Options"
 msgstr ""
 
@@ -1184,52 +1184,52 @@ msgstr ""
 msgid "Options List"
 msgstr ""
 
-#: media_player/media_gui.py:687
-#: media_player/media_gui.py:551
-#: media_player/media_gui.py:691
-#: media_player/media_gui.py:552
+#: media_player\media_gui.py:687
+#: media_player\media_gui.py:551
+#: media_player\media_gui.py:691
+#: media_player\media_gui.py:552
 msgid "Pause"
 msgstr ""
 
-#: media_player/media_gui.py:694
+#: media_player\media_gui.py:694
 msgid "Paused"
 msgstr ""
 
-#: download_handler/downloader.py:90
-#: gui/download_progress.py:10
+#: download_handler\downloader.py:90
+#: gui\download_progress.py:10
 msgid "Percentage: {}%"
 msgstr ""
 
-#: youtube_browser/browser.py:467
-#: media_player/media_gui.py:554
-#: media_player/media_gui.py:555
-#: media_player/media_gui.py:695
-#: gui/favorites.py:27
-#: gui/auto_detect_dialog.py:30
-#: gui/playlist_dialog.py:24
-#: gui/playlist_dialog.py:84
-#: gui/collections.py:487
-#: gui/history.py:27
-#: gui/link_dlg.py:15
-#: gui/link_dlg.py:48
+#: gui\auto_detect_dialog.py:30
+#: gui\collections.py:487
+#: gui\favorites.py:27
+#: gui\history.py:27
+#: gui\link_dlg.py:15
+#: gui\link_dlg.py:48
+#: gui\playlist_dialog.py:24
+#: gui\playlist_dialog.py:84
+#: media_player\media_gui.py:554
+#: media_player\media_gui.py:555
+#: media_player\media_gui.py:695
+#: youtube_browser\browser.py:467
 msgid "Play"
 msgstr ""
 
-#: youtube_browser/browser.py:40
+#: youtube_browser\browser.py:40
 msgid "Play (enter)"
 msgstr ""
 
-#: youtube_browser/browser.py:194
-#: gui/favorites.py:137
-#: gui/collections.py:566
-#: gui/history.py:135
+#: gui\collections.py:566
+#: gui\favorites.py:137
+#: gui\history.py:135
+#: youtube_browser\browser.py:194
 msgid "Play Audio"
 msgstr ""
 
-#: youtube_browser/browser.py:192
-#: gui/favorites.py:135
-#: gui/collections.py:565
-#: gui/history.py:133
+#: gui\collections.py:565
+#: gui\favorites.py:135
+#: gui\history.py:133
+#: youtube_browser\browser.py:192
 msgid "Play Video"
 msgstr ""
 
@@ -1237,83 +1237,83 @@ msgstr ""
 msgid "Play YouTube video from link (Ctrl+P)"
 msgstr ""
 
-#: gui/playlist_dialog.py:86
+#: gui\playlist_dialog.py:86
 msgid "Play as Audio"
 msgstr ""
 
-#: gui/link_dlg.py:14
+#: gui\link_dlg.py:14
 msgid "Play as: "
 msgstr ""
 
-#: media_player/media_gui.py:222
+#: media_player\media_gui.py:222
 msgid "Play/Pause"
 msgstr ""
 
-#: media_player/media_gui.py:1327
+#: media_player\media_gui.py:1327
 msgid "Playback blocked by YouTube anti-bot. Please check your cookies."
 msgstr ""
 
-#: media_player/media_gui.py:686
-#: media_player/media_gui.py:690
+#: media_player\media_gui.py:686
+#: media_player\media_gui.py:690
 msgid "Played"
 msgstr ""
 
-#: gui/settings_dialog.py:28
+#: gui\settings_dialog.py:28
 msgid "Player"
 msgstr ""
 
-#: media_player/media_gui.py:215
+#: media_player\media_gui.py:215
 msgid "Player Controls"
 msgstr ""
 
 #: A11YTube.py:381
-#: youtube_browser/browser.py:158
-#: youtube_browser/browser.py:170
-#: gui/favorites.py:111
-#: gui/favorites.py:120
-#: gui/auto_detect_dialog.py:110
-#: gui/playlist_dialog.py:166
-#: gui/playlist_dialog.py:178
-#: gui/collections.py:641
-#: gui/history.py:109
-#: gui/history.py:118
+#: gui\auto_detect_dialog.py:110
+#: gui\collections.py:641
+#: gui\favorites.py:111
+#: gui\favorites.py:120
+#: gui\history.py:109
+#: gui\history.py:118
+#: gui\playlist_dialog.py:166
+#: gui\playlist_dialog.py:178
+#: youtube_browser\browser.py:158
+#: youtube_browser\browser.py:170
 msgid "Playing"
 msgstr ""
 
-#: media_player/media_gui.py:1644
+#: media_player\media_gui.py:1644
 msgid "Playing suggested video"
 msgstr ""
 
-#: youtube_browser/search_handler.py:140
-#: gui/search_dialog.py:27
+#: gui\search_dialog.py:27
+#: youtube_browser\search_handler.py:140
 msgid "Playlist"
 msgstr ""
 
-#: gui/playlist_dialog.py:22
+#: gui\playlist_dialog.py:22
 msgid "Playlist Videos: "
 msgstr ""
 
-#: youtube_browser/browser.py:679
+#: youtube_browser\browser.py:679
 msgid "Playlist is empty"
 msgstr ""
 
-#: gui/download_dialog.py:82
+#: gui\download_dialog.py:82
 msgid "Please enter a valid link."
 msgstr ""
 
-#: media_player/media_gui.py:1108
+#: media_player\media_gui.py:1108
 msgid "Please wait, video is loading..."
 msgstr ""
 
-#: gui/settings_dialog.py:26
+#: gui\settings_dialog.py:26
 msgid "Preferences"
 msgstr ""
 
-#: media_player/media_gui.py:218
+#: media_player\media_gui.py:218
 msgid "Previous Video"
 msgstr ""
 
-#: gui/settings_dialog.py:107
+#: gui\settings_dialog.py:107
 msgid "Program Language: "
 msgstr ""
 
@@ -1325,110 +1325,110 @@ msgstr ""
 msgid "Ready"
 msgstr ""
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Remaining: {} {}"
 msgstr ""
 
-#: gui/collections.py:907
+#: gui\collections.py:907
 msgid "Remove"
 msgstr ""
 
-#: gui/collections.py:490
+#: gui\collections.py:490
 msgid "Remove from Collection"
 msgstr ""
 
-#: gui/favorites.py:30
+#: gui\favorites.py:30
 msgid "Remove from Favorites"
 msgstr ""
 
-#: gui/history.py:30
+#: gui\history.py:30
 msgid "Remove from History"
 msgstr ""
 
-#: gui/collections.py:676
-#: gui/collections.py:958
+#: gui\collections.py:676
+#: gui\collections.py:958
 msgid "Removed"
 msgstr ""
 
-#: media_player/media_gui.py:642
-#: gui/auto_detect_dialog.py:72
+#: gui\auto_detect_dialog.py:72
+#: media_player\media_gui.py:642
 msgid "Removed from favorites"
 msgstr ""
 
-#: gui/history.py:103
+#: gui\history.py:103
 msgid "Removed from history"
 msgstr ""
 
-#: gui/collections.py:132
+#: gui\collections.py:132
 msgid "Rename"
 msgstr ""
 
-#: gui/collections.py:318
+#: gui\collections.py:318
 msgid "Rename Collection"
 msgstr ""
 
-#: gui/collections.py:323
+#: gui\collections.py:323
 msgid "Renamed"
 msgstr ""
 
-#: media_player/media_gui.py:231
+#: media_player\media_gui.py:231
 msgid "Repeat"
 msgstr ""
 
-#: media_player/media_gui.py:620
+#: media_player\media_gui.py:620
 msgid "Repeat off"
 msgstr ""
 
-#: media_player/media_gui.py:620
+#: media_player\media_gui.py:620
 msgid "Repeat on"
 msgstr ""
 
-#: gui/settings_dialog.py:231
+#: gui\settings_dialog.py:231
 msgid "Repeat video"
 msgstr ""
 
-#: media_player/media_gui.py:1733
+#: media_player\media_gui.py:1733
 msgid "Reshuffling..."
 msgstr ""
 
-#: gui/settings_dialog.py:285
+#: gui\settings_dialog.py:285
 msgid "Restore Configuration..."
 msgstr ""
 
-#: gui/settings_dialog.py:401
+#: gui\settings_dialog.py:401
 msgid "Restore failed."
 msgstr ""
 
-#: gui/settings_dialog.py:397
+#: gui\settings_dialog.py:397
 msgid "Restore successful! Program will now restart."
 msgstr ""
 
-#: gui/settings_dialog.py:394
+#: gui\settings_dialog.py:394
 msgid "Restoring data will overwrite your current configuration and restart the program.\nAre you sure you want to proceed?"
 msgstr ""
 
-#: media_player/media_gui.py:726
+#: media_player\media_gui.py:726
 msgid "Resuming to seek..."
 msgstr ""
 
-#: media_player/media_gui.py:221
+#: media_player\media_gui.py:221
 msgid "Rewind <"
 msgstr ""
 
-#: gui/settings_dialog.py:379
+#: gui\settings_dialog.py:379
 msgid "Save Backup File"
 msgstr ""
 
-#: gui/collections.py:405
+#: gui\collections.py:405
 msgid "Save Collection"
 msgstr ""
 
-#: gui/search_dialog.py:31
-#: gui/search_dialog.py:7
+#: gui\search_dialog.py:31
+#: gui\search_dialog.py:7
 msgid "Search"
 msgstr ""
 
-#: youtube_browser/browser.py:35
+#: youtube_browser\browser.py:35
 msgid "Search Results: "
 msgstr ""
 
@@ -1436,150 +1436,150 @@ msgstr ""
 msgid "Search YouTube (Ctrl+S)"
 msgstr ""
 
-#: gui/search_dialog.py:13
+#: gui\search_dialog.py:13
 msgid "Search YouTube: "
 msgstr ""
 
-#: youtube_browser/browser.py:44
+#: youtube_browser\browser.py:44
 msgid "Search... (ctrl+s)"
 msgstr ""
 
-#: youtube_browser/browser.py:125
+#: youtube_browser\browser.py:125
 msgid "Searching"
 msgstr ""
 
-#: media_player/media_gui.py:283
-#: media_player/media_gui.py:963
-#: media_player/media_gui.py:968
+#: media_player\media_gui.py:283
+#: media_player\media_gui.py:963
+#: media_player\media_gui.py:968
 msgid "Seek"
 msgstr ""
 
-#: media_player/media_gui.py:280
+#: media_player\media_gui.py:280
 msgid "Seek & Volume"
 msgstr ""
 
-#: media_player/media_gui.py:1841
+#: media_player\media_gui.py:1841
 msgid "Select Audio Track"
 msgstr ""
 
-#: gui/settings_dialog.py:391
+#: gui\settings_dialog.py:391
 msgid "Select Backup File"
 msgstr ""
 
-#: gui/collections.py:353
+#: gui\collections.py:353
 msgid "Select Collection File"
 msgstr ""
 
-#: gui/settings_dialog.py:343
-#: gui/download_dialog.py:67
+#: gui\download_dialog.py:67
+#: gui\settings_dialog.py:343
 msgid "Select Download Folder"
 msgstr ""
 
-#: media_player/media_gui.py:673
+#: media_player\media_gui.py:673
 msgid "Select Playback Speed"
 msgstr ""
 
-#: media_player/media_gui.py:660
+#: media_player\media_gui.py:660
 msgid "Select a video to play"
 msgstr ""
 
-#: youtube_browser/browser.py:652
-#: gui/playlist_dialog.py:296
+#: gui\playlist_dialog.py:296
+#: youtube_browser\browser.py:652
 msgid "Select collection to add video to:"
 msgstr ""
 
-#: gui/collections.py:432
+#: gui\collections.py:432
 msgid "Select collection to merge '{}' into:"
 msgstr ""
 
-#: youtube_browser/browser.py:598
+#: youtube_browser\browser.py:598
 msgid "Select collection to merge into:"
 msgstr ""
 
-#: gui/settings_dialog.py:349
+#: gui\settings_dialog.py:349
 msgid "Select cookies.txt"
 msgstr ""
 
-#: gui/settings_dialog.py:16
+#: gui\settings_dialog.py:16
 msgid "Settings"
 msgstr ""
 
 #: A11YTube.py:151
-#: media_player/media_gui.py:305
+#: media_player\media_gui.py:305
 msgid "Settings (Ctrl+Shift+S)"
 msgstr ""
 
-#: youtube_browser/browser.py:76
+#: youtube_browser\browser.py:76
 msgid "Settings...	Ctrl+Shift+S"
 msgstr ""
 
-#: youtube_browser/browser.py:240
-#: gui/collections.py:116
+#: gui\collections.py:116
+#: youtube_browser\browser.py:240
 msgid "Shuffle Play Audio"
 msgstr ""
 
-#: youtube_browser/browser.py:239
-#: gui/collections.py:115
+#: gui\collections.py:115
+#: youtube_browser\browser.py:239
 msgid "Shuffle Play Video"
 msgstr ""
 
-#: gui/settings_dialog.py:233
+#: gui\settings_dialog.py:233
 msgid "Skip silence (Recommended only for music)"
 msgstr ""
 
-#: media_player/media_gui.py:1341
+#: media_player\media_gui.py:1341
 msgid "Skipping..."
 msgstr ""
 
-#: media_player/media_gui.py:669
-#: media_player/media_gui.py:958
+#: media_player\media_gui.py:669
+#: media_player\media_gui.py:958
 msgid "Slow"
 msgstr ""
 
-#: gui/settings_dialog.py:123
+#: gui\settings_dialog.py:123
 msgid "Speak notifications when window is inactive"
 msgstr ""
 
-#: gui/settings_dialog.py:234
+#: gui\settings_dialog.py:234
 msgid "Speak player status notifications"
 msgstr ""
 
-#: media_player/media_gui.py:227
-#: media_player/media_gui.py:673
+#: media_player\media_gui.py:227
+#: media_player\media_gui.py:673
 msgid "Speed"
 msgstr ""
 
-#: download_handler/downloader.py:94
+#: download_handler\downloader.py:94
 msgid "Speed: {}"
 msgstr ""
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Speed: {} {}"
 msgstr ""
 
-#: gui/update_dialog.py:22
+#: gui\update_dialog.py:22
 msgid "Stop Download"
 msgstr ""
 
-#: download_handler/downloader.py:144
-#: gui/settings_dialog.py:355
-#: gui/settings_dialog.py:386
-#: gui/settings_dialog.py:368
-#: gui/settings_dialog.py:397
-#: gui/update_dialog.py:84
+#: download_handler\downloader.py:144
+#: gui\settings_dialog.py:355
+#: gui\settings_dialog.py:386
+#: gui\settings_dialog.py:368
+#: gui\settings_dialog.py:397
+#: gui\update_dialog.py:84
 msgid "Success"
 msgstr ""
 
-#: media_player/media_gui.py:272
-#: media_player/media_gui.py:660
+#: media_player\media_gui.py:272
+#: media_player\media_gui.py:660
 msgid "Suggested Videos"
 msgstr ""
 
-#: gui/settings_dialog.py:122
+#: gui\settings_dialog.py:122
 msgid "Swap Enter and Ctrl+Enter for Video/Audio"
 msgstr ""
 
-#: media_player/media_gui.py:1872
+#: media_player\media_gui.py:1872
 msgid "Switched to"
 msgstr ""
 
@@ -1591,34 +1591,34 @@ msgstr ""
 msgid "This program aims to provide the easiest way for blind users to browse and download from YouTube hosting service."
 msgstr ""
 
-#: utiles.py:125
-#: utiles.py:142
-#: download_handler/downloader.py:132
-#: youtube_browser/extras.py:30
+#: utiles.py:124
+#: utiles.py:141
+#: download_handler\downloader.py:132
+#: youtube_browser\extras.py:30
 msgid "This video is age restricted or requires a valid cookies.txt file to play."
 msgstr ""
 
-#: media_player/media_gui.py:1331
+#: media_player\media_gui.py:1331
 msgid "This video is for members only."
 msgstr ""
 
-#: media_player/media_gui.py:1329
+#: media_player\media_gui.py:1329
 msgid "This video is private."
 msgstr ""
 
-#: media_player/media_gui.py:282
+#: media_player\media_gui.py:282
 msgid "Time"
 msgstr ""
 
-#: gui/activity_dialog.py:39
+#: gui\activity_dialog.py:39
 msgid "To fix login errors, please manually import cookies.txt from your browser."
 msgstr ""
 
-#: utiles.py:199
+#: utiles.py:198
 msgid "Today"
 msgstr ""
 
-#: gui/playlist_dialog.py:109
+#: gui\playlist_dialog.py:109
 msgid "Toggle Favorite	Ctrl+F"
 msgstr ""
 
@@ -1630,39 +1630,39 @@ msgstr ""
 msgid "Tools Options"
 msgstr ""
 
-#: download_handler/downloader.py:91
+#: download_handler\downloader.py:91
 msgid "Total Size: {}"
 msgstr ""
 
-#: gui/download_progress.py:10
+#: gui\download_progress.py:10
 msgid "Total Size: {} {}"
 msgstr ""
 
-#: media_player/media_gui.py:633
+#: media_player\media_gui.py:633
 msgid "Unable to add to favorites"
 msgstr ""
 
-#: media_player/media_gui.py:1606
+#: media_player\media_gui.py:1606
 msgid "Unable to play next: {}"
 msgstr ""
 
-#: youtube_browser/search_handler.py:110
-#: media_player/media_gui.py:2074
-#: media_player/media_gui.py:2080
+#: media_player\media_gui.py:2074
+#: media_player\media_gui.py:2080
+#: youtube_browser\search_handler.py:110
 msgid "Unknown"
 msgstr ""
 
 #: utiles.py:317
 #: utiles.py:350
 #: utiles.py:393
-#: youtube_browser/extras.py:20
-#: youtube_browser/search_handler.py:23
-#: youtube_browser/browser.py:322
-#: gui/collections.py:662
+#: gui\collections.py:662
+#: youtube_browser\browser.py:322
+#: youtube_browser\extras.py:20
+#: youtube_browser\search_handler.py:23
 msgid "Unknown Channel"
 msgstr ""
 
-#: youtube_browser/search_handler.py:14
+#: youtube_browser\search_handler.py:14
 msgid "Unknown Playlist"
 msgstr ""
 
@@ -1672,15 +1672,15 @@ msgstr ""
 #: utiles.py:348
 #: utiles.py:390
 #: utiles.py:391
-#: youtube_browser/search_handler.py:19
+#: youtube_browser\search_handler.py:19
 msgid "Unknown Title"
 msgstr ""
 
-#: youtube_browser/extras.py:17
+#: youtube_browser\extras.py:17
 msgid "Unknown Video"
 msgstr ""
 
-#: gui/update_dialog.py:84
+#: gui\update_dialog.py:84
 msgid "Update downloaded successfully. Press OK to start installation."
 msgstr ""
 
@@ -1696,76 +1696,76 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: youtube_browser/browser.py:198
-#: youtube_browser/browser.py:248
-#: youtube_browser/browser.py:346
-#: gui/favorites.py:140
-#: gui/favorites.py:231
-#: gui/playlist_dialog.py:89
-#: gui/playlist_dialog.py:246
-#: gui/playlist_dialog.py:254
-#: gui/collections.py:572
-#: gui/collections.py:706
-#: gui/history.py:138
-#: gui/history.py:224
-#: gui/link_dlg.py:14
-#: gui/download_dialog.py:23
+#: gui\collections.py:572
+#: gui\collections.py:706
+#: gui\download_dialog.py:23
+#: gui\favorites.py:140
+#: gui\favorites.py:231
+#: gui\history.py:138
+#: gui\history.py:224
+#: gui\link_dlg.py:14
+#: gui\playlist_dialog.py:89
+#: gui\playlist_dialog.py:246
+#: gui\playlist_dialog.py:254
+#: youtube_browser\browser.py:198
+#: youtube_browser\browser.py:248
+#: youtube_browser\browser.py:346
 msgid "Video"
 msgstr ""
 
-#: gui/settings_dialog.py:159
+#: gui\settings_dialog.py:159
 msgid "Video (mp4)"
 msgstr ""
 
-#: gui/description.py:11
+#: gui\description.py:11
 msgid "Video Description"
 msgstr ""
 
-#: gui/link_dlg.py:12
+#: gui\link_dlg.py:12
 msgid "Video Link"
 msgstr ""
 
-#: youtube_browser/browser.py:666
-#: gui/playlist_dialog.py:310
+#: gui\playlist_dialog.py:310
+#: youtube_browser\browser.py:666
 msgid "Video added to collection"
 msgstr ""
 
-#: youtube_browser/browser.py:500
-#: gui/playlist_dialog.py:338
-#: gui/playlist_dialog.py:366
+#: gui\playlist_dialog.py:338
+#: gui\playlist_dialog.py:366
+#: youtube_browser\browser.py:500
 msgid "Video added to favorites"
 msgstr ""
 
-#: youtube_browser/browser.py:668
-#: gui/playlist_dialog.py:312
+#: gui\playlist_dialog.py:312
+#: youtube_browser\browser.py:668
 msgid "Video already in collection"
 msgstr ""
 
-#: youtube_browser/browser.py:503
-#: gui/favorites.py:106
-#: gui/playlist_dialog.py:327
-#: gui/playlist_dialog.py:370
+#: gui\favorites.py:106
+#: gui\playlist_dialog.py:327
+#: gui\playlist_dialog.py:370
+#: youtube_browser\browser.py:503
 msgid "Video removed from favorites"
 msgstr ""
 
-#: gui/collections.py:484
+#: gui\collections.py:484
 msgid "Videos in collection:"
 msgstr ""
 
-#: gui/search_dialog.py:21
+#: gui\search_dialog.py:21
 msgid "Voice Search (Hold Space)"
 msgstr ""
 
-#: media_player/media_gui.py:284
-#: media_player/media_gui.py:285
+#: media_player\media_gui.py:284
+#: media_player\media_gui.py:285
 msgid "Volume"
 msgstr ""
 
-#: gui/update_dialog.py:21
+#: gui\update_dialog.py:21
 msgid "Waiting to start download..."
 msgstr ""
 
-#: gui/history.py:26
+#: gui\history.py:26
 msgid "Watch History"
 msgstr ""
 
@@ -1773,7 +1773,7 @@ msgstr ""
 msgid "Watch History (Ctrl+H)"
 msgstr ""
 
-#: gui/history.py:25
+#: gui\history.py:25
 msgid "Watch History: "
 msgstr ""
 
@@ -1785,7 +1785,7 @@ msgstr ""
 msgid "Welcome to A11YTube"
 msgstr ""
 
-#: utiles.py:200
+#: utiles.py:199
 msgid "Yesterday"
 msgstr ""
 
@@ -1793,62 +1793,62 @@ msgstr ""
 msgid "You are running the latest version."
 msgstr ""
 
-#: youtube_browser/browser.py:482
+#: youtube_browser\browser.py:482
 msgid "You cannot add playlists to favorites."
 msgstr ""
 
-#: gui/collections.py:32
+#: gui\collections.py:32
 msgid "Your Collections:"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:18
-#: gui/auto_detect_dialog.py:33
-#: gui/auto_detect_dialog.py:103
+#: gui\auto_detect_dialog.py:18
+#: gui\auto_detect_dialog.py:33
+#: gui\auto_detect_dialog.py:103
 msgid "channel"
 msgstr ""
 
-#: utiles.py:171
+#: utiles.py:170
 msgid "one hour"
 msgstr ""
 
-#: utiles.py:163
+#: utiles.py:162
 msgid "one minute"
 msgstr ""
 
-#: utiles.py:167
+#: utiles.py:166
 msgid "one second"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:16
-#: gui/auto_detect_dialog.py:32
-#: gui/auto_detect_dialog.py:103
+#: gui\auto_detect_dialog.py:16
+#: gui\auto_detect_dialog.py:32
+#: gui\auto_detect_dialog.py:103
 msgid "playlist"
 msgstr ""
 
-#: media_player/media_gui.py:963
-#: media_player/media_gui.py:968
+#: media_player\media_gui.py:963
+#: media_player\media_gui.py:968
 msgid "seconds"
 msgstr ""
 
-#: utiles.py:172
+#: utiles.py:171
 msgid "two hours"
 msgstr ""
 
-#: utiles.py:164
+#: utiles.py:163
 msgid "two minutes"
 msgstr ""
 
-#: utiles.py:168
+#: utiles.py:167
 msgid "two seconds"
 msgstr ""
 
-#: gui/auto_detect_dialog.py:20
-#: gui/auto_detect_dialog.py:39
+#: gui\auto_detect_dialog.py:20
+#: gui\auto_detect_dialog.py:39
 msgid "video"
 msgstr ""
 
-#: gui/collections.py:80
-#: gui/collections.py:472
+#: gui\collections.py:80
+#: gui\collections.py:472
 msgid "videos"
 msgstr ""
 
@@ -1856,7 +1856,7 @@ msgstr ""
 msgid "yt-dlp Update"
 msgstr ""
 
-#: utiles.py:76
+#: utiles.py:75
 msgid "yt-dlp error: "
 msgstr ""
 
@@ -1868,38 +1868,39 @@ msgstr ""
 msgid "yt-dlp updated successfully."
 msgstr ""
 
-#: utiles.py:181
+#: utiles.py:180
 msgid "{} and {}"
 msgstr ""
 
-#: utiles.py:182
+#: utiles.py:181
 msgid "{} and {} and {}"
 msgstr ""
 
-#: utiles.py:201
+#: utiles.py:200
 msgid "{} days ago"
 msgstr ""
 
-#: utiles.py:173
+#: utiles.py:172
 msgid "{} hours"
 msgstr ""
 
-#: utiles.py:165
+#: utiles.py:164
 msgid "{} minutes"
 msgstr ""
 
-#: utiles.py:205
+#: utiles.py:204
 msgid "{} months ago"
 msgstr ""
 
-#: utiles.py:169
+#: utiles.py:168
 msgid "{} seconds"
 msgstr ""
 
-#: youtube_browser/search_handler.py:162
+#: youtube_browser\search_handler.py:162
 msgid "{} views"
 msgstr ""
 
-#: utiles.py:209
+#: utiles.py:208
 msgid "{} years ago"
 msgstr ""
+
