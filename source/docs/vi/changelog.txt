@@ -1,3 +1,9 @@
+Phiên bản 0.3.5
+Sửa lỗi:
+- Tiến độ tải xuống: Khắc phục lỗi thanh tiến độ và thông báo trạng thái tải xuống bị kẹt, không cập nhật trong suốt quá trình tải. Giờ đây, tiến độ sẽ hiển thị chính xác theo thời gian thực.
+Cải tiến hệ thống (Bên dưới mã nguồn):
+- Tích hợp yt-dlp: Cập nhật logic đọc dữ liệu để tương thích với định dạng đầu ra mới nhất của tệp thực thi `yt-dlp` độc lập. Đã gỡ bỏ các thiết lập ẩn thông báo từng làm chặn quá trình gửi tiến độ tải xuống.
+- Kiểm thử tự động: Thêm bộ kiểm thử tự động (pytest suite) để đảm bảo tính năng theo dõi tiến độ và các tiện ích cốt lõi luôn hoạt động ổn định trong các bản cập nhật tương lai.
 Phiên bản 0.3.4
 Tính năng mới & Kiến trúc:
 - Hệ thống tự động cập nhật yt-dlp: Viết lại cấu trúc để sử dụng `yt-dlp` như một tệp thực thi độc lập có khả năng tự động cập nhật. Điều này giúp hệ thống xử lý cốt lõi luôn bắt kịp các thay đổi mới nhất của YouTube một cách tự động.

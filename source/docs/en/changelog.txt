@@ -1,3 +1,9 @@
+Version 0.3.5
+Bug Fixes:
+- Download Progress: Fixed a critical issue where the download progress and status notifications were not updating during the download process. The progress bar will now accurately reflect the real-time download status.
+Under the Hood (System Improvements):
+- yt-dlp Integration: Updated the internal parsing logic to correctly read the latest terminal output format from the standalone `yt-dlp` executable. Removed the silent flags that were suppressing progress updates.
+- Automated Testing: Added a comprehensive test suite (pytest) to prevent future regressions related to download progress parsing and core utilities.
 Version 0.3.4
 New Features & Architecture:
 - yt-dlp Auto-Update System: Refactored `yt-dlp` to function as a standalone executable with built-in auto-update capabilities. This ensures the core downloading/extraction engine stays up-to-date with YouTube's latest changes automatically.
